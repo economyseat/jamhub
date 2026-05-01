@@ -114,6 +114,8 @@ body{display:flex;flex-direction:column;align-items:center;padding:20px 14px 40p
 .sl-link:hover{color:var(--txt);background:rgba(255,255,255,.05);}
 .sl-link.eg{border-color:rgba(232,160,48,.18);color:rgba(232,160,48,.5);}
 .sl-link.eg:hover{border-color:rgba(232,160,48,.45);color:var(--g);background:rgba(232,160,48,.05);}
+.sl-link.df{border-color:rgba(80,200,130,.18);color:rgba(80,200,130,.5);}
+.sl-link.df:hover{border-color:rgba(80,200,130,.45);color:#60D890;background:rgba(80,200,130,.05);}
 .sl-link.pn{border-color:rgba(192,96,232,.18);color:rgba(192,96,232,.5);}
 .sl-link.pn:hover{border-color:rgba(192,96,232,.45);color:var(--p);background:rgba(192,96,232,.05);}
 .sl-link.js{border-color:rgba(255,80,80,.2);color:rgba(255,130,130,.6);}
@@ -145,6 +147,8 @@ body{display:flex;flex-direction:column;align-items:center;padding:20px 14px 40p
 .queue-bar{padding:7px 17px 4px;display:flex;justify-content:space-between;align-items:center;border-left:0.5px solid var(--bdr);border-right:0.5px solid var(--bdr);background:var(--s);}
 .queue-lbl{font-size:8px;letter-spacing:.2em;color:var(--faint);}
 .queue-count{font-size:8px;color:rgba(237,224,204,.14);letter-spacing:.08em;}
+.queue-live{font-size:8px;color:rgba(120,220,180,.7);letter-spacing:.1em;margin-left:7px;display:none;}
+.queue-live::before{content:'●';margin-right:3px;font-size:7px;animation:pulse 2s ease infinite;}
 .queue-scroll{overflow-x:auto;scrollbar-width:none;display:flex;gap:7px;padding:0 17px 12px;border-left:0.5px solid var(--bdr);border-right:0.5px solid var(--bdr);background:var(--s);}
 .queue-scroll::-webkit-scrollbar{display:none;}
 .q-card{flex-shrink:0;width:112px;padding:7px 9px;border-radius:6px;cursor:pointer;transition:all .15s;border:0.5px solid rgba(255,255,255,.05);background:rgba(255,255,255,.02);}
@@ -328,7 +332,7 @@ body{display:flex;flex-direction:column;align-items:center;padding:20px 14px 40p
     </div>
   </div>
 
-  <div class="queue-bar"><span class="queue-lbl">UP NEXT</span><span class="queue-count" id="q-count"></span></div>
+  <div class="queue-bar"><span class="queue-lbl">UP NEXT</span><span><span class="queue-count" id="q-count"></span><span class="queue-live" id="q-live"></span></span></div>
   <div class="queue-scroll" id="queue"></div>
 
   <div class="history-row" id="history-row"><span class="hist-lbl">HISTORY</span></div>
@@ -392,6 +396,24 @@ const DATA={
     {id:"9z3hgct0-Wg",title:"Hungersite",venue:"The Salt Shed, Chicago IL · 4/14/23",date:"2023-04-14",b:"g",snip:false},
     {id:"XuSvIe1z47E",title:"Full Show",venue:"Red Rocks Amphitheater, Morrison CO · 8/18/22",date:"2022-08-18",b:"g",snip:false},
     {id:"Oo3jMfgm-po",title:"Chateau Sessions pt I",venue:"Goose Official · 3/2024",date:"2024-03-01",b:"g",snip:false},
+    // ── 2025 MSG Live Album & official drops ──
+    {id:"ulCkwXzlamE",title:"Full Show",venue:"Madison Square Garden, New York NY · 6/28/25",date:"2025-06-28",b:"g",snip:false},
+    {id:"YmV1TF4y2BE",title:"MSG Recap",venue:"Madison Square Garden, New York NY · 6/28/25",date:"2025-06-28",b:"g",snip:false},
+    {id:"6Kv4zDdtnlw",title:"Set I Opener",venue:"Madison Square Garden, New York NY · 6/28/25",date:"2025-06-28",b:"g",snip:false},
+    {id:"sgfFtjAwSeM",title:"Animal feat. horns",venue:"Madison Square Garden, New York NY · 6/28/25",date:"2025-06-28",b:"g",snip:false},
+    {id:"1BbtYhhCMWs",title:"Jed Stone",venue:"Madison Square Garden, New York NY · 6/28/25",date:"2025-06-28",b:"g",snip:false},
+    {id:"vE1F77CZbXQ",title:"Hungersite (Official Audio)",venue:"Madison Square Garden, New York NY · 6/28/25",date:"2025-06-28",b:"g",snip:false},
+    {id:"osPxSR5GmX8",title:"Animal (Official Audio)",venue:"Madison Square Garden, New York NY · 6/28/25",date:"2025-06-28",b:"g",snip:false},
+    {id:"K1wqo3HylmY",title:"Jed Stone (Official Audio)",venue:"Madison Square Garden, New York NY · 6/28/25",date:"2025-06-28",b:"g",snip:false},
+    {id:"rek58BRByTw",title:"Factory Fiction (Official Audio)",venue:"Madison Square Garden, New York NY · 6/28/25",date:"2025-06-28",b:"g",snip:false},
+    // ── 2025 spring + late-year drops ──
+    {id:"1o4tv956zgk",title:"726 → Madhuvan",venue:"GLC Live at 20 Monroe, Grand Rapids MI · 2/15/25",date:"2025-02-15",b:"g",snip:false},
+    {id:"hCLfFRdPXtM",title:"Madhuvan / Red Bird",venue:"Miller High Life Theatre, Milwaukee WI · 2/7/25",date:"2025-02-07",b:"g",snip:false},
+    {id:"XnhBHeLDXr8",title:"Jed Stone (debut at The Gorge)",venue:"The Gorge, George WA · 8/31/25",date:"2025-08-31",b:"g",snip:false},
+    {id:"Yeno3bJs4Ws",title:"Jed Stone → Master & Hound → Sugar Mountain (4K HDR)",venue:"Goosemas, Amica Mutual Pavilion, Providence RI · 12/12/25",date:"2025-12-12",b:"g",snip:false},
+    // ── Earlier classics ──
+    {id:"v1dxqhg9_MM",title:"Madhuvan (4K)",venue:"Ryman Auditorium, Nashville TN · 4/1/23",date:"2023-04-01",b:"g",snip:false},
+    {id:"g6U0fdmsnBY",title:"Madhuvan",venue:"Fiddler's Green, Greenwood Village CO · 6/8/24",date:"2024-06-08",b:"g",snip:false},
   ],
   phish:[
     // ── @jamsnips — verified via web search ──
@@ -411,8 +433,36 @@ const DATA={
     {id:"oD1alz0nfrs",title:"Tweezer → Ruby Waves → Tweezer → Waste",venue:"Hampton Coliseum, Hampton VA · 9/19/25",date:"2025-09-19",b:"p",snip:false},
     {id:"sYnpO_GUAt4",title:"Tweezer → Simple",venue:"Greek Theatre, Berkeley CA · 4/17/23",date:"2023-04-17",b:"p",snip:false},
     {id:"gWfbtGBG8gE",title:"Bathtub Gin",venue:"The Great Went, Limestone ME · 8/17/97",date:"1997-08-17",b:"p",snip:false},
+    // ── Additional @jamsnips Phish snips ──
+    {id:"3Cz0RL8UHuE",title:"Scents and Subtle Sounds",venue:"United Center, Chicago IL · 7/20/25",date:"2025-07-20",b:"p",snip:true},
+    {id:"bBpWFIwZmsE",title:"Sigma Oasis",venue:"Coca-Cola Amphitheater, Birmingham AL · 9/13/25",date:"2025-09-13",b:"p",snip:true},
+    {id:"j6z6B_J_RSc",title:"Chalk Dust Torture",venue:"@jamsnips · 4/19/25",date:"2025-04-19",b:"p",snip:true},
+    // ── LivePhish Official 4K HDR drops (Sphere residency 2024) ──
+    {id:"2FWG4sJqt_g",title:"Carini (4K HDR)",venue:"Sphere, Las Vegas NV · 4/18/24",date:"2024-04-18",b:"p",snip:false},
+    {id:"Ljych7ZnlLg",title:"Sand (4K HDR)",venue:"Sphere, Las Vegas NV · 4/18/24",date:"2024-04-18",b:"p",snip:false},
+    {id:"UMEEuYgAb9g",title:"Fuego (4K HDR)",venue:"Sphere, Las Vegas NV · 4/20/24",date:"2024-04-20",b:"p",snip:false},
+    {id:"W8TPDbA0_gE",title:"Taste (4K HDR)",venue:"Sphere, Las Vegas NV · 4/20/24",date:"2024-04-20",b:"p",snip:false},
+    {id:"Nq75O5B0rjg",title:"Down With Disease (4K HDR)",venue:"Sphere, Las Vegas NV · 4/21/24",date:"2024-04-21",b:"p",snip:false},
+    {id:"j7R3xye_Jus",title:"Ghost (4K HDR)",venue:"Sphere, Las Vegas NV · 4/21/24",date:"2024-04-21",b:"p",snip:false},
+    // ── LivePhish Official 4K HDR drops (2024–26) ──
+    {id:"kv6hcmpuJ7Q",title:"Oblivion → Down With Disease (4K HDR)",venue:"Mondegreen, The Woodlands · 8/17/24",date:"2024-08-17",b:"p",snip:false},
+    {id:"7cySKvPB62k",title:"Back On The Train (4K HDR)",venue:"Climate Pledge Arena, Seattle WA · 4/18/25",date:"2025-04-18",b:"p",snip:false},
+    {id:"yLLN6g1BkkI",title:"Tweezer → Mercury → Tweezer → Pillow Jets → Tweezer (4K HDR)",venue:"SNHU Arena, Manchester NH · 6/22/25",date:"2025-06-22",b:"p",snip:false},
+    {id:"wUOLt084zAU",title:"Down With Disease → Ghost (4K HDR)",venue:"Folsom Field, Boulder CO · 7/4/25",date:"2025-07-04",b:"p",snip:false},
+    {id:"hpZBdmKgMLw",title:"Carini (4K HDR)",venue:"Forest Hills Stadium, Forest Hills NY · 7/22/25",date:"2025-07-22",b:"p",snip:false},
+    {id:"OXpUI4pUzTE",title:"Buried Alive → Tweezer Reprise → Reba (4K HDR)",venue:"SPAC, Saratoga Springs NY · 7/27/25",date:"2025-07-27",b:"p",snip:false},
+    {id:"DaJjzUQ1b_o",title:"Carini → Light → Carini → Sand (4K HDR)",venue:"Ameris Bank Amphitheatre, Alpharetta GA · 9/17/25",date:"2025-09-17",b:"p",snip:false},
+    {id:"In3FMYG4eZ8",title:"Harry Hood → 2001 → Tweezer (NYE 4K HDR)",venue:"Madison Square Garden, New York NY · 12/31/25",date:"2025-12-31",b:"p",snip:false},
+    {id:"E0quf3j6_cc",title:"Split Open and Melt (4K HDR)",venue:"Sphere, Las Vegas NV · 4/16/26",date:"2026-04-16",b:"p",snip:false},
   ]
 };
+
+// ── Live pool (refreshed daily by GitHub Action; see scripts/refresh-pool.py) ──
+// The Action writes live-pool.json to repo root with the latest videos from each
+// configured channel. The player fetches it same-origin at load — no CORS proxy,
+// no third-party runtime dependency. If the file is missing or fetch fails, the
+// player silently falls back to the static DATA pool.
+let liveAdded=0, liveLoaded=false;
 
 let band='goose',mode='sequential';
 let queue=[],qIdx=0,history=[],setlistOpen=false,swapOpen=false;
@@ -424,6 +474,53 @@ let ytPlayer=null, ytReady=false, ytPendingId=null;
 // Site panel state
 let activeSiteTab='';
 let siteBlockTimer=null;
+
+// ── Live pool fetch: grabs sidecar JSON written by the GitHub Action ──
+async function loadLivePool(){
+  if(liveLoaded) return 0;
+  liveLoaded=true;
+  try{
+    // Cache-bust so a freshly-regenerated pool appears without waiting for
+    // GitHub Pages' default 10-minute cache TTL.
+    const res=await fetch(`./live-pool.json?t=${Date.now()}`,{cache:'no-cache'});
+    if(!res.ok) return 0;
+    const pool=await res.json();
+    const known=new Set([...DATA.goose.map(x=>x.id),...DATA.phish.map(x=>x.id)]);
+    let added=0;
+    for(const key of ['goose','phish']){
+      for(const item of (pool[key]||[])){
+        if(!item||!item.id||!/^[A-Za-z0-9_-]{11}$/.test(item.id)||known.has(item.id)) continue;
+        DATA[key].push(item);
+        known.add(item.id);
+        added++;
+      }
+    }
+    liveAdded=added;
+    if(added>0){
+      // Preserve currently-playing track across queue rebuild.
+      const currentId=cur()?.id;
+      buildQueue();
+      if(currentId){
+        const idx=queue.findIndex(x=>x.id===currentId);
+        if(idx>=0) qIdx=idx;
+      }
+      renderQueue();
+      if(swapOpen) renderSwapGrid();
+      updateLiveBadge();
+    }
+    return added;
+  }catch(e){ return 0; }
+}
+function updateLiveBadge(){
+  const el=document.getElementById('q-live');
+  if(!el) return;
+  if(liveAdded>0){
+    el.textContent=`+${liveAdded} live`;
+    el.style.display='inline';
+  }else{
+    el.style.display='none';
+  }
+}
 
 function buildQueue(){
   const shuf=a=>{const r=[...a];for(let i=r.length-1;i>0;i--){const j=0|Math.random()*(i+1);[r[i],r[j]]=[r[j],r[i]];}return r;};
@@ -588,9 +685,12 @@ function updateSitePanel(t,bk){
   } else if(isG){
     const slug=fmtSlug(t.date);
     const egUrl=`https://elgoose.net/setlists/goose-${slug}`;
+    const dfUrl='https://dripfield.pro/'; // generic browse — UUID-based show URLs can't be constructed from date
     const t1=makeTab('EL GOOSE','elgoose',bk,true);
-    t1.onclick=()=>{ /* already active — no-op */ };
-    tabsEl.appendChild(t1);
+    const t2=makeTab('DRIPFIELD','dripfield',bk,false);
+    t1.onclick=()=>switchSiteTab('elgoose',egUrl,bk,t1,t2);
+    t2.onclick=()=>switchSiteTab('dripfield',dfUrl,bk,t2,t1);
+    tabsEl.appendChild(t1);tabsEl.appendChild(t2);
     activeSiteTab='elgoose';
     loadSite(egUrl,bk);
   } else {
@@ -601,6 +701,19 @@ function updateSitePanel(t,bk){
     activeSiteTab='phishnet';
     loadSite(pnUrl,bk);
   }
+}
+
+function switchSiteTab(id,url,bk,activeBtn,otherBtn){
+  document.querySelectorAll('.site-tab').forEach(b=>{
+    b.className='site-tab';
+    const dot=b.querySelector('.site-tab-dot');
+    if(dot) dot.style.display='none';
+  });
+  activeBtn.className=`site-tab active-${bk}`;
+  const adot=activeBtn.querySelector('.site-tab-dot');
+  if(adot) adot.style.display='block';
+  activeSiteTab=id;
+  loadSite(url,bk);
 }
 
 function makeTab(label,id,bk,isActive){
@@ -696,16 +809,17 @@ function renderSetlist(cached,t){
   const slug=fmtSlug(t.date);
   const jsLink=`<a class="sl-link js" href="https://www.youtube.com/@jamsnips" target="_blank">@JAMSNIPS &#8599;</a>`;
   const egLink=isG?`<a class="sl-link eg" href="https://elgoose.net/setlists/goose-${slug}" target="_blank">EL GOOSE &#8599;</a>`:'';
+  const dfLink=isG?`<a class="sl-link df" href="https://dripfield.pro/" target="_blank">DRIPFIELD &#8599;</a>`:'';
   const pnLink=!isG?`<a class="sl-link pn" href="https://phish.net/setlists/phish-${slug}.html" target="_blank">PHISH.NET &#8599;</a>`:'';
   let html='';
   if(t.snip){
-    html+=`<div class="sl-head"><div class="sl-meta">@jamsnips · ${t.date}</div><div class="sl-links">${jsLink}${egLink}${pnLink}</div></div>`;
+    html+=`<div class="sl-head"><div class="sl-meta">@jamsnips · ${t.date}</div><div class="sl-links">${jsLink}${egLink}${dfLink}${pnLink}</div></div>`;
     html+=`<p class="sl-msg">A "just the jams" snippet from <strong>@jamsnips</strong>. See the site panel below for full show info.</p>`;
   }else if(isG&&cached.data&&cached.data.data&&cached.data.data.length){
     const rows=cached.data.data,show=rows[0];
     const rating=show.rating?`<span class="sl-rating"><span class="sl-star">&#9733;</span> ${parseFloat(show.rating).toFixed(1)}</span>`:'';
     const venue=(show.venue_name||'')+(show.city?', '+show.city:'');
-    html+=`<div class="sl-head"><div style="display:flex;align-items:center;gap:8px;">${rating}<span class="sl-meta">${venue}</span></div><div class="sl-links">${egLink}</div></div>`;
+    html+=`<div class="sl-head"><div style="display:flex;align-items:center;gap:8px;">${rating}<span class="sl-meta">${venue}</span></div><div class="sl-links">${egLink}${dfLink}</div></div>`;
     const sets={};rows.forEach(r=>{const s=r.set||r.set_name||'Set';if(!sets[s])sets[s]=[];sets[s].push(r);});
     Object.entries(sets).forEach(([sn,songs])=>{
       html+=`<div class="sl-set-lbl">${sn.toUpperCase()}</div><div class="sl-songs">${songs.map((s,i)=>{const name=s.song||s.song_name||'';const seg=s.transition||s.segue||s.trans||'';return name+(seg==='>'?' >':(seg==='->'?' ->':i<songs.length-1?',':''));}).join(' ')}</div>`;
@@ -713,7 +827,7 @@ function renderSetlist(cached,t){
     const notes=((show.notes||show.show_notes||'')).replace(/<[^>]*>/g,'').trim();
     if(notes)html+=`<div class="sl-notes">${notes}</div>`;
   }else if(isG){
-    html+=`<div class="sl-head"><div></div><div class="sl-links">${egLink}</div></div><p class="sl-msg">No setlist data found — use the EL GOOSE link above, or see the site panel below.</p>`;
+    html+=`<div class="sl-head"><div></div><div class="sl-links">${egLink}${dfLink}</div></div><p class="sl-msg">No setlist data found — use the EL GOOSE link above or browse DRIPFIELD, or see the site panel below.</p>`;
   }else{
     html+=`<div class="sl-head"><div class="sl-meta">${t.date}</div><div class="sl-links">${pnLink}</div></div><p class="sl-msg">phish.net requires a private API key for live data. Use the PHISH.NET link above or see the site panel below.</p>`;
   }
@@ -780,6 +894,8 @@ document.addEventListener('keydown',(e)=>{
 });
 
 buildQueue();loadAt(0);
+// Fetch live-pool.json in the background (never blocks playback)
+setTimeout(()=>{loadLivePool().catch(()=>{});}, 400);
 </script>
 </body>
 </html>
