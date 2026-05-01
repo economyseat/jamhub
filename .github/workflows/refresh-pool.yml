@@ -1,0 +1,34 @@
+name: Refresh live pool
+
+on:
+  schedule:
+    # Daily at 06:00 UTC (≈ 1–2 AM US Eastern). Adjust if you'd rather it run
+    # later in the day so post-show jam-snip uploads land before the refresh.
+    - cron: '0 6 * * *'
+  workflow_dispatch: {}   # adds a manual "Run workflow" button to the Actions tab
+
+permissions:
+  contents: write          # required to push the regenerated live-pool.json
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Refresh live-pool.json
+        run: python3 scripts/refresh-pool.py
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name  'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add live-pool.json
+          # If there are no staged changes, exit cleanly without committing.
+          if git diff --cached --quiet; then
+            echo "No pool changes — nothing to commit."
+            exit 0
+          fi
+          git commit -m "chore: refresh live pool [skip ci]"
+          git push
