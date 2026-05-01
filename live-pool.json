@@ -1,6 +1,607 @@
 {
-  "generated_at": "1970-01-01T00:00:00+00:00",
-  "_note": "This is a placeholder. The GitHub Action at .github/workflows/refresh-pool.yml will overwrite it on its next run. To populate immediately, go to the Actions tab and click 'Run workflow' on the 'Refresh live pool' workflow.",
-  "goose": [],
-  "phish": []
+  "generated_at": "2026-05-01T18:12:54+00:00",
+  "goose": [
+    {
+      "id": "c8b5YnF80D4",
+      "title": "Goose jam snips - 4/23/26 \"Jive Lee\"",
+      "venue": "@jamsnips · 2026-04-29",
+      "date": "2026-04-29",
+      "b": "g",
+      "snip": true,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "WwrGvx652y8",
+      "title": "Fort Lauderdale Night 2 premiering Friday, May 1 at 8 PM ET.",
+      "venue": "Goose Official · 2026-04-29",
+      "date": "2026-04-29",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "VrucxGjAMLY",
+      "title": "NOLA Night 1 premiering on Saturday, May 2 at 8 PM ET.",
+      "venue": "Goose Official · 2026-04-29",
+      "date": "2026-04-29",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "M4FbWEhCwlA",
+      "title": "\"Elmeg The Wise\" - 4/10/26 - Harrah's Cherokee Center (Ashville, NC)",
+      "venue": "Goose Official · 2026-04-28",
+      "date": "2026-04-28",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "0r3tamMoDPM",
+      "title": "Happy bithday, Sam!",
+      "venue": "Goose Official · 2026-04-28",
+      "date": "2026-04-28",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "Vf_IPTHwADo",
+      "title": "\"I Would Die 4 U\" - Prince",
+      "venue": "Goose Official · 2026-04-28",
+      "date": "2026-04-28",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "sYRb1__K8co",
+      "title": "Goose Live in Ft. Lauderdale 2026 (Night 2)",
+      "venue": "Goose Official · 2026-04-28",
+      "date": "2026-04-28",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "MXKG33V0sCU",
+      "title": "Very BIG. Very MODERN.",
+      "venue": "Goose Official · 2026-04-28",
+      "date": "2026-04-28",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "3ni2n6h56LY",
+      "title": "Goose jam snips - 4/23/26 \"Red Bird\"",
+      "venue": "@jamsnips · 2026-04-27",
+      "date": "2026-04-27",
+      "b": "g",
+      "snip": true,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "BJ7ruyLbxeo",
+      "title": "Goose jam snips - 4/23/26 \"Tomorrow Never Knows\"",
+      "venue": "@jamsnips · 2026-04-27",
+      "date": "2026-04-27",
+      "b": "g",
+      "snip": true,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "7i3U-LdVSLY",
+      "title": "\"It Burns Within\" - 4/21/26 - Saenger Theatre (New Orleans, LA)",
+      "venue": "Goose Official · 2026-04-27",
+      "date": "2026-04-27",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "Ex9BOCLtARE",
+      "title": "“I Would Die 4 U” — Prince.",
+      "venue": "Goose Official · 2026-04-26",
+      "date": "2026-04-26",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "9d_On_a2tYs",
+      "title": "Big Modern! - 4/25/26 Irving, TX",
+      "venue": "Goose Official · 2026-04-26",
+      "date": "2026-04-26",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "FPLCO2Zfh5k",
+      "title": "Goose 4/25/26 The Pavilion at Toyota Music Factory, Irving, TX Set I Opener",
+      "venue": "Goose Official · 2026-04-26",
+      "date": "2026-04-26",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "R1VVGxTXNRs",
+      "title": "Dripfield → Into The Myst - 4/24/26 Austin, TX",
+      "venue": "Goose Official · 2026-04-25",
+      "date": "2026-04-25",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "s7zASUxQkcE",
+      "title": "4/24/26 Moody Center, Austin, TX Set I Opener",
+      "venue": "Goose Official · 2026-04-25",
+      "date": "2026-04-25",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "_UkMGEmAHEE",
+      "title": "Goose 4/23/26 Bayou Music Center, Houston, TX Set I Opener",
+      "venue": "Goose Official · 2026-04-24",
+      "date": "2026-04-24",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "DnexlsmrVRA",
+      "title": "Goose 4/22/26 Saenger Theatre, New Orleans, LA Set I Opener",
+      "venue": "Goose Official · 2026-04-23",
+      "date": "2026-04-23",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "lbxkoZDnKf0",
+      "title": "Goose jam snips - 4/19/26 \"Animal\"",
+      "venue": "@jamsnips · 2026-04-21",
+      "date": "2026-04-21",
+      "b": "g",
+      "snip": true,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "94vWEAFT1qE",
+      "title": "Goose jam snips - 4/18/26 \"Dustin Hoffman\"",
+      "venue": "@jamsnips · 2026-04-20",
+      "date": "2026-04-20",
+      "b": "g",
+      "snip": true,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "aV-d10vFx1M",
+      "title": "Goose jam snips - 4/15/26 \"Tumble\"",
+      "venue": "@jamsnips · 2026-04-20",
+      "date": "2026-04-20",
+      "b": "g",
+      "snip": true,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "fruT-FkXomE",
+      "title": "Goose jam snips - 4/18/26 \"Pancakes\"",
+      "venue": "@jamsnips · 2026-04-20",
+      "date": "2026-04-20",
+      "b": "g",
+      "snip": true,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "F1wd9dlfopU",
+      "title": "Goose jam snips - 4/18/26 \"Good2B\"",
+      "venue": "@jamsnips · 2026-04-20",
+      "date": "2026-04-20",
+      "b": "g",
+      "snip": true,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "J2RrAbCg7rY",
+      "title": "Goose jam snips - 4/12/26 \"Kung Fu Fighting\"",
+      "venue": "@jamsnips · 2026-04-17",
+      "date": "2026-04-17",
+      "b": "g",
+      "snip": true,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "EyJgZyKn3vg",
+      "title": "Goose jam snips - 4/12/26 \"Creatures\"",
+      "venue": "@jamsnips · 2026-04-17",
+      "date": "2026-04-17",
+      "b": "g",
+      "snip": true,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "EmjqfWFfqb4",
+      "title": "Goose jam snips - 4/10/26 \"Dustin Hoffman\"",
+      "venue": "@jamsnips · 2026-04-17",
+      "date": "2026-04-17",
+      "b": "g",
+      "snip": true,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "C7PFVumCykI",
+      "title": "Goose jam snips - 4/10/26 \"Big Modern\"",
+      "venue": "@jamsnips · 2026-04-17",
+      "date": "2026-04-17",
+      "b": "g",
+      "snip": true,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "Yru-4kumHjI",
+      "title": "Goose jam snips - 4/11/26 \"Arrow\"",
+      "venue": "@jamsnips · 2026-04-12",
+      "date": "2026-04-12",
+      "b": "g",
+      "snip": true,
+      "mix": false,
+      "live": true
+    }
+  ],
+  "phish": [
+    {
+      "id": "joeW6TE1rGw",
+      "title": "Live from Las Vegas, NV 4/30/2026 Set II Opener",
+      "venue": "Phish Official · 2026-05-01",
+      "date": "2026-05-01",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "9kRUe57Z2wE",
+      "title": "Live from Las Vegas, NV 4/30/2026 Set I Opener",
+      "venue": "Phish Official · 2026-05-01",
+      "date": "2026-05-01",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "zaa2ApYlnOY",
+      "title": "Live from Las Vegas, NV 4/25/2026 Set II Opener",
+      "venue": "Phish Official · 2026-04-26",
+      "date": "2026-04-26",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "WjPqD83U-Xc",
+      "title": "Live from Las Vegas, NV 4/25/2026 Set I Opener",
+      "venue": "Phish Official · 2026-04-26",
+      "date": "2026-04-26",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "TYsoyHOaX_U",
+      "title": "Phish Jam Snips - 4/18/26 \"Tweezer\"",
+      "venue": "@jamsnips · 2026-04-23",
+      "date": "2026-04-23",
+      "b": "p",
+      "snip": true,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "GLwNZdbVQE4",
+      "title": "Phish Jam Snips - 4/18/26 \"Simple\"",
+      "venue": "@jamsnips · 2026-04-23",
+      "date": "2026-04-23",
+      "b": "p",
+      "snip": true,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "j9Dz8HA_0F0",
+      "title": "Phish Live At Sphere - 4/17/2026 - Light",
+      "venue": "Phish Official · 2026-04-19",
+      "date": "2026-04-19",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "E0quf3j6_cc",
+      "title": "Phish Live At Sphere - 4/16/2026 - Split Open and Melt",
+      "venue": "Phish Official · 2026-04-18",
+      "date": "2026-04-18",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "pv8FJUWafFQ",
+      "title": "PHISH • 92 93 94 95 96 • 5 nights at The Garden",
+      "venue": "Phish Official · 2026-02-18",
+      "date": "2026-02-18",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "5w7fcKyuQ4w",
+      "title": "\"Harry Hood\" - New Year's Eve 1993 // Live At Worcester Centrum",
+      "venue": "Phish Official · 2026-02-04",
+      "date": "2026-02-04",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "QY4mh10I9zA",
+      "title": "1/31/2026 - My Friend, My Friend (4K HDR) Riviera Maya, MX",
+      "venue": "Phish Official · 2026-02-04",
+      "date": "2026-02-04",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "bvfetVnETyQ",
+      "title": "1/31/2026 - A Song I Heard The Ocean Sing → Beneath a Sea of Stars (4K HDR) Riviera Maya, MX",
+      "venue": "Phish Official · 2026-02-02",
+      "date": "2026-02-02",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "fPxmP2ZCsKo",
+      "title": "1/30/2026 - Life Saving Gun (4K HDR) Riviera Maya, MX",
+      "venue": "Phish Official · 2026-02-01",
+      "date": "2026-02-01",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "tX9IZqBj4SQ",
+      "title": "1/29/2026 - A Wave of Hope → Ruby Waves → Lonely Trip → WGTYM (4K HDR) Riviera Maya, MX",
+      "venue": "Phish Official · 2026-01-31",
+      "date": "2026-01-31",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "VATCAD0lUlw",
+      "title": "\"Stash\" - New Year's Eve 1993 // Live At Worcester Centrum",
+      "venue": "Phish Official · 2026-01-20",
+      "date": "2026-01-20",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "93fkDrP1yiM",
+      "title": "12/31/2025 - Piper (4K HDR) New York, NY",
+      "venue": "Phish Official · 2026-01-10",
+      "date": "2026-01-10",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "GbD0AK_y9zY",
+      "title": "JEMP Records Presents: Phish New Year's Eve 1993 Live At Worcester Centrum",
+      "venue": "Phish Official · 2026-01-07",
+      "date": "2026-01-07",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "X_gzoQMYgZA",
+      "title": "David Bowie",
+      "venue": "LivePhish · 2019-09-06",
+      "date": "2019-09-06",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "VZg9sRZoRg4",
+      "title": "Walls of the Cave",
+      "venue": "LivePhish · 2019-09-06",
+      "date": "2019-09-06",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "rhypaatQ0Wk",
+      "title": "Wolfmans Brother",
+      "venue": "LivePhish · 2019-09-06",
+      "date": "2019-09-06",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "1hFykfZT1hg",
+      "title": "Scents and Subtle Sounds",
+      "venue": "LivePhish · 2019-09-06",
+      "date": "2019-09-06",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "HjYCLp-sq9g",
+      "title": "NICU",
+      "venue": "LivePhish · 2019-09-06",
+      "date": "2019-09-06",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "xBC5_Cligyc",
+      "title": "Runaway Jim",
+      "venue": "LivePhish · 2019-09-06",
+      "date": "2019-09-06",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "s_vCLAkfjds",
+      "title": "Reba",
+      "venue": "LivePhish · 2019-09-06",
+      "date": "2019-09-06",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "XrjgAq1dcxY",
+      "title": "Wading In The Velvet Sea",
+      "venue": "LivePhish · 2019-09-06",
+      "date": "2019-09-06",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "JsAV2vlGM6Q",
+      "title": "Cavern",
+      "venue": "LivePhish · 2019-09-06",
+      "date": "2019-09-06",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "CJ8nqGw_l8I",
+      "title": "Limb By Limb",
+      "venue": "LivePhish · 2019-09-06",
+      "date": "2019-09-06",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "ke6pWB35p3M",
+      "title": "A Song I Heard The Ocean Sing",
+      "venue": "LivePhish · 2019-09-06",
+      "date": "2019-09-06",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "LFAKd9aWIYw",
+      "title": "Gotta Jibboo",
+      "venue": "LivePhish · 2019-09-06",
+      "date": "2019-09-06",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "feA4MEw4Nyk",
+      "title": "Piper",
+      "venue": "LivePhish · 2019-05-02",
+      "date": "2019-05-02",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "H9J95PlPJJo",
+      "title": "Wolfman's Brother",
+      "venue": "LivePhish · 2019-05-02",
+      "date": "2019-05-02",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "iDVfs4nM1UE",
+      "title": "Cities",
+      "venue": "LivePhish · 2019-05-02",
+      "date": "2019-05-02",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    }
+  ]
 }
