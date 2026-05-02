@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-05-01T18:12:54+00:00",
+  "generated_at": "2026-05-02T09:45:47+00:00",
   "goose": [
+    {
+      "id": "sYRb1__K8co",
+      "title": "Goose Live in Ft. Lauderdale 2026 (Night 2)",
+      "venue": "Goose Official · 2026-05-02",
+      "date": "2026-05-02",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "c8b5YnF80D4",
       "title": "Goose jam snips - 4/23/26 \"Jive Lee\"",
@@ -54,16 +64,6 @@
     {
       "id": "Vf_IPTHwADo",
       "title": "\"I Would Die 4 U\" - Prince",
-      "venue": "Goose Official · 2026-04-28",
-      "date": "2026-04-28",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "sYRb1__K8co",
-      "title": "Goose Live in Ft. Lauderdale 2026 (Night 2)",
       "venue": "Goose Official · 2026-04-28",
       "date": "2026-04-28",
       "b": "g",
@@ -284,6 +284,26 @@
   ],
   "phish": [
     {
+      "id": "LfrVzBYN3go",
+      "title": "Live from Las Vegas, NV 5/1/2026 Set II Opener",
+      "venue": "Phish Official · 2026-05-02",
+      "date": "2026-05-02",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "M_j6chXTYgw",
+      "title": "Live from Las Vegas, NV 5/1/2026 Set I Opener",
+      "venue": "Phish Official · 2026-05-02",
+      "date": "2026-05-02",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
       "id": "joeW6TE1rGw",
       "title": "Live from Las Vegas, NV 4/30/2026 Set II Opener",
       "venue": "Phish Official · 2026-05-01",
@@ -428,26 +448,6 @@
       "title": "\"Stash\" - New Year's Eve 1993 // Live At Worcester Centrum",
       "venue": "Phish Official · 2026-01-20",
       "date": "2026-01-20",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "93fkDrP1yiM",
-      "title": "12/31/2025 - Piper (4K HDR) New York, NY",
-      "venue": "Phish Official · 2026-01-10",
-      "date": "2026-01-10",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "GbD0AK_y9zY",
-      "title": "JEMP Records Presents: Phish New Year's Eve 1993 Live At Worcester Centrum",
-      "venue": "Phish Official · 2026-01-07",
-      "date": "2026-01-07",
       "b": "p",
       "snip": false,
       "mix": false,
