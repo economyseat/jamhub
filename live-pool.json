@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-05-02T09:45:47+00:00",
+  "generated_at": "2026-05-03T09:57:11+00:00",
   "goose": [
+    {
+      "id": "g7nHoBlmM_w",
+      "title": "Goose Live in New Orleans 2026 (Night 1)",
+      "venue": "Goose Official · 2026-05-03",
+      "date": "2026-05-03",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "sYRb1__K8co",
       "title": "Goose Live in Ft. Lauderdale 2026 (Night 2)",
@@ -172,16 +182,6 @@
       "live": true
     },
     {
-      "id": "DnexlsmrVRA",
-      "title": "Goose 4/22/26 Saenger Theatre, New Orleans, LA Set I Opener",
-      "venue": "Goose Official · 2026-04-23",
-      "date": "2026-04-23",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
       "id": "lbxkoZDnKf0",
       "title": "Goose jam snips - 4/19/26 \"Animal\"",
       "venue": "@jamsnips · 2026-04-21",
@@ -283,6 +283,26 @@
     }
   ],
   "phish": [
+    {
+      "id": "-cdNF5Hkh7k",
+      "title": "Live from Las Vegas, NV 5/2/2026 Set II Opener",
+      "venue": "Phish Official · 2026-05-03",
+      "date": "2026-05-03",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "CHKdUlpyqjc",
+      "title": "Live from Las Vegas, NV 5/2/2026 Set I Opener",
+      "venue": "Phish Official · 2026-05-03",
+      "date": "2026-05-03",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "LfrVzBYN3go",
       "title": "Live from Las Vegas, NV 5/1/2026 Set II Opener",
@@ -428,26 +448,6 @@
       "title": "1/30/2026 - Life Saving Gun (4K HDR) Riviera Maya, MX",
       "venue": "Phish Official · 2026-02-01",
       "date": "2026-02-01",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "tX9IZqBj4SQ",
-      "title": "1/29/2026 - A Wave of Hope → Ruby Waves → Lonely Trip → WGTYM (4K HDR) Riviera Maya, MX",
-      "venue": "Phish Official · 2026-01-31",
-      "date": "2026-01-31",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "VATCAD0lUlw",
-      "title": "\"Stash\" - New Year's Eve 1993 // Live At Worcester Centrum",
-      "venue": "Phish Official · 2026-01-20",
-      "date": "2026-01-20",
       "b": "p",
       "snip": false,
       "mix": false,
