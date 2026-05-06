@@ -685,8 +685,7 @@ function updateSitePanel(t,bk){
     activeSiteTab='jamsnips';
     loadSite('https://www.youtube.com/@jamsnips/videos',bk);
   } else if(isG){
-    const slug=fmtSlug(t.date);
-    const egUrl=`https://elgoose.net/setlists/goose-${slug}`;
+    const egUrl=`https://elgoose.net/setlists/?date=${t.date}`;
     const dfUrl='https://dripfield.pro/'; // generic browse — UUID-based show URLs can't be constructed from date
     const t1=makeTab('EL GOOSE','elgoose',bk,true);
     const t2=makeTab('DRIPFIELD','dripfield',bk,false);
@@ -696,9 +695,8 @@ function updateSitePanel(t,bk){
     activeSiteTab='elgoose';
     loadSite(egUrl,bk);
   } else {
-    const slug=fmtSlug(t.date);
     const piUrl=`https://phish.in/${t.date}`;
-    const pnUrl=`https://phish.net/setlists/phish-${slug}.html`;
+    const pnUrl=`https://phish.net/setlists/?d=${t.date}`;
     const t1=makeTab('PHISH.IN','phishin',bk,true);
     const t2=makeTab('PHISH.NET','phishnet',bk,false);
     t1.onclick=()=>switchSiteTab('phishin',piUrl,bk,t1,t2);
@@ -832,25 +830,33 @@ async function fetchSetlist(t){
   }catch(e){document.getElementById('sl-inner').innerHTML='<p class="sl-msg">Could not load setlist data.</p>';}
 }
 
+// One source of truth for resource links. Goose tracks get JAMSNIPS + EL GOOSE +
+// DRIPFIELD; Phish tracks get JAMSNIPS + PHISH.IN + PHISH.NET. The chip set is
+// the same across every renderSetlist branch — always inline, no conditionals.
+function slLinks(t){
+  const isG=t.b==='g';
+  const js=`<a class="sl-link js" href="https://www.youtube.com/@jamsnips" target="_blank" rel="noopener">@JAMSNIPS &#8599;</a>`;
+  const eg=`<a class="sl-link eg" href="https://elgoose.net/setlists/?date=${t.date}" target="_blank" rel="noopener">EL GOOSE &#8599;</a>`;
+  const df=`<a class="sl-link df" href="https://dripfield.pro/" target="_blank" rel="noopener">DRIPFIELD &#8599;</a>`;
+  const pi=`<a class="sl-link pi" href="https://phish.in/${t.date}" target="_blank" rel="noopener">PHISH.IN &#8599;</a>`;
+  const pn=`<a class="sl-link pn" href="https://phish.net/setlists/?d=${t.date}" target="_blank" rel="noopener">PHISH.NET &#8599;</a>`;
+  return isG ? js+eg+df : js+pi+pn;
+}
+
 function renderSetlist(cached,t){
   const inner=document.getElementById('sl-inner');
   const isG=cached.source==='goose'||cached.source==='goose-snip';
   const isSnip=cached.source==='goose-snip'||cached.source==='phish-snip';
-  const slug=fmtSlug(t.date);
-  const jsLink=`<a class="sl-link js" href="https://www.youtube.com/@jamsnips" target="_blank">@JAMSNIPS &#8599;</a>`;
-  const egLink=isG?`<a class="sl-link eg" href="https://elgoose.net/setlists/goose-${slug}" target="_blank">EL GOOSE &#8599;</a>`:'';
-  const dfLink=isG?`<a class="sl-link df" href="https://dripfield.pro/" target="_blank">DRIPFIELD &#8599;</a>`:'';
-  const piLink=!isG?`<a class="sl-link pi" href="https://phish.in/${t.date}" target="_blank">PHISH.IN &#8599;</a>`:'';
-  const pnLink=!isG?`<a class="sl-link pn" href="https://phish.net/setlists/phish-${slug}.html" target="_blank">PHISH.NET &#8599;</a>`:'';
+  const links=slLinks(t);
   let html='';
   if(isSnip){
-    html+=`<div class="sl-head"><div class="sl-meta">@jamsnips · ${t.date}</div><div class="sl-links">${jsLink}${egLink}${dfLink}${piLink}${pnLink}</div></div>`;
+    html+=`<div class="sl-head"><div class="sl-meta">@jamsnips · ${t.date}</div><div class="sl-links">${links}</div></div>`;
     html+=`<p class="sl-msg">A "just the jams" snippet from <strong>@jamsnips</strong>. See the site panel below for full show info.</p>`;
   }else if(isG&&cached.data&&cached.data.data&&cached.data.data.length){
     const rows=cached.data.data,show=rows[0];
     const rating=show.rating?`<span class="sl-rating"><span class="sl-star">&#9733;</span> ${parseFloat(show.rating).toFixed(1)}</span>`:'';
     const venue=(show.venue_name||'')+(show.city?', '+show.city:'');
-    html+=`<div class="sl-head"><div style="display:flex;align-items:center;gap:8px;">${rating}<span class="sl-meta">${venue}</span></div><div class="sl-links">${egLink}${dfLink}</div></div>`;
+    html+=`<div class="sl-head"><div style="display:flex;align-items:center;gap:8px;">${rating}<span class="sl-meta">${venue}</span></div><div class="sl-links">${links}</div></div>`;
     const sets={};rows.forEach(r=>{const s=r.set||r.set_name||'Set';if(!sets[s])sets[s]=[];sets[s].push(r);});
     Object.entries(sets).forEach(([sn,songs])=>{
       html+=`<div class="sl-set-lbl">${sn.toUpperCase()}</div><div class="sl-songs">${songs.map((s,i)=>{const name=s.song||s.song_name||'';const seg=s.transition||s.segue||s.trans||'';return name+(seg==='>'?' >':(seg==='->'?' ->':i<songs.length-1?',':''));}).join(' ')}</div>`;
@@ -858,7 +864,7 @@ function renderSetlist(cached,t){
     const notes=((show.notes||show.show_notes||'')).replace(/<[^>]*>/g,'').trim();
     if(notes)html+=`<div class="sl-notes">${notes}</div>`;
   }else if(isG){
-    html+=`<div class="sl-head"><div></div><div class="sl-links">${egLink}${dfLink}</div></div><p class="sl-msg">No setlist data found — use the EL GOOSE link above or browse DRIPFIELD, or see the site panel below.</p>`;
+    html+=`<div class="sl-head"><div class="sl-meta">${t.date}</div><div class="sl-links">${links}</div></div><p class="sl-msg">No setlist data found from elgoose.net for this date — try the chips above for the official setlist source.</p>`;
   }else if(!isG&&cached.data){
     // ── phish.in render. v2 = top-level show object with .tracks; v1 wraps under data.{venue_name,tracks,...}.
     const show=cached.data;
@@ -868,9 +874,8 @@ function renderSetlist(cached,t){
     const rating=show.average_rating||show.rating||show.likes_count;
     const ratingHtml=rating?`<span class="sl-rating"><span class="sl-star">&#9733;</span> ${parseFloat(rating).toFixed(1)}</span>`:'';
     const venueLine=[venue,cityState].filter(Boolean).join(' · ');
-    html+=`<div class="sl-head"><div style="display:flex;align-items:center;gap:8px;">${ratingHtml}<span class="sl-meta">${venueLine||t.date}</span></div><div class="sl-links">${piLink}${pnLink}</div></div>`;
+    html+=`<div class="sl-head"><div style="display:flex;align-items:center;gap:8px;">${ratingHtml}<span class="sl-meta">${venueLine||t.date}</span></div><div class="sl-links">${links}</div></div>`;
     if(tracks.length){
-      // Group by set_name; v1 uses Set 1/Set 2/Encore string, v2 uses similar
       const sets={};
       tracks.forEach(tr=>{
         const sn=tr.set_name||tr.set||'Set';
@@ -889,7 +894,7 @@ function renderSetlist(cached,t){
       if(jamTags.length) html+=`<div class="sl-notes">Tagged: ${jamTags.join(' · ')}</div>`;
     }
   }else{
-    html+=`<div class="sl-head"><div class="sl-meta">${t.date}</div><div class="sl-links">${piLink}${pnLink}</div></div><p class="sl-msg">No setlist data found — try the PHISH.IN or PHISH.NET link above, or see the site panel below.</p>`;
+    html+=`<div class="sl-head"><div class="sl-meta">${t.date}</div><div class="sl-links">${links}</div></div><p class="sl-msg">No setlist data found from phish.in for this date — try the chips above for alternate sources.</p>`;
   }
   inner.innerHTML=html;
 }
