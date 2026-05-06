@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-05-05T11:05:49+00:00",
+  "generated_at": "2026-05-06T12:17:29+00:00",
   "goose": [
+    {
+      "id": "4n7BZJZFuj8",
+      "title": "Torero #newmusic #musicdiscovery",
+      "venue": "Goose Official · 2026-05-05",
+      "date": "2026-05-05",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "--JWhlcbVAA",
       "title": "Torero (Official Lyric Video)",
@@ -172,16 +182,6 @@
       "live": true
     },
     {
-      "id": "R1VVGxTXNRs",
-      "title": "Dripfield → Into The Myst - 4/24/26 Austin, TX",
-      "venue": "Goose Official · 2026-04-25",
-      "date": "2026-04-25",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
       "id": "lbxkoZDnKf0",
       "title": "Goose jam snips - 4/19/26 \"Animal\"",
       "venue": "@jamsnips · 2026-04-21",
@@ -260,29 +260,29 @@
       "snip": true,
       "mix": false,
       "live": true
-    },
-    {
-      "id": "C7PFVumCykI",
-      "title": "Goose jam snips - 4/10/26 \"Big Modern\"",
-      "venue": "@jamsnips · 2026-04-17",
-      "date": "2026-04-17",
-      "b": "g",
-      "snip": true,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "Yru-4kumHjI",
-      "title": "Goose jam snips - 4/11/26 \"Arrow\"",
-      "venue": "@jamsnips · 2026-04-12",
-      "date": "2026-04-12",
-      "b": "g",
-      "snip": true,
-      "mix": false,
-      "live": true
     }
   ],
   "phish": [
+    {
+      "id": "0J3gGYLX5nk",
+      "title": "Phish Jam Snips - 5/2/26 \"Kill Devil Falls\"",
+      "venue": "@jamsnips · 2026-05-05",
+      "date": "2026-05-05",
+      "b": "p",
+      "snip": true,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "HCTdwxHXwig",
+      "title": "Phish Jam Snips - 4/25/26 \"Chalk Dust Torture\"",
+      "venue": "@jamsnips · 2026-05-05",
+      "date": "2026-05-05",
+      "b": "p",
+      "snip": true,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "-cdNF5Hkh7k",
       "title": "Live from Las Vegas, NV 5/2/2026 Set II Opener",
