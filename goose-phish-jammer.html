@@ -105,9 +105,22 @@ body{display:flex;flex-direction:column;align-items:center;padding:20px 14px 40p
 .ctl:active{transform:scale(.97);}
 #np-counter{cursor:default;font-size:9px;color:var(--faint);}
 
-.setlist-panel{overflow:hidden;max-height:0;transition:max-height .4s ease;border:0.5px solid var(--bdr);border-top:none;border-radius:0 0 14px 14px;background:var(--s2);}
-.setlist-panel.open{max-height:1200px;}
-.sl-inner{padding:14px 18px 16px;overflow-y:auto;max-height:1180px;scrollbar-width:thin;scrollbar-color:rgba(255,255,255,.1) transparent;background:var(--s2);}
+.show-panel{overflow:hidden;max-height:0;transition:max-height .4s ease;border:0.5px solid var(--bdr);border-top:none;border-radius:0 0 14px 14px;background:var(--s2);}
+.show-panel.open{max-height:1400px;}
+.show-tabs{display:flex;border-bottom:0.5px solid var(--bdr);background:var(--s);}
+.show-tab{padding:11px 18px;background:transparent;border:none;border-right:0.5px solid var(--bdr);cursor:pointer;color:var(--faint);font-family:'Space Mono',monospace;font-size:9px;letter-spacing:.16em;transition:all .15s;white-space:nowrap;display:flex;align-items:center;gap:6px;}
+.show-tab:hover{background:rgba(255,255,255,.04);color:var(--muted);}
+.show-tab.active-g{color:var(--g);background:rgba(232,160,48,.06);border-bottom:2px solid var(--g);margin-bottom:-1px;}
+.show-tab.active-p{color:var(--p);background:rgba(192,96,232,.06);border-bottom:2px solid var(--p);margin-bottom:-1px;}
+.show-tab.active-b{color:#C8A8F8;background:rgba(200,168,248,.05);border-bottom:2px solid #C8A8F8;margin-bottom:-1px;}
+.show-tab-dot{width:5px;height:5px;border-radius:50%;}
+.show-tab-dot.tab-g{background:var(--g);}.show-tab-dot.tab-p{background:var(--p);}.show-tab-dot.tab-b{background:#C8A8F8;}
+.show-body{padding:16px 20px 18px;overflow-y:auto;max-height:1340px;scrollbar-width:thin;scrollbar-color:rgba(255,255,255,.1) transparent;}
+.show-loading{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;padding:50px 20px;}
+.show-spinner{width:30px;height:30px;border-radius:50%;border:2px solid rgba(255,255,255,.06);border-top-color:var(--g);animation:spin .9s linear infinite;}
+.show-spinner.p{border-top-color:var(--p);}
+@keyframes spin{to{transform:rotate(360deg)}}
+.show-loading-txt{font-size:9px;letter-spacing:.14em;color:var(--faint);}
 .sl-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;flex-wrap:wrap;gap:8px;padding-bottom:11px;border-bottom:0.5px solid var(--bdr);}
 .sl-links{display:flex;gap:5px;flex-wrap:wrap;}
 .sl-link{font-size:8px;letter-spacing:.1em;padding:3px 8px;border-radius:3px;text-decoration:none;transition:all .15s;border:0.5px solid rgba(255,255,255,.08);color:var(--faint);}
@@ -264,9 +277,14 @@ body{display:flex;flex-direction:column;align-items:center;padding:20px 14px 40p
 
   <div class="history-row" id="history-row"><span class="hist-lbl">HISTORY</span></div>
 
-  <!-- ── SHOW INFO PANEL — native render of elgoose / phish.in API data ── -->
-  <div class="setlist-panel open" id="setlist-panel">
-    <div class="sl-inner" id="sl-inner"><p class="sl-msg">Loading show data&hellip;</p></div>
+  <!-- ── SHOW PANEL — tabbed multi-source native renders, no iframes ── -->
+  <div class="show-panel open" id="show-panel">
+    <div class="show-tabs" id="show-tabs">
+      <!-- band-specific source tabs, populated by JS -->
+    </div>
+    <div class="show-body" id="show-body">
+      <p class="sl-msg">Loading show data&hellip;</p>
+    </div>
   </div>
 
 </div>
@@ -375,7 +393,8 @@ let liveAdded=0, liveLoaded=false;
 
 let band='goose',mode='sequential';
 let queue=[],qIdx=0,history=[],setlistOpen=true,swapOpen=false;
-let setlistCache={};
+let showCache={};   // { trackId: { elgoose: {...}, phishin: {...}, phishnet: {...} } }
+let activeShowTab=''; // current selected tab id ('elgoose' | 'phishin' | 'phishnet' | 'jamsnips')
 
 // ── YouTube IFrame API state ──
 let ytPlayer=null, ytReady=false, ytPendingId=null;
@@ -505,14 +524,8 @@ function loadAt(i){
   // Reset any lingering warp flash on track change
   hideWarpFlash();
   renderQueue();renderHistory();updateModeBtns();
-  // Always fetch+render show data into the always-visible panel below.
-  // Cached results render instantly; only first-time hits show the loading state.
-  if(setlistCache[t.id]){
-    renderSetlist(setlistCache[t.id],t);
-  }else{
-    document.getElementById('sl-inner').innerHTML='<p class="sl-msg">Loading show data&hellip;</p>';
-    fetchSetlist(t);
-  }
+  // Always rebuild the show panel tabs and render the active source natively.
+  buildShowTabs(t);
 }
 
 function nextTrack(){if(qIdx>=queue.length-1&&mode==='shuffle'){buildQueue();qIdx=-1;}loadAt(qIdx+1);}
@@ -578,55 +591,86 @@ function updateModeBtns(){
   document.getElementById('mb-clips').className='mode-btn'+(swapOpen?' on-'+bk:'');
 }
 
+/* ────────────────────────────────────────────────────────────────────────
+   SHOW PANEL — tabbed multi-source native renders.
+   - Goose tracks: EL GOOSE tab (elgoose.net API)
+   - Phish tracks: PHISH.IN tab (phish.in API) + PHISH.NET tab (HTML scrape)
+   - Mix/compilation tracks: JAMSNIPS info card
+   No iframes, no redirects — all data fetched and rendered into our DOM.
+   ──────────────────────────────────────────────────────────────────────── */
 
-/* ── SETLIST ── */
 function toggleSetlist(){
   setlistOpen=!setlistOpen;
-  document.getElementById('setlist-panel').classList.toggle('open',setlistOpen);
-  if(setlistOpen){const t=cur();if(setlistCache[t.id])renderSetlist(setlistCache[t.id],t);else{document.getElementById('sl-inner').innerHTML='<p class="sl-msg">Fetching...</p>';fetchSetlist(t);}}
+  document.getElementById('show-panel').classList.toggle('open',setlistOpen);
   updateModeBtns();
 }
 function toggleSwap(){swapOpen=!swapOpen;document.getElementById('swap-panel').classList.toggle('open',swapOpen);if(swapOpen)renderSwapGrid();updateModeBtns();}
 
-async function fetchSetlist(t){
-  if(setlistCache[t.id]){renderSetlist(setlistCache[t.id],t);return;}
-  // For "snip" (just-the-jams) tracks we don't show a full setlist,
-  // just a header with link chips to the source. Same for compilations (mix:true).
-  if(t.snip||t.mix){
-    const src=t.b==='g'?'goose-snip':'phish-snip';
-    setlistCache[t.id]={source:src,data:null,track:t};
-    renderSetlist(setlistCache[t.id],t);
-    return;
+// Build the source tabs based on band/track type, then render the active one.
+function buildShowTabs(t){
+  const tabsEl=document.getElementById('show-tabs');
+  tabsEl.innerHTML='';
+  const bk=t.b||'g';
+  const isMix=t.mix||false;
+  let tabs=[];
+  if(isMix){
+    tabs=[{id:'jamsnips',label:'@JAMSNIPS',bk:'b'}];
+  }else if(bk==='g'){
+    tabs=[{id:'elgoose',label:'EL GOOSE',bk:'g'}];
+  }else{
+    tabs=[
+      {id:'phishin', label:'PHISH.IN', bk:'p'},
+      {id:'phishnet',label:'PHISH.NET',bk:'p'},
+    ];
   }
-  try{
-    if(t.b==='g'){
-      const res=await fetch(`https://elgoose.net/api/v2/setlists/showdate/${t.date}.json`);
-      if(!res.ok)throw new Error('elgoose '+res.status);
-      setlistCache[t.id]={source:'goose',data:await res.json(),track:t};
-    }else{
-      // phish.in is open and key-less. Try v2 first; if 404/410 (route migration),
-      // fall back to v1's show-on-date endpoint.
-      let data=null;
-      try{
-        const r2=await fetch(`https://phish.in/api/v2/shows/${t.date}`);
-        if(r2.ok) data=await r2.json();
-      }catch(_){ /* fall through */ }
-      if(!data){
-        const r1=await fetch(`https://phish.in/api/v1/show-on-date/${t.date}.json`);
-        if(!r1.ok)throw new Error('phish.in '+r1.status);
-        const j1=await r1.json();
-        // v1 wraps under {data:{...}}; normalize so renderSetlist sees the show object
-        data=j1.data||j1;
-      }
-      setlistCache[t.id]={source:'phish',data,track:t};
-    }
-    renderSetlist(setlistCache[t.id],t);
-  }catch(e){document.getElementById('sl-inner').innerHTML='<p class="sl-msg">Could not load setlist data.</p>';}
+  // Default to first tab if previously-selected tab isn't in this set.
+  if(!tabs.find(x=>x.id===activeShowTab)) activeShowTab=tabs[0].id;
+  tabs.forEach(tab=>{
+    const btn=document.createElement('button');
+    btn.className='show-tab'+(tab.id===activeShowTab?` active-${tab.bk}`:'');
+    btn.dataset.tabId=tab.id;
+    const dot=document.createElement('span');
+    dot.className=`show-tab-dot tab-${tab.bk}`;
+    btn.appendChild(dot);
+    btn.appendChild(document.createTextNode(tab.label));
+    btn.onclick=()=>{ activeShowTab=tab.id; buildShowTabs(t); };
+    tabsEl.appendChild(btn);
+  });
+  renderActiveShowTab(t);
 }
 
-// One source of truth for resource links. Goose tracks get JAMSNIPS + EL GOOSE +
-// DRIPFIELD; Phish tracks get JAMSNIPS + PHISH.IN + PHISH.NET. The chip set is
-// the same across every renderSetlist branch — always inline, no conditionals.
+async function renderActiveShowTab(t){
+  const body=document.getElementById('show-body');
+  const cache=showCache[t.id]||(showCache[t.id]={});
+  const tab=activeShowTab;
+  const bk=t.b||'g';
+  // Cached → render immediately.
+  if(cache[tab]!==undefined){
+    renderShowTab(tab,cache[tab],t);
+    return;
+  }
+  // Loading state.
+  body.innerHTML=`<div class="show-loading"><div class="show-spinner ${bk==='p'?'p':''}"></div><div class="show-loading-txt">LOADING ${tab.toUpperCase()} DATA…</div></div>`;
+  try{
+    let data=null;
+    if(tab==='elgoose')   data=await fetchElGoose(t);
+    else if(tab==='phishin')  data=await fetchPhishIn(t);
+    else if(tab==='phishnet') data=await fetchPhishNet(t,cache.phishin);
+    else if(tab==='jamsnips') data={ok:true};
+    cache[tab]=data;
+    // If we just fetched phish.in and phishnet hasn't been tried yet, prime it eagerly
+    // since phish.net needs phish.in's venue data to construct its URL.
+    if(tab==='phishin' && data && !cache.phishnet){
+      fetchPhishNet(t,data).then(d=>{cache.phishnet=d;}).catch(()=>{});
+    }
+    renderShowTab(tab,data,t);
+  }catch(e){
+    cache[tab]=null;
+    renderShowTab(tab,null,t);
+  }
+}
+
+// ── One source of truth for the inline link chips, used in every render. ──
 function slLinks(t){
   const isG=t.b==='g';
   const js=`<a class="sl-link js" href="https://www.youtube.com/@jamsnips" target="_blank" rel="noopener">@JAMSNIPS &#8599;</a>`;
@@ -637,60 +681,208 @@ function slLinks(t){
   return isG ? js+eg+df : js+pi+pn;
 }
 
-function renderSetlist(cached,t){
-  const inner=document.getElementById('sl-inner');
-  const isG=cached.source==='goose'||cached.source==='goose-snip';
-  const isSnip=cached.source==='goose-snip'||cached.source==='phish-snip';
+// ── Render dispatch ────────────────────────────────────────────────────
+function renderShowTab(tab,data,t){
+  const body=document.getElementById('show-body');
   const links=slLinks(t);
-  let html='';
-  if(isSnip){
-    html+=`<div class="sl-head"><div class="sl-meta">@jamsnips · ${t.date}</div><div class="sl-links">${links}</div></div>`;
-    html+=`<p class="sl-msg">A "just the jams" snippet from <strong>@jamsnips</strong>. See the site panel below for full show info.</p>`;
-  }else if(isG&&cached.data&&cached.data.data&&cached.data.data.length){
-    const rows=cached.data.data,show=rows[0];
-    const rating=show.rating?`<span class="sl-rating"><span class="sl-star">&#9733;</span> ${parseFloat(show.rating).toFixed(1)}</span>`:'';
-    const venue=(show.venue_name||'')+(show.city?', '+show.city:'');
-    html+=`<div class="sl-head"><div style="display:flex;align-items:center;gap:8px;">${rating}<span class="sl-meta">${venue}</span></div><div class="sl-links">${links}</div></div>`;
-    const sets={};rows.forEach(r=>{const s=r.set||r.set_name||'Set';if(!sets[s])sets[s]=[];sets[s].push(r);});
-    Object.entries(sets).forEach(([sn,songs])=>{
-      html+=`<div class="sl-set-lbl">${sn.toUpperCase()}</div><div class="sl-songs">${songs.map((s,i)=>{const name=s.song||s.song_name||'';const seg=s.transition||s.segue||s.trans||'';return name+(seg==='>'?' >':(seg==='->'?' ->':i<songs.length-1?',':''));}).join(' ')}</div>`;
-    });
-    const notes=((show.notes||show.show_notes||'')).replace(/<[^>]*>/g,'').trim();
-    if(notes)html+=`<div class="sl-notes">${notes}</div>`;
-  }else if(isG){
-    html+=`<div class="sl-head"><div class="sl-meta">${t.date}</div><div class="sl-links">${links}</div></div><p class="sl-msg">No setlist data found from elgoose.net for this date — try the chips above for the official setlist source.</p>`;
-  }else if(!isG&&cached.data){
-    // ── phish.in render. v2 = top-level show object with .tracks; v1 wraps under data.{venue_name,tracks,...}.
-    const show=cached.data;
-    const tracks=show.tracks||[];
-    const venue=show.venue_name||show.venue?.name||'';
-    const cityState=[show.city||show.venue?.location?.split(',')[0],show.state||show.venue?.location?.split(',').pop()].filter(Boolean).join(', ');
-    const rating=show.average_rating||show.rating||show.likes_count;
-    const ratingHtml=rating?`<span class="sl-rating"><span class="sl-star">&#9733;</span> ${parseFloat(rating).toFixed(1)}</span>`:'';
-    const venueLine=[venue,cityState].filter(Boolean).join(' · ');
-    html+=`<div class="sl-head"><div style="display:flex;align-items:center;gap:8px;">${ratingHtml}<span class="sl-meta">${venueLine||t.date}</span></div><div class="sl-links">${links}</div></div>`;
-    if(tracks.length){
-      const sets={};
-      tracks.forEach(tr=>{
-        const sn=tr.set_name||tr.set||'Set';
-        if(!sets[sn])sets[sn]=[];
-        sets[sn].push(tr);
-      });
-      Object.entries(sets).forEach(([sn,songs])=>{
-        html+=`<div class="sl-set-lbl">${sn.toUpperCase()}</div><div class="sl-songs">${songs.map(s=>(s.title||s.song||'')).filter(Boolean).join(', ')}</div>`;
-      });
-    }else{
-      html+=`<p class="sl-msg">No track listing available for this show on phish.in.</p>`;
-    }
-    const tags=show.tags||[];
-    if(tags.length){
-      const jamTags=tags.filter(x=>typeof x==='string'?x:x.name||x.tag).slice(0,8).map(x=>typeof x==='string'?x:(x.name||x.tag)).filter(Boolean);
-      if(jamTags.length) html+=`<div class="sl-notes">Tagged: ${jamTags.join(' · ')}</div>`;
-    }
-  }else{
-    html+=`<div class="sl-head"><div class="sl-meta">${t.date}</div><div class="sl-links">${links}</div></div><p class="sl-msg">No setlist data found from phish.in for this date — try the chips above for alternate sources.</p>`;
+  if(t.mix||tab==='jamsnips'){
+    body.innerHTML=`<div class="sl-head"><div class="sl-meta">@jamsnips compilation · ${t.date}</div><div class="sl-links">${links}</div></div>
+      <p class="sl-msg">This clip is a "just the jams" compilation from <strong>@jamsnips</strong>. No single-show setlist applies.</p>`;
+    return;
   }
-  inner.innerHTML=html;
+  if(t.snip){
+    // Snip = jam segment from one show. Try to render the actual show data if available.
+    if(tab==='elgoose' && data) return renderElGoose(data,t,links,true);
+    if(tab==='phishin'  && data) return renderPhishIn(data,t,links,true);
+    if(tab==='phishnet' && data) return renderPhishNet(data,t,links,true);
+    body.innerHTML=`<div class="sl-head"><div class="sl-meta">@jamsnips snip · ${t.date}</div><div class="sl-links">${links}</div></div>
+      <p class="sl-msg">Snippet from this show. Setlist data couldn't be loaded — try the chips above.</p>`;
+    return;
+  }
+  if(tab==='elgoose')  return renderElGoose(data,t,links);
+  if(tab==='phishin')  return renderPhishIn(data,t,links);
+  if(tab==='phishnet') return renderPhishNet(data,t,links);
+}
+
+// ── EL GOOSE: native render of elgoose.net API JSON ───────────────────
+async function fetchElGoose(t){
+  const res=await fetch(`https://elgoose.net/api/v2/setlists/showdate/${t.date}.json`);
+  if(!res.ok) throw new Error('elgoose '+res.status);
+  return res.json();
+}
+function renderElGoose(data,t,links,isSnip){
+  const body=document.getElementById('show-body');
+  if(!data||!data.data||!data.data.length){
+    body.innerHTML=`<div class="sl-head"><div class="sl-meta">${t.date}</div><div class="sl-links">${links}</div></div>
+      <p class="sl-msg">No setlist data found on elgoose.net for ${t.date}. ${isSnip?'(This is a jam snippet.)':''}</p>`;
+    return;
+  }
+  const rows=data.data, show=rows[0];
+  const rating=show.rating?`<span class="sl-rating"><span class="sl-star">&#9733;</span> ${parseFloat(show.rating).toFixed(2)}</span>`:'';
+  const venue=[show.venue_name,show.city,show.state].filter(Boolean).join(', ');
+  const sets={};
+  rows.forEach(r=>{const s=r.set||r.set_name||'Set';if(!sets[s])sets[s]=[];sets[s].push(r);});
+  let setsHtml='';
+  Object.entries(sets).forEach(([sn,songs])=>{
+    setsHtml+=`<div class="sl-set-lbl">${sn.toUpperCase()}</div><div class="sl-songs">${songs.map((s,i)=>{
+      const name=s.song||s.song_name||'';
+      const seg=s.transition||s.segue||s.trans||'';
+      return name+(seg==='>'?' >':seg==='->'?' →':i<songs.length-1?',':'');
+    }).join(' ')}</div>`;
+  });
+  const notes=(show.notes||show.show_notes||'').replace(/<[^>]*>/g,'').trim();
+  body.innerHTML=`
+    <div class="sl-head">
+      <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;">${rating}<span class="sl-meta">${venue||t.date}</span></div>
+      <div class="sl-links">${links}</div>
+    </div>
+    ${isSnip?`<p class="sl-msg">Jam snippet from this show. Full setlist below:</p>`:''}
+    ${setsHtml}
+    ${notes?`<div class="sl-notes">${notes}</div>`:''}`;
+}
+
+// ── PHISH.IN: native render of phish.in API JSON ──────────────────────
+async function fetchPhishIn(t){
+  // v2 first; fall back to v1 if route migrated.
+  try{
+    const r2=await fetch(`https://phish.in/api/v2/shows/${t.date}`);
+    if(r2.ok) return await r2.json();
+  }catch(_){}
+  const r1=await fetch(`https://phish.in/api/v1/show-on-date/${t.date}.json`);
+  if(!r1.ok) throw new Error('phish.in '+r1.status);
+  const j1=await r1.json();
+  return j1.data||j1;
+}
+function renderPhishIn(data,t,links,isSnip){
+  const body=document.getElementById('show-body');
+  if(!data){
+    body.innerHTML=`<div class="sl-head"><div class="sl-meta">${t.date}</div><div class="sl-links">${links}</div></div>
+      <p class="sl-msg">No phish.in data found for ${t.date}.</p>`;
+    return;
+  }
+  const tracks=data.tracks||[];
+  const venue=data.venue_name||data.venue?.name||'';
+  const loc=data.venue?.location||[data.city,data.state].filter(Boolean).join(', ');
+  const rating=data.average_rating||data.rating;
+  const ratingHtml=rating?`<span class="sl-rating"><span class="sl-star">&#9733;</span> ${parseFloat(rating).toFixed(2)}</span>`:'';
+  const venueLine=[venue,loc].filter(Boolean).join(' · ');
+  const sets={};
+  tracks.forEach(tr=>{
+    const sn=tr.set_name||tr.set||'Set';
+    if(!sets[sn])sets[sn]=[];
+    sets[sn].push(tr);
+  });
+  let setsHtml='';
+  Object.entries(sets).forEach(([sn,songs])=>{
+    setsHtml+=`<div class="sl-set-lbl">${sn.toUpperCase()}</div><div class="sl-songs">${songs.map(s=>(s.title||s.song||'')).filter(Boolean).join(', ')}</div>`;
+  });
+  const tags=(data.tags||[]).map(x=>typeof x==='string'?x:(x.name||x.tag)).filter(Boolean).slice(0,10);
+  body.innerHTML=`
+    <div class="sl-head">
+      <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;">${ratingHtml}<span class="sl-meta">${venueLine||t.date}</span></div>
+      <div class="sl-links">${links}</div>
+    </div>
+    ${isSnip?`<p class="sl-msg">Jam snippet from this show. Full setlist below:</p>`:''}
+    ${tracks.length?setsHtml:'<p class="sl-msg">No track listing in phish.in for this date.</p>'}
+    ${tags.length?`<div class="sl-notes">Tagged: ${tags.join(' · ')}</div>`:''}`;
+}
+
+// ── PHISH.NET: HTML scrape via CORS proxy, parse natively ─────────────
+const SCRAPE_PROXIES=[
+  u=>`https://corsproxy.io/?${encodeURIComponent(u)}`,
+  u=>`https://api.allorigins.win/raw?url=${encodeURIComponent(u)}`,
+  u=>`https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(u)}`,
+];
+function pnSlugify(s){return (s||'').toLowerCase().replace(/[^a-z0-9\s-]/g,'').replace(/\s+/g,'-').replace(/-+/g,'-').replace(/^-|-$/g,'');}
+function pnConstructUrl(date,phishInData){
+  if(!phishInData) return null;
+  const venue=phishInData.venue_name||phishInData.venue?.name||'';
+  const loc=phishInData.venue?.location||'';
+  const city=phishInData.city||loc.split(',')[0]||'';
+  const state=(phishInData.state||loc.split(',').pop()||'').trim();
+  const country=(phishInData.country||'usa').toLowerCase();
+  if(!venue||!city||!state) return null;
+  const [y,m,d]=date.split('-');
+  const months=['january','february','march','april','may','june','july','august','september','october','november','december'];
+  const slug=`phish-${months[parseInt(m)-1]}-${parseInt(d)}-${y}-${pnSlugify(venue)}-${pnSlugify(city)}-${state.toLowerCase().trim()}-${country.replace(/\s+/g,'-')}`;
+  return `https://phish.net/setlists/${slug}.html`;
+}
+async function fetchPhishNet(t,phishInData){
+  // Need phish.in venue data first to build the URL slug. If caller didn't pass it,
+  // fetch it now (cheap if already cached by the phish.in tab).
+  if(!phishInData){
+    try{ phishInData=await fetchPhishIn(t); }catch(_){ return null; }
+  }
+  const url=pnConstructUrl(t.date,phishInData);
+  if(!url) return null;
+  for(const wrap of SCRAPE_PROXIES){
+    try{
+      const res=await fetch(wrap(url),{cache:'default'});
+      if(!res.ok) continue;
+      const html=await res.text();
+      if(!html||html.length<500) continue;
+      const parsed=parsePhishNetHtml(html);
+      if(parsed && (Object.keys(parsed.sets).length||parsed.notes)) return parsed;
+    }catch(_){ continue; }
+  }
+  return null;
+}
+function parsePhishNetHtml(html){
+  const doc=new DOMParser().parseFromString(html,'text/html');
+  // The setlist on phish.net lives in <p> tags whose text starts with "SET 1:", "SET 2:", "ENCORE:", "SOUNDCHECK:".
+  const sets={};
+  const setRe=/^(SOUNDCHECK|SET\s+\d+|ENCORE)\s*:\s*(.+)$/is;
+  doc.querySelectorAll('p').forEach(p=>{
+    const txt=p.textContent.replace(/\s+/g,' ').trim();
+    const m=txt.match(setRe);
+    if(m) sets[m[1].toUpperCase().replace(/\s+/g,' ')]=m[2].trim();
+  });
+  // Show notes — first long paragraph after the setlist that isn't a set, footnote, or nav.
+  let notes='';
+  const setKeys=Object.keys(sets);
+  if(setKeys.length){
+    const ps=[...doc.querySelectorAll('p')];
+    for(const p of ps){
+      const txt=p.textContent.trim();
+      if(txt.length<60) continue;
+      if(setRe.test(txt)) continue;
+      if(/^\[\d+\]/.test(txt)) continue;
+      if(txt.toLowerCase().includes('phish.net')) continue;
+      if(/^(previous show|next show|random show)/i.test(txt)) continue;
+      notes=txt; break;
+    }
+  }
+  // Rating: text like "Overall: 4.623/5 (>1000 ratings)" appears in body somewhere.
+  let rating=null,ratingCount=null;
+  const rm=doc.body.textContent.match(/Overall:\s*([\d.]+)\s*\/\s*5\s*\(([^)]+)\)/);
+  if(rm){ rating=parseFloat(rm[1]); ratingCount=rm[2].trim(); }
+  // Venue line — look for the heading-style "MADISON SQUARE GARDEN" type text after PHISH date header.
+  let venue='';
+  const venueLink=doc.querySelector('a[href*="/venue/"]');
+  if(venueLink) venue=venueLink.textContent.trim();
+  return { sets, notes, rating, ratingCount, venue };
+}
+function renderPhishNet(data,t,links,isSnip){
+  const body=document.getElementById('show-body');
+  if(!data||!Object.keys(data.sets||{}).length){
+    body.innerHTML=`<div class="sl-head"><div class="sl-meta">${t.date}</div><div class="sl-links">${links}</div></div>
+      <p class="sl-msg">Couldn't fetch phish.net data for ${t.date}. The HTML scrape failed (rate limit, missing venue data, or proxy outage). Try the PHISH.IN tab, or use the chip above to open phish.net directly.</p>`;
+    return;
+  }
+  const ratingHtml=data.rating?`<span class="sl-rating"><span class="sl-star">&#9733;</span> ${data.rating.toFixed(2)}${data.ratingCount?` <span style="opacity:.5;font-weight:300;">(${data.ratingCount})</span>`:''}</span>`:'';
+  const venueLine=data.venue||t.date;
+  let setsHtml='';
+  Object.entries(data.sets).forEach(([sn,songs])=>{
+    setsHtml+=`<div class="sl-set-lbl">${sn}</div><div class="sl-songs">${songs}</div>`;
+  });
+  body.innerHTML=`
+    <div class="sl-head">
+      <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;">${ratingHtml}<span class="sl-meta">${venueLine}</span></div>
+      <div class="sl-links">${links}</div>
+    </div>
+    ${isSnip?`<p class="sl-msg">Jam snippet from this show. Full phish.net setlist below:</p>`:''}
+    ${setsHtml}
+    ${data.notes?`<div class="sl-notes">${data.notes}</div>`:''}`;
 }
 
 function renderQueue(){
