@@ -396,6 +396,32 @@ let queue=[],qIdx=0,history=[],setlistOpen=true,swapOpen=false;
 let showCache={};   // { trackId: { elgoose: {...}, phishin: {...}, phishnet: {...} } }
 let activeShowTab=''; // current selected tab id ('elgoose' | 'phishin' | 'phishnet' | 'jamsnips')
 
+// ── CORS-resilient fetch ─────────────────────────────────────────────
+// GitHub Pages → external API requests fail CORS unless the API serves
+// Access-Control-Allow-Origin headers. Phish.in does. Elgoose.net is unclear.
+// Phish.net never does. So we try direct first (cheapest, fastest when it
+// works), then fall through three public CORS proxies before giving up.
+const CORS_PROXIES=[
+  u=>`https://corsproxy.io/?${encodeURIComponent(u)}`,
+  u=>`https://api.allorigins.win/raw?url=${encodeURIComponent(u)}`,
+  u=>`https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(u)}`,
+];
+async function corsFetch(url, opts={}){
+  // Try direct fetch first
+  try{
+    const r=await fetch(url, opts);
+    if(r.ok) return r;
+  }catch(_){ /* CORS error or network failure → try proxies */ }
+  // Fall through proxy chain
+  for(const wrap of CORS_PROXIES){
+    try{
+      const r=await fetch(wrap(url), opts);
+      if(r.ok) return r;
+    }catch(_){ continue; }
+  }
+  throw new Error('All fetch attempts failed for '+url);
+}
+
 // ── YouTube IFrame API state ──
 let ytPlayer=null, ytReady=false, ytPendingId=null;
 
@@ -644,13 +670,23 @@ async function renderActiveShowTab(t){
   const cache=showCache[t.id]||(showCache[t.id]={});
   const tab=activeShowTab;
   const bk=t.b||'g';
-  // Cached → render immediately.
+  // ALWAYS render the header (track info + link chips) immediately so the
+  // panel is never blank — content below loads in once the API responds.
+  const links=slLinks(t);
+  const headerHtml=`<div class="sl-head">
+    <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
+      <span class="sl-meta"><strong style="color:var(--txt);">${t.title}</strong></span>
+      <span class="sl-meta">${t.venue}</span>
+    </div>
+    <div class="sl-links">${links}</div>
+  </div>`;
+  // Cached → render immediately with full data.
   if(cache[tab]!==undefined){
     renderShowTab(tab,cache[tab],t);
     return;
   }
-  // Loading state.
-  body.innerHTML=`<div class="show-loading"><div class="show-spinner ${bk==='p'?'p':''}"></div><div class="show-loading-txt">LOADING ${tab.toUpperCase()} DATA…</div></div>`;
+  // Show header + spinner together while fetching.
+  body.innerHTML=headerHtml+`<div class="show-loading"><div class="show-spinner ${bk==='p'?'p':''}"></div><div class="show-loading-txt">FETCHING ${tab.toUpperCase()} DATA…</div></div>`;
   try{
     let data=null;
     if(tab==='elgoose')   data=await fetchElGoose(t);
@@ -706,15 +742,20 @@ function renderShowTab(tab,data,t){
 
 // ── EL GOOSE: native render of elgoose.net API JSON ───────────────────
 async function fetchElGoose(t){
-  const res=await fetch(`https://elgoose.net/api/v2/setlists/showdate/${t.date}.json`);
-  if(!res.ok) throw new Error('elgoose '+res.status);
+  const res=await corsFetch(`https://elgoose.net/api/v2/setlists/showdate/${t.date}.json`);
   return res.json();
 }
 function renderElGoose(data,t,links,isSnip){
   const body=document.getElementById('show-body');
+  const headerBase=`<div class="sl-head">
+    <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
+      <span class="sl-meta"><strong style="color:var(--txt);">${t.title}</strong></span>
+      <span class="sl-meta">${t.venue}</span>
+    </div>
+    <div class="sl-links">${links}</div>
+  </div>`;
   if(!data||!data.data||!data.data.length){
-    body.innerHTML=`<div class="sl-head"><div class="sl-meta">${t.date}</div><div class="sl-links">${links}</div></div>
-      <p class="sl-msg">No setlist data found on elgoose.net for ${t.date}. ${isSnip?'(This is a jam snippet.)':''}</p>`;
+    body.innerHTML=headerBase+`<p class="sl-msg">No setlist data on elgoose.net for ${t.date}. ${isSnip?'(This is a jam snippet.) ':''}Use the EL GOOSE chip above to browse, or check DRIPFIELD.</p>`;
     return;
   }
   const rows=data.data, show=rows[0];
@@ -745,19 +786,24 @@ function renderElGoose(data,t,links,isSnip){
 async function fetchPhishIn(t){
   // v2 first; fall back to v1 if route migrated.
   try{
-    const r2=await fetch(`https://phish.in/api/v2/shows/${t.date}`);
-    if(r2.ok) return await r2.json();
+    const r2=await corsFetch(`https://phish.in/api/v2/shows/${t.date}`);
+    return await r2.json();
   }catch(_){}
-  const r1=await fetch(`https://phish.in/api/v1/show-on-date/${t.date}.json`);
-  if(!r1.ok) throw new Error('phish.in '+r1.status);
+  const r1=await corsFetch(`https://phish.in/api/v1/show-on-date/${t.date}.json`);
   const j1=await r1.json();
   return j1.data||j1;
 }
 function renderPhishIn(data,t,links,isSnip){
   const body=document.getElementById('show-body');
   if(!data){
-    body.innerHTML=`<div class="sl-head"><div class="sl-meta">${t.date}</div><div class="sl-links">${links}</div></div>
-      <p class="sl-msg">No phish.in data found for ${t.date}.</p>`;
+    body.innerHTML=`<div class="sl-head">
+      <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
+        <span class="sl-meta"><strong style="color:var(--txt);">${t.title}</strong></span>
+        <span class="sl-meta">${t.venue}</span>
+      </div>
+      <div class="sl-links">${links}</div>
+    </div>
+    <p class="sl-msg">No phish.in data for ${t.date}. Use the PHISH.IN chip above to browse, or switch to the PHISH.NET tab.</p>`;
     return;
   }
   const tracks=data.tracks||[];
@@ -788,11 +834,6 @@ function renderPhishIn(data,t,links,isSnip){
 }
 
 // ── PHISH.NET: HTML scrape via CORS proxy, parse natively ─────────────
-const SCRAPE_PROXIES=[
-  u=>`https://corsproxy.io/?${encodeURIComponent(u)}`,
-  u=>`https://api.allorigins.win/raw?url=${encodeURIComponent(u)}`,
-  u=>`https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(u)}`,
-];
 function pnSlugify(s){return (s||'').toLowerCase().replace(/[^a-z0-9\s-]/g,'').replace(/\s+/g,'-').replace(/-+/g,'-').replace(/^-|-$/g,'');}
 function pnConstructUrl(date,phishInData){
   if(!phishInData) return null;
@@ -815,16 +856,13 @@ async function fetchPhishNet(t,phishInData){
   }
   const url=pnConstructUrl(t.date,phishInData);
   if(!url) return null;
-  for(const wrap of SCRAPE_PROXIES){
-    try{
-      const res=await fetch(wrap(url),{cache:'default'});
-      if(!res.ok) continue;
-      const html=await res.text();
-      if(!html||html.length<500) continue;
-      const parsed=parsePhishNetHtml(html);
-      if(parsed && (Object.keys(parsed.sets).length||parsed.notes)) return parsed;
-    }catch(_){ continue; }
-  }
+  try{
+    const res=await corsFetch(url);
+    const html=await res.text();
+    if(!html||html.length<500) return null;
+    const parsed=parsePhishNetHtml(html);
+    if(parsed && (Object.keys(parsed.sets).length||parsed.notes)) return parsed;
+  }catch(_){}
   return null;
 }
 function parsePhishNetHtml(html){
@@ -865,8 +903,14 @@ function parsePhishNetHtml(html){
 function renderPhishNet(data,t,links,isSnip){
   const body=document.getElementById('show-body');
   if(!data||!Object.keys(data.sets||{}).length){
-    body.innerHTML=`<div class="sl-head"><div class="sl-meta">${t.date}</div><div class="sl-links">${links}</div></div>
-      <p class="sl-msg">Couldn't fetch phish.net data for ${t.date}. The HTML scrape failed (rate limit, missing venue data, or proxy outage). Try the PHISH.IN tab, or use the chip above to open phish.net directly.</p>`;
+    body.innerHTML=`<div class="sl-head">
+      <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
+        <span class="sl-meta"><strong style="color:var(--txt);">${t.title}</strong></span>
+        <span class="sl-meta">${t.venue}</span>
+      </div>
+      <div class="sl-links">${links}</div>
+    </div>
+    <p class="sl-msg">Couldn't fetch phish.net data for ${t.date}. The HTML scrape failed (proxy outage, rate limit, or missing venue data). Try the PHISH.IN tab or use the PHISH.NET chip above.</p>`;
     return;
   }
   const ratingHtml=data.rating?`<span class="sl-rating"><span class="sl-star">&#9733;</span> ${data.rating.toFixed(2)}${data.ratingCount?` <span style="opacity:.5;font-weight:300;">(${data.ratingCount})</span>`:''}</span>`:'';
