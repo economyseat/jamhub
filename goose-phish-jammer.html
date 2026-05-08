@@ -745,40 +745,72 @@ async function fetchElGoose(t){
   const res=await corsFetch(`https://elgoose.net/api/v2/setlists/showdate/${t.date}.json`);
   return res.json();
 }
+// ── Multi-name field picker — returns first non-empty value among the candidates ──
+function _pick(o, ...names){
+  if(!o) return undefined;
+  for(const n of names){
+    const v=o[n];
+    if(v!==undefined && v!==null && v!=='') return v;
+  }
+  return undefined;
+}
+
 function renderElGoose(data,t,links,isSnip){
-  // The elgoose.net v2 API uses the same schema as phish.net v5 (same maintainer):
-  //   per-row fields: song, set, position, transition (numeric), trans_mark, footnote
-  //   show-level fields (repeated on every row): venue, city, state, country,
-  //     setlistnotes, soundcheck, rating, showdate
-  // Numeric transition codes:  1 = ", "  2 = " > "  3 = " -> "  4 = (set break / blank)
-  // Set codes:  "1","2","3"... = numbered sets;  "e"/"encore" = encore;  "s"/"soundcheck" = soundcheck
+  // elgoose.net v2 setlists endpoint: returns one row per song. Field names
+  // confirmed from URL pattern /api/v2/setlists/songname/<name>.html — the column
+  // is `songname` (one word). We also try `song`, `song_name` as fallbacks because
+  // related projects (phish.net v5) use `song` and the API may evolve.
   const body=document.getElementById('show-body');
-  const headerBase=`<div class="sl-head">
-    <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
-      <span class="sl-meta"><strong style="color:var(--txt);">${t.title}</strong></span>
-      <span class="sl-meta">${t.venue}</span>
-    </div>
-    <div class="sl-links">${links}</div>
-  </div>`;
-  if(!data||!data.data||!data.data.length){
-    body.innerHTML=headerBase+`<p class="sl-msg">No setlist data on elgoose.net for ${t.date}. ${isSnip?'(This is a jam snippet.) ':''}Use the EL GOOSE chip above to browse, or check DRIPFIELD.</p>`;
+  const headerOnly=(msg)=>{
+    body.innerHTML=`<div class="sl-head">
+      <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
+        <span class="sl-meta"><strong style="color:var(--txt);">${t.title}</strong></span>
+        <span class="sl-meta">${t.venue}</span>
+      </div>
+      <div class="sl-links">${links}</div>
+    </div>${msg}`;
+  };
+
+  // ── 1. Fetch failed entirely (corsFetch chain rejected) ──
+  if(!data){
+    headerOnly(`<p class="sl-msg">Couldn't reach elgoose.net for ${t.date} — the CORS-proxy chain failed. Use the EL GOOSE chip above to open the page directly.</p>`);
     return;
   }
-  const rows=data.data, show=rows[0];
-  const rating=show.rating?`<span class="sl-rating"><span class="sl-star">&#9733;</span> ${parseFloat(show.rating).toFixed(2)}</span>`:'';
-  // Venue field is `venue` (not `venue_name`) on the v5/v2 schema.
-  const venueName=show.venue||show.venuename||show.venue_name||'';
-  const venue=[venueName,show.city,show.state].filter(Boolean).join(', ');
+  // ── 2. API returned an explicit error ──
+  if(data.error && String(data.error)!=='0'){
+    headerOnly(`<p class="sl-msg">elgoose.net API error: ${(data.error_message||data.error)} — use the chip above to browse.</p>`);
+    return;
+  }
+  // ── 3. Empty data array ──
+  const rows=Array.isArray(data.data)?data.data:[];
+  if(!rows.length){
+    headerOnly(`<p class="sl-msg">No setlist songs in elgoose.net for ${t.date}. ${isSnip?'(This clip is a jam snippet.) ':''}Use the EL GOOSE chip above to browse.</p>`);
+    return;
+  }
 
-  // ── Group rows by set, then sort within each set by position ──
+  // ── 4. Parse rows defensively ──
+  const show=rows[0];
+  const ratingVal=_pick(show,'rating','show_rating','avg_rating');
+  const rating=ratingVal?`<span class="sl-rating"><span class="sl-star">&#9733;</span> ${parseFloat(ratingVal).toFixed(2)}</span>`:'';
+  const venueName=_pick(show,'venuename','venue','venue_name')||'';
+  const city=_pick(show,'city')||'';
+  const state=_pick(show,'state','statename')||'';
+  const venue=[venueName,city,state].filter(Boolean).join(', ');
+
+  // Group by set
   const sets={};
   rows.forEach(r=>{
-    const code=(r.set!==undefined&&r.set!==null&&r.set!=='')?String(r.set):(r.set_name||'1');
+    const code=String(_pick(r,'set','setnumber','set_number','set_name')||'1');
     if(!sets[code])sets[code]=[];
     sets[code].push(r);
   });
+  // Sort within each set by position
   Object.keys(sets).forEach(k=>{
-    sets[k].sort((a,b)=>(parseInt(a.position)||0)-(parseInt(b.position)||0));
+    sets[k].sort((a,b)=>{
+      const pa=parseInt(_pick(a,'position','songposition','order','sort_order'))||0;
+      const pb=parseInt(_pick(b,'position','songposition','order','sort_order'))||0;
+      return pa-pb;
+    });
   });
 
   // Sort sets: numeric ascending → encore → soundcheck → anything else last
@@ -800,57 +832,80 @@ function renderElGoose(data,t,links,isSnip){
     return s.toUpperCase();
   };
 
-  // ── Walk songs, render with proper transitions and collect footnotes ──
+  // Footnote dedup
   const footnotes=[];
   const fnIdx=new Map();
-  const fnTagFor=(text)=>{
-    const clean=String(text||'').replace(/<[^>]*>/g,'').trim();
-    if(!clean)return '';
-    let n=fnIdx.get(clean);
-    if(n===undefined){ n=footnotes.length+1; fnIdx.set(clean,n); footnotes.push(clean); }
+  const fnTagFor=(s)=>{
+    const txt=String(_pick(s,'footnote','footnote_text','note')||'').replace(/<[^>]*>/g,'').trim();
+    if(!txt)return '';
+    let n=fnIdx.get(txt);
+    if(n===undefined){ n=footnotes.length+1; fnIdx.set(txt,n); footnotes.push(txt); }
     return `<sup style="opacity:.55;font-size:9px;font-weight:700;">[${n}]</sup>`;
   };
-  // Returns the separator HTML to render BETWEEN this song and the next.
+
+  // Transition rendering — try string mark first, then numeric code
+  // Numeric codes (phish.net convention, likely shared): 1=", " 2=" > " 3=" -> " 4=(set break)
   const segAfter=(s,isLast)=>{
     if(isLast)return '';
-    // Prefer trans_mark (already rendered string like ", " or " > " or " -> ")
-    if(s.trans_mark!==undefined&&s.trans_mark!==null&&String(s.trans_mark).trim()!==''){
-      const tm=String(s.trans_mark).trim();
-      if(tm==='>'||tm==='&gt;')return ' &gt; ';
-      if(tm==='->'||tm==='-&gt;'||tm==='→')return ' &rarr; ';
-      if(tm===','||tm==='')return ', ';
-      return ` ${tm} `;
+    const tm=_pick(s,'trans_mark','transition_mark','segue_mark','segue');
+    if(tm){
+      const v=String(tm).trim();
+      if(v==='>'||v==='&gt;')return ' &gt; ';
+      if(v==='->'||v==='-&gt;'||v==='→')return ' &rarr; ';
+      if(v===',')return ', ';
+      if(v) return ` ${v} `;
     }
-    // Fall back to numeric transition code
-    const code=parseInt(s.transition);
+    const code=parseInt(_pick(s,'transition','trans'));
     if(code===2)return ' &gt; ';
     if(code===3)return ' &rarr; ';
-    if(code===4)return ''; // hard set break — but we group by set anyway
+    if(code===4)return '';
     return ', ';
   };
 
   let setsHtml='';
+  let totalSongs=0;
   const sortedKeys=Object.keys(sets).sort((a,b)=>setRank(a)-setRank(b));
   sortedKeys.forEach(key=>{
     const songs=sets[key];
     let line='';
     songs.forEach((s,i)=>{
-      const name=String(s.song||s.songname||s.song_name||'').trim();
+      const name=String(_pick(s,'songname','song','song_name','title','name')||'').trim();
       if(!name)return;
-      line+=name+fnTagFor(s.footnote)+segAfter(s,i===songs.length-1);
+      totalSongs++;
+      line+=name+fnTagFor(s)+segAfter(s,i===songs.length-1);
     });
     if(line)setsHtml+=`<div class="sl-set-lbl">${setLabel(key)}</div><div class="sl-songs">${line}</div>`;
   });
 
-  // ── Show-level soundcheck (string field, separate from set='s' rows) ──
-  const sc=String(show.soundcheck||'').replace(/<[^>]*>/g,'').trim();
+  // Show-level soundcheck (string field, separate from set='s' rows)
+  const sc=String(_pick(show,'soundcheck')||'').replace(/<[^>]*>/g,'').trim();
   if(sc && !sortedKeys.some(k=>setRank(k)===200)){
     setsHtml+=`<div class="sl-set-lbl">SOUNDCHECK</div><div class="sl-songs">${sc}</div>`;
   }
 
-  // ── Show notes use `setlistnotes` on the v5/v2 schema ──
-  const notes=String(show.setlistnotes||show.shownotes||show.show_notes||show.notes||'').replace(/<[^>]*>/g,'').trim();
+  // ── 5. Self-diagnostic: rows came back but we extracted no song names. ──
+  // Dump the actual field names + a sample row so we can see what's really there
+  // instead of silently rendering blank.
+  if(!totalSongs){
+    const keys=Object.keys(show).join(', ');
+    const sample=JSON.stringify(show,null,2);
+    body.innerHTML=`<div class="sl-head">
+        <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
+          <span class="sl-meta"><strong style="color:var(--txt);">${t.title}</strong></span>
+          <span class="sl-meta">${t.venue}</span>
+        </div>
+        <div class="sl-links">${links}</div>
+      </div>
+      <p class="sl-msg" style="color:#FF8080;">Got ${rows.length} row(s) from elgoose.net but couldn't find song names in any expected field.</p>
+      <div class="sl-set-lbl">FIELDS PRESENT IN FIRST ROW</div>
+      <div class="sl-songs" style="font-family:'Space Mono',monospace;font-size:10px;color:rgba(237,224,204,.55);word-break:break-word;">${keys}</div>
+      <div class="sl-set-lbl" style="margin-top:14px;">FIRST ROW JSON</div>
+      <pre style="font-family:'Space Mono',monospace;font-size:9px;color:rgba(237,224,204,.5);background:rgba(0,0,0,.3);padding:10px;border-radius:4px;overflow-x:auto;max-height:280px;white-space:pre-wrap;">${sample.replace(/[<>&]/g,c=>({"<":"&lt;",">":"&gt;","&":"&amp;"}[c]))}</pre>`;
+    return;
+  }
 
+  // Show notes
+  const notes=String(_pick(show,'setlistnotes','shownotes','show_notes','notes')||'').replace(/<[^>]*>/g,'').trim();
   let trailing='';
   if(footnotes.length){
     trailing+=`<div class="sl-notes">`+footnotes.map((fn,i)=>`<div>[${i+1}] ${fn}</div>`).join('')+`</div>`;
@@ -865,7 +920,7 @@ function renderElGoose(data,t,links,isSnip){
       <div class="sl-links">${links}</div>
     </div>
     ${isSnip?`<p class="sl-msg">Jam snippet from this show. Full setlist below:</p>`:''}
-    ${setsHtml||`<p class="sl-msg">No setlist songs returned for ${t.date}.</p>`}
+    ${setsHtml}
     ${trailing}`;
 }
 
