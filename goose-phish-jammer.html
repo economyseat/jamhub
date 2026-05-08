@@ -746,6 +746,12 @@ async function fetchElGoose(t){
   return res.json();
 }
 function renderElGoose(data,t,links,isSnip){
+  // The elgoose.net v2 API uses the same schema as phish.net v5 (same maintainer):
+  //   per-row fields: song, set, position, transition (numeric), trans_mark, footnote
+  //   show-level fields (repeated on every row): venue, city, state, country,
+  //     setlistnotes, soundcheck, rating, showdate
+  // Numeric transition codes:  1 = ", "  2 = " > "  3 = " -> "  4 = (set break / blank)
+  // Set codes:  "1","2","3"... = numbered sets;  "e"/"encore" = encore;  "s"/"soundcheck" = soundcheck
   const body=document.getElementById('show-body');
   const headerBase=`<div class="sl-head">
     <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
@@ -760,26 +766,107 @@ function renderElGoose(data,t,links,isSnip){
   }
   const rows=data.data, show=rows[0];
   const rating=show.rating?`<span class="sl-rating"><span class="sl-star">&#9733;</span> ${parseFloat(show.rating).toFixed(2)}</span>`:'';
-  const venue=[show.venue_name,show.city,show.state].filter(Boolean).join(', ');
+  // Venue field is `venue` (not `venue_name`) on the v5/v2 schema.
+  const venueName=show.venue||show.venuename||show.venue_name||'';
+  const venue=[venueName,show.city,show.state].filter(Boolean).join(', ');
+
+  // ── Group rows by set, then sort within each set by position ──
   const sets={};
-  rows.forEach(r=>{const s=r.set||r.set_name||'Set';if(!sets[s])sets[s]=[];sets[s].push(r);});
-  let setsHtml='';
-  Object.entries(sets).forEach(([sn,songs])=>{
-    setsHtml+=`<div class="sl-set-lbl">${sn.toUpperCase()}</div><div class="sl-songs">${songs.map((s,i)=>{
-      const name=s.song||s.song_name||'';
-      const seg=s.transition||s.segue||s.trans||'';
-      return name+(seg==='>'?' >':seg==='->'?' →':i<songs.length-1?',':'');
-    }).join(' ')}</div>`;
+  rows.forEach(r=>{
+    const code=(r.set!==undefined&&r.set!==null&&r.set!=='')?String(r.set):(r.set_name||'1');
+    if(!sets[code])sets[code]=[];
+    sets[code].push(r);
   });
-  const notes=(show.notes||show.show_notes||'').replace(/<[^>]*>/g,'').trim();
+  Object.keys(sets).forEach(k=>{
+    sets[k].sort((a,b)=>(parseInt(a.position)||0)-(parseInt(b.position)||0));
+  });
+
+  // Sort sets: numeric ascending → encore → soundcheck → anything else last
+  const setRank=(c)=>{
+    const s=String(c||'').trim().toLowerCase();
+    if(/^\d+$/.test(s))return parseInt(s);
+    if(/^set\s*\d+$/.test(s))return parseInt(s.replace(/^set\s*/,''));
+    if(s==='e'||s==='enc'||s==='encore')return 100;
+    if(s==='s'||s==='sc'||s==='soundcheck')return 200;
+    return 50;
+  };
+  const setLabel=(c)=>{
+    const s=String(c||'').trim();
+    if(/^\d+$/.test(s))return `SET ${s}`;
+    if(/^set\s*\d+$/i.test(s))return s.toUpperCase().replace(/\s+/g,' ');
+    const lc=s.toLowerCase();
+    if(lc==='e'||lc==='enc'||lc==='encore')return 'ENCORE';
+    if(lc==='s'||lc==='sc'||lc==='soundcheck')return 'SOUNDCHECK';
+    return s.toUpperCase();
+  };
+
+  // ── Walk songs, render with proper transitions and collect footnotes ──
+  const footnotes=[];
+  const fnIdx=new Map();
+  const fnTagFor=(text)=>{
+    const clean=String(text||'').replace(/<[^>]*>/g,'').trim();
+    if(!clean)return '';
+    let n=fnIdx.get(clean);
+    if(n===undefined){ n=footnotes.length+1; fnIdx.set(clean,n); footnotes.push(clean); }
+    return `<sup style="opacity:.55;font-size:9px;font-weight:700;">[${n}]</sup>`;
+  };
+  // Returns the separator HTML to render BETWEEN this song and the next.
+  const segAfter=(s,isLast)=>{
+    if(isLast)return '';
+    // Prefer trans_mark (already rendered string like ", " or " > " or " -> ")
+    if(s.trans_mark!==undefined&&s.trans_mark!==null&&String(s.trans_mark).trim()!==''){
+      const tm=String(s.trans_mark).trim();
+      if(tm==='>'||tm==='&gt;')return ' &gt; ';
+      if(tm==='->'||tm==='-&gt;'||tm==='→')return ' &rarr; ';
+      if(tm===','||tm==='')return ', ';
+      return ` ${tm} `;
+    }
+    // Fall back to numeric transition code
+    const code=parseInt(s.transition);
+    if(code===2)return ' &gt; ';
+    if(code===3)return ' &rarr; ';
+    if(code===4)return ''; // hard set break — but we group by set anyway
+    return ', ';
+  };
+
+  let setsHtml='';
+  const sortedKeys=Object.keys(sets).sort((a,b)=>setRank(a)-setRank(b));
+  sortedKeys.forEach(key=>{
+    const songs=sets[key];
+    let line='';
+    songs.forEach((s,i)=>{
+      const name=String(s.song||s.songname||s.song_name||'').trim();
+      if(!name)return;
+      line+=name+fnTagFor(s.footnote)+segAfter(s,i===songs.length-1);
+    });
+    if(line)setsHtml+=`<div class="sl-set-lbl">${setLabel(key)}</div><div class="sl-songs">${line}</div>`;
+  });
+
+  // ── Show-level soundcheck (string field, separate from set='s' rows) ──
+  const sc=String(show.soundcheck||'').replace(/<[^>]*>/g,'').trim();
+  if(sc && !sortedKeys.some(k=>setRank(k)===200)){
+    setsHtml+=`<div class="sl-set-lbl">SOUNDCHECK</div><div class="sl-songs">${sc}</div>`;
+  }
+
+  // ── Show notes use `setlistnotes` on the v5/v2 schema ──
+  const notes=String(show.setlistnotes||show.shownotes||show.show_notes||show.notes||'').replace(/<[^>]*>/g,'').trim();
+
+  let trailing='';
+  if(footnotes.length){
+    trailing+=`<div class="sl-notes">`+footnotes.map((fn,i)=>`<div>[${i+1}] ${fn}</div>`).join('')+`</div>`;
+  }
+  if(notes){
+    trailing+=`<div class="sl-notes">${notes}</div>`;
+  }
+
   body.innerHTML=`
     <div class="sl-head">
       <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;">${rating}<span class="sl-meta">${venue||t.date}</span></div>
       <div class="sl-links">${links}</div>
     </div>
     ${isSnip?`<p class="sl-msg">Jam snippet from this show. Full setlist below:</p>`:''}
-    ${setsHtml}
-    ${notes?`<div class="sl-notes">${notes}</div>`:''}`;
+    ${setsHtml||`<p class="sl-msg">No setlist songs returned for ${t.date}.</p>`}
+    ${trailing}`;
 }
 
 // ── PHISH.IN: native render of phish.in API JSON ──────────────────────
