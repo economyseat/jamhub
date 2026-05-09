@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-05-08T10:54:39+00:00",
+  "generated_at": "2026-05-09T09:57:59+00:00",
   "goose": [
+    {
+      "id": "yA15Epb4BFY",
+      "title": "Goose 5/8/26 Viva El Gonzo, San Jose Del Cabo, Mexico Set 1 Opener",
+      "venue": "Goose Official · 2026-05-09",
+      "date": "2026-05-09",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "GEn0UBnrQhg",
       "title": "Goose 5/7/26 Viva El Gonzo, San Jose Del Cabo, Mexico Set 1 Opener",
@@ -164,16 +174,6 @@
     {
       "id": "Ex9BOCLtARE",
       "title": "“I Would Die 4 U” — Prince.",
-      "venue": "Goose Official · 2026-04-26",
-      "date": "2026-04-26",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "9d_On_a2tYs",
-      "title": "Big Modern! - 4/25/26 Irving, TX",
       "venue": "Goose Official · 2026-04-26",
       "date": "2026-04-26",
       "b": "g",
