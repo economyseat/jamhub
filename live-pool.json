@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-05-09T09:57:59+00:00",
+  "generated_at": "2026-05-10T10:43:46+00:00",
   "goose": [
+    {
+      "id": "ON0R40xty64",
+      "title": "Goose 5/9/26 Viva El Gonzo, San Jose Del Cabo, Mexico Set 1 Opener",
+      "venue": "Goose Official · 2026-05-10",
+      "date": "2026-05-10",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "yA15Epb4BFY",
       "title": "Goose 5/8/26 Viva El Gonzo, San Jose Del Cabo, Mexico Set 1 Opener",
@@ -166,16 +176,6 @@
       "title": "\"It Burns Within\" - 4/21/26 - Saenger Theatre (New Orleans, LA)",
       "venue": "Goose Official · 2026-04-27",
       "date": "2026-04-27",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "Ex9BOCLtARE",
-      "title": "“I Would Die 4 U” — Prince.",
-      "venue": "Goose Official · 2026-04-26",
-      "date": "2026-04-26",
       "b": "g",
       "snip": false,
       "mix": false,
