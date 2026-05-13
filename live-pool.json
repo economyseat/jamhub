@@ -1,6 +1,56 @@
 {
-  "generated_at": "2026-05-12T12:28:52+00:00",
+  "generated_at": "2026-05-13T13:38:34+00:00",
   "goose": [
+    {
+      "id": "WT9CkIXx9XI",
+      "title": "“Cortez the Killer” (Neil Young Cover) - 5/9/26 - Viva El Gonzo",
+      "venue": "Goose Official · 2026-05-12",
+      "date": "2026-05-12",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "GeqldfB6uDc",
+      "title": "Goose x Jim James - Cortez The Killer → Rockdale  - 5/9/26 Viva El Gonzo",
+      "venue": "Goose Official · 2026-05-12",
+      "date": "2026-05-12",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "k75mp69R0lk",
+      "title": "Viva El Gonzo - Day 1 Recap",
+      "venue": "Goose Official · 2026-05-12",
+      "date": "2026-05-12",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "v1FGHmzVgoE",
+      "title": "Viva El Gonzo - Day 2 Recap",
+      "venue": "Goose Official · 2026-05-12",
+      "date": "2026-05-12",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "jzeGikXIJg4",
+      "title": "Viva El Gonzo - Day 3 Recap",
+      "venue": "Goose Official · 2026-05-12",
+      "date": "2026-05-12",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "ON0R40xty64",
       "title": "Goose 5/9/26 Viva El Gonzo, San Jose Del Cabo, Mexico Set 1 Opener",
@@ -112,46 +162,6 @@
       "live": true
     },
     {
-      "id": "M4FbWEhCwlA",
-      "title": "\"Elmeg The Wise\" - 4/10/26 - Harrah's Cherokee Center (Ashville, NC)",
-      "venue": "Goose Official · 2026-04-28",
-      "date": "2026-04-28",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "0r3tamMoDPM",
-      "title": "Happy bithday, Sam!",
-      "venue": "Goose Official · 2026-04-28",
-      "date": "2026-04-28",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "Vf_IPTHwADo",
-      "title": "\"I Would Die 4 U\" - Prince",
-      "venue": "Goose Official · 2026-04-28",
-      "date": "2026-04-28",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "MXKG33V0sCU",
-      "title": "Very BIG. Very MODERN.",
-      "venue": "Goose Official · 2026-04-28",
-      "date": "2026-04-28",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
       "id": "3ni2n6h56LY",
       "title": "Goose jam snips - 4/23/26 \"Red Bird\"",
       "venue": "@jamsnips · 2026-04-27",
@@ -168,16 +178,6 @@
       "date": "2026-04-27",
       "b": "g",
       "snip": true,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "7i3U-LdVSLY",
-      "title": "\"It Burns Within\" - 4/21/26 - Saenger Theatre (New Orleans, LA)",
-      "venue": "Goose Official · 2026-04-27",
-      "date": "2026-04-27",
-      "b": "g",
-      "snip": false,
       "mix": false,
       "live": true
     },
