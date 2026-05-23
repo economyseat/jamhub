@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T15:58:28+00:00",
+  "generated_at": "2026-05-23T10:59:52+00:00",
   "goose": [
     {
       "id": "WT9CkIXx9XI",
@@ -264,6 +264,16 @@
   ],
   "phish": [
     {
+      "id": "JCK-s08RCCA",
+      "title": "Phish Live At Sphere - 4/25/2026 - Chalk Dust Torture",
+      "venue": "Phish Official · 2026-05-22",
+      "date": "2026-05-22",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
       "id": "o28hu3sa0SA",
       "title": "Phish Live At Sphere - 4/18/2026 - Sigma Oasis",
       "venue": "Phish Official · 2026-05-13",
@@ -438,16 +448,6 @@
       "title": "1/31/2026 - My Friend, My Friend (4K HDR) Riviera Maya, MX",
       "venue": "Phish Official · 2026-02-04",
       "date": "2026-02-04",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "bvfetVnETyQ",
-      "title": "1/31/2026 - A Song I Heard The Ocean Sing → Beneath a Sea of Stars (4K HDR) Riviera Maya, MX",
-      "venue": "Phish Official · 2026-02-02",
-      "date": "2026-02-02",
       "b": "p",
       "snip": false,
       "mix": false,
