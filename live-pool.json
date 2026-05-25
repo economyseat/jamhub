@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-05-24T11:01:11+00:00",
+  "generated_at": "2026-05-25T16:06:16+00:00",
   "goose": [
+    {
+      "id": "pMsy8pniiRM",
+      "title": "“Big Modern!” - 5/22/25 - Electric Brixton (London, UK)",
+      "venue": "Goose Official · 2026-05-25",
+      "date": "2026-05-25",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "NrnVx69ysPk",
+      "title": "Goose 5/22/26 Electric Brixton, London, UK Set I Opener",
+      "venue": "Goose Official · 2026-05-25",
+      "date": "2026-05-25",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "WT9CkIXx9XI",
       "title": "“Cortez the Killer” (Neil Young Cover) - 5/9/26 - Viva El Gonzo",
@@ -138,26 +158,6 @@
       "date": "2026-04-29",
       "b": "g",
       "snip": true,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "WwrGvx652y8",
-      "title": "Fort Lauderdale Night 2 premiering Friday, May 1 at 8 PM ET.",
-      "venue": "Goose Official · 2026-04-29",
-      "date": "2026-04-29",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "VrucxGjAMLY",
-      "title": "NOLA Night 1 premiering on Saturday, May 2 at 8 PM ET.",
-      "venue": "Goose Official · 2026-04-29",
-      "date": "2026-04-29",
-      "b": "g",
-      "snip": false,
       "mix": false,
       "live": true
     },
