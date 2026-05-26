@@ -1,6 +1,36 @@
 {
-  "generated_at": "2026-05-25T16:06:16+00:00",
+  "generated_at": "2026-05-26T17:47:42+00:00",
   "goose": [
+    {
+      "id": "vuhruXw4SeE",
+      "title": "\"So Ready\" - 5/22/26 - Electric Brixton (London, UK)",
+      "venue": "Goose Official · 2026-05-26",
+      "date": "2026-05-26",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "YmZ6lk4nWqY",
+      "title": "Goose 5/23/26 Electric Brixton, London, UK Set I Opener",
+      "venue": "Goose Official · 2026-05-26",
+      "date": "2026-05-26",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "NjXiEuGTCkE",
+      "title": "\"MEDIA\" - 5/23/25 - Electric Brixton (London, UK)",
+      "venue": "Goose Official · 2026-05-25",
+      "date": "2026-05-25",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "pMsy8pniiRM",
       "title": "“Big Modern!” - 5/22/25 - Electric Brixton (London, UK)",
@@ -116,36 +146,6 @@
       "title": "Torero (Official Lyric Video)",
       "venue": "Goose Official · 2026-05-05",
       "date": "2026-05-05",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "Bdqgb79SpqM",
-      "title": "Good2B (Official Lyric Video)",
-      "venue": "Goose Official · 2026-05-04",
-      "date": "2026-05-04",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "g7nHoBlmM_w",
-      "title": "Goose Live in New Orleans 2026 (Night 1)",
-      "venue": "Goose Official · 2026-05-03",
-      "date": "2026-05-03",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "sYRb1__K8co",
-      "title": "Goose Live in Ft. Lauderdale 2026 (Night 2)",
-      "venue": "Goose Official · 2026-05-02",
-      "date": "2026-05-02",
       "b": "g",
       "snip": false,
       "mix": false,
