@@ -1,11 +1,21 @@
 {
-  "generated_at": "2026-05-31T08:38:53+00:00",
+  "generated_at": "2026-06-01T11:22:39+00:00",
   "goose": [
+    {
+      "id": "yFkxFamAcQA",
+      "title": "Goose 5/28/26 Melkweg, Amsterdam, NL Set I Opener",
+      "venue": "Goose Official · 2026-05-31",
+      "date": "2026-05-31",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "gWOQWp9008w",
       "title": "Goose 5/27/26 Melkweg, Amsterdam, NL Set I Opener",
-      "venue": "Goose Official · 2026-05-30",
-      "date": "2026-05-30",
+      "venue": "Goose Official · 2026-05-31",
+      "date": "2026-05-31",
       "b": "g",
       "snip": false,
       "mix": false,
@@ -136,16 +146,6 @@
       "title": "Goose 5/8/26 Viva El Gonzo, San Jose Del Cabo, Mexico Set 1 Opener",
       "venue": "Goose Official · 2026-05-09",
       "date": "2026-05-09",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "GEn0UBnrQhg",
-      "title": "Goose 5/7/26 Viva El Gonzo, San Jose Del Cabo, Mexico Set 1 Opener",
-      "venue": "Goose Official · 2026-05-08",
-      "date": "2026-05-08",
       "b": "g",
       "snip": false,
       "mix": false,
