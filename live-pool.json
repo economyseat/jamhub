@@ -1,11 +1,21 @@
 {
-  "generated_at": "2026-06-05T09:38:11+00:00",
+  "generated_at": "2026-06-06T08:28:25+00:00",
   "goose": [
+    {
+      "id": "KOCtrU5ubeE",
+      "title": "Goose 6/1/26 Elysee Montmartre Paris, FR Set I Opener",
+      "venue": "Goose Official · 2026-06-05",
+      "date": "2026-06-05",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "XsmJy5AYisQ",
       "title": "Goose 5/30/26 Burgerhaus Stollwerck, Cologne, DEU Set I Opener",
-      "venue": "Goose Official · 2026-06-04",
-      "date": "2026-06-04",
+      "venue": "Goose Official · 2026-06-05",
+      "date": "2026-06-05",
       "b": "g",
       "snip": false,
       "mix": false,
@@ -136,16 +146,6 @@
       "title": "Viva El Gonzo - Day 3 Recap",
       "venue": "Goose Official · 2026-05-12",
       "date": "2026-05-12",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "ON0R40xty64",
-      "title": "Goose 5/9/26 Viva El Gonzo, San Jose Del Cabo, Mexico Set 1 Opener",
-      "venue": "Goose Official · 2026-05-10",
-      "date": "2026-05-10",
       "b": "g",
       "snip": false,
       "mix": false,
