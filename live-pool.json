@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-06-09T09:33:31+00:00",
+  "generated_at": "2026-06-10T09:49:45+00:00",
   "goose": [
+    {
+      "id": "tnJKCQAj0HI",
+      "title": "Goose 6/3/26 Festaal Kreuzberg, Berlin, DEU Set I Opener",
+      "venue": "Goose Official · 2026-06-09",
+      "date": "2026-06-09",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "PtFOGjg2WB0",
       "title": "Goose 5/9/26 Round Rocks, Viva El Gonzo, San Jose del Cabo, Mexico",
@@ -134,16 +144,6 @@
     {
       "id": "GeqldfB6uDc",
       "title": "Goose x Jim James - Cortez The Killer → Rockdale  - 5/9/26 Viva El Gonzo",
-      "venue": "Goose Official · 2026-05-12",
-      "date": "2026-05-12",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "k75mp69R0lk",
-      "title": "Viva El Gonzo - Day 1 Recap",
       "venue": "Goose Official · 2026-05-12",
       "date": "2026-05-12",
       "b": "g",
