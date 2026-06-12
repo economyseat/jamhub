@@ -1,151 +1,151 @@
 {
-  "generated_at": "2026-06-11T10:15:17+00:00",
+  "generated_at": "2026-06-12T10:03:11+00:00",
   "goose": [
+    {
+      "id": "5snl5yhrAUs",
+      "title": "(begin) (Official Visualizer)",
+      "venue": "Goose Official · 2026-06-12",
+      "date": "2026-06-12",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "cUU5YfKjc4k",
+      "title": "Big Modern! (Official Lyric Video)",
+      "venue": "Goose Official · 2026-06-12",
+      "date": "2026-06-12",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "MimiXYvnKsI",
+      "title": "(again) (Official Visualizer)",
+      "venue": "Goose Official · 2026-06-12",
+      "date": "2026-06-12",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "DAHwumDj3TY",
+      "title": "POP (Official Visualizer)",
+      "venue": "Goose Official · 2026-06-12",
+      "date": "2026-06-12",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "ssmCEp3NO-4",
+      "title": "(you are here) (Official Visualizer)",
+      "venue": "Goose Official · 2026-06-12",
+      "date": "2026-06-12",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "ElNQOVv9ztM",
+      "title": "Savenger (Official Visualizer)",
+      "venue": "Goose Official · 2026-06-12",
+      "date": "2026-06-12",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "Ght3ixp71as",
+      "title": "((savengersspell)) (Official Visualizer)",
+      "venue": "Goose Official · 2026-06-12",
+      "date": "2026-06-12",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "IFPCineX9wY",
+      "title": "SALT (Official Visualizer)",
+      "venue": "Goose Official · 2026-06-12",
+      "date": "2026-06-12",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "BrtASMXuu3k",
+      "title": "MEDIA (Official Visualizer)",
+      "venue": "Goose Official · 2026-06-12",
+      "date": "2026-06-12",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "yX-Tsb-BkBs",
+      "title": "((nocturne)) (Official Visualizer)",
+      "venue": "Goose Official · 2026-06-12",
+      "date": "2026-06-12",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "Ck8IQKIcxsA",
+      "title": "(faena) (Official Visualizer)",
+      "venue": "Goose Official · 2026-06-12",
+      "date": "2026-06-12",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "io_K1M33gCI",
+      "title": "(((postplace))) (Official Visualizer)",
+      "venue": "Goose Official · 2026-06-12",
+      "date": "2026-06-12",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "6zbLUVyOzl4",
+      "title": "BIG MODERN! Available everywhere at midnight ET.",
+      "venue": "Goose Official · 2026-06-11",
+      "date": "2026-06-11",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "iptqN9Z0BS8",
+      "title": "Good Times // End Times (Official Music Video)",
+      "venue": "Goose Official · 2026-06-11",
+      "date": "2026-06-11",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "tnJKCQAj0HI",
       "title": "Goose 6/3/26 Festaal Kreuzberg, Berlin, DEU Set I Opener",
       "venue": "Goose Official · 2026-06-10",
       "date": "2026-06-10",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "PtFOGjg2WB0",
-      "title": "Goose 5/9/26 Round Rocks, Viva El Gonzo, San Jose del Cabo, Mexico",
-      "venue": "Goose Official · 2026-06-08",
-      "date": "2026-06-08",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "20QoBRu4-sg",
-      "title": "True Love Waits feat. Mikaela Davis (Radiohead Cover) - 5/9/26 - Viva El Gonzo",
-      "venue": "Goose Official · 2026-06-06",
-      "date": "2026-06-06",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "KOCtrU5ubeE",
-      "title": "Goose 6/1/26 Elysee Montmartre Paris, FR Set I Opener",
-      "venue": "Goose Official · 2026-06-06",
-      "date": "2026-06-06",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "XsmJy5AYisQ",
-      "title": "Goose 5/30/26 Burgerhaus Stollwerck, Cologne, DEU Set I Opener",
-      "venue": "Goose Official · 2026-06-05",
-      "date": "2026-06-05",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "yFkxFamAcQA",
-      "title": "Goose 5/28/26 Melkweg, Amsterdam, NL Set I Opener",
-      "venue": "Goose Official · 2026-06-01",
-      "date": "2026-06-01",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "gWOQWp9008w",
-      "title": "Goose 5/27/26 Melkweg, Amsterdam, NL Set I Opener",
-      "venue": "Goose Official · 2026-05-31",
-      "date": "2026-05-31",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "B2mdKnr049I",
-      "title": "Goose 5/25/26 La Madeleine, Brussels, BE Set I Opener",
-      "venue": "Goose Official · 2026-05-30",
-      "date": "2026-05-30",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "vuhruXw4SeE",
-      "title": "\"So Ready\" - 5/22/26 - Electric Brixton (London, UK)",
-      "venue": "Goose Official · 2026-05-26",
-      "date": "2026-05-26",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "YmZ6lk4nWqY",
-      "title": "Goose 5/23/26 Electric Brixton, London, UK Set I Opener",
-      "venue": "Goose Official · 2026-05-26",
-      "date": "2026-05-26",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "NjXiEuGTCkE",
-      "title": "\"MEDIA\" - 5/23/25 - Electric Brixton (London, UK)",
-      "venue": "Goose Official · 2026-05-25",
-      "date": "2026-05-25",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "pMsy8pniiRM",
-      "title": "“Big Modern!” - 5/22/25 - Electric Brixton (London, UK)",
-      "venue": "Goose Official · 2026-05-25",
-      "date": "2026-05-25",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "NrnVx69ysPk",
-      "title": "Goose 5/22/26 Electric Brixton, London, UK Set I Opener",
-      "venue": "Goose Official · 2026-05-25",
-      "date": "2026-05-25",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "WT9CkIXx9XI",
-      "title": "“Cortez the Killer” (Neil Young Cover) - 5/9/26 - Viva El Gonzo",
-      "venue": "Goose Official · 2026-05-12",
-      "date": "2026-05-12",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "GeqldfB6uDc",
-      "title": "Goose x Jim James - Cortez The Killer → Rockdale  - 5/9/26 Viva El Gonzo",
-      "venue": "Goose Official · 2026-05-12",
-      "date": "2026-05-12",
       "b": "g",
       "snip": false,
       "mix": false,
