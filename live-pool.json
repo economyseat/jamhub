@@ -1,6 +1,36 @@
 {
-  "generated_at": "2026-06-12T10:03:11+00:00",
+  "generated_at": "2026-06-13T08:51:54+00:00",
   "goose": [
+    {
+      "id": "2f8vmINwOVM",
+      "title": "Goose 6/5/26 Northside Festival, Viby, DK",
+      "venue": "Goose Official · 2026-06-12",
+      "date": "2026-06-12",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "ZL2cQKYHTbs",
+      "title": "\"Good Times // End Times\" Official Video",
+      "venue": "Goose Official · 2026-06-12",
+      "date": "2026-06-12",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "iptqN9Z0BS8",
+      "title": "Good Times // End Times (Official Music Video)",
+      "venue": "Goose Official · 2026-06-12",
+      "date": "2026-06-12",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "5snl5yhrAUs",
       "title": "(begin) (Official Visualizer)",
@@ -116,36 +146,6 @@
       "title": "(((postplace))) (Official Visualizer)",
       "venue": "Goose Official · 2026-06-12",
       "date": "2026-06-12",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "6zbLUVyOzl4",
-      "title": "BIG MODERN! Available everywhere at midnight ET.",
-      "venue": "Goose Official · 2026-06-11",
-      "date": "2026-06-11",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "iptqN9Z0BS8",
-      "title": "Good Times // End Times (Official Music Video)",
-      "venue": "Goose Official · 2026-06-11",
-      "date": "2026-06-11",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "tnJKCQAj0HI",
-      "title": "Goose 6/3/26 Festaal Kreuzberg, Berlin, DEU Set I Opener",
-      "venue": "Goose Official · 2026-06-10",
-      "date": "2026-06-10",
       "b": "g",
       "snip": false,
       "mix": false,
