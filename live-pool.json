@@ -1,11 +1,31 @@
 {
-  "generated_at": "2026-06-13T08:51:54+00:00",
+  "generated_at": "2026-06-14T09:26:36+00:00",
   "goose": [
+    {
+      "id": "FERprxLbWbY",
+      "title": "Goose 6/13/26  RBC Amphitheatre, Toronto, ONSet I Opener",
+      "venue": "Goose Official · 2026-06-13",
+      "date": "2026-06-13",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "_zR289O3tyk",
+      "title": "JUST HOPING THAT IT'S NOT TO LATE  TO STOP P R E T E N D I N G  AND         START B E G I N N I N G",
+      "venue": "Goose Official · 2026-06-13",
+      "date": "2026-06-13",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "2f8vmINwOVM",
       "title": "Goose 6/5/26 Northside Festival, Viby, DK",
-      "venue": "Goose Official · 2026-06-12",
-      "date": "2026-06-12",
+      "venue": "Goose Official · 2026-06-13",
+      "date": "2026-06-13",
       "b": "g",
       "snip": false,
       "mix": false,
@@ -124,26 +144,6 @@
     {
       "id": "yX-Tsb-BkBs",
       "title": "((nocturne)) (Official Visualizer)",
-      "venue": "Goose Official · 2026-06-12",
-      "date": "2026-06-12",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "Ck8IQKIcxsA",
-      "title": "(faena) (Official Visualizer)",
-      "venue": "Goose Official · 2026-06-12",
-      "date": "2026-06-12",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "io_K1M33gCI",
-      "title": "(((postplace))) (Official Visualizer)",
       "venue": "Goose Official · 2026-06-12",
       "date": "2026-06-12",
       "b": "g",
