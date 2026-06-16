@@ -1,9 +1,29 @@
 {
-  "generated_at": "2026-06-15T11:54:37+00:00",
+  "generated_at": "2026-06-16T11:02:45+00:00",
   "goose": [
     {
+      "id": "sRcvonqRipU",
+      "title": "Goose 6/15/26  The Dome, Virginia Beach, VA Set I Opener",
+      "venue": "Goose Official · 2026-06-15",
+      "date": "2026-06-15",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "OirasNUc10c",
+      "title": "Travelers → This Old Sea (feat. Julian Lage) - 6/13/26 Toronto, ON, CA",
+      "venue": "Goose Official · 2026-06-15",
+      "date": "2026-06-15",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
       "id": "FERprxLbWbY",
-      "title": "Goose 6/13/26  RBC Amphitheatre, Toronto, ONSet I Opener",
+      "title": "Goose 6/13/26  RBC Amphitheatre, Toronto, ON Set I Opener",
       "venue": "Goose Official · 2026-06-14",
       "date": "2026-06-14",
       "b": "g",
@@ -124,26 +144,6 @@
     {
       "id": "IFPCineX9wY",
       "title": "SALT (Official Visualizer)",
-      "venue": "Goose Official · 2026-06-12",
-      "date": "2026-06-12",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "BrtASMXuu3k",
-      "title": "MEDIA (Official Visualizer)",
-      "venue": "Goose Official · 2026-06-12",
-      "date": "2026-06-12",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "yX-Tsb-BkBs",
-      "title": "((nocturne)) (Official Visualizer)",
       "venue": "Goose Official · 2026-06-12",
       "date": "2026-06-12",
       "b": "g",
