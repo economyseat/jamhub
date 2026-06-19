@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-06-18T10:14:07+00:00",
+  "generated_at": "2026-06-19T10:19:11+00:00",
   "goose": [
+    {
+      "id": "yUK7oQd985c",
+      "title": "Red Bird - 6/16/26 Virginia Beach, VA",
+      "venue": "Goose Official · 2026-06-19",
+      "date": "2026-06-19",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "9R1sRYgvV44",
       "title": "Goose 6/16/26  The Dome, Virginia Beach, VA Set I Opener",
@@ -134,16 +144,6 @@
     {
       "id": "ElNQOVv9ztM",
       "title": "Savenger (Official Visualizer)",
-      "venue": "Goose Official · 2026-06-12",
-      "date": "2026-06-12",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "Ght3ixp71as",
-      "title": "((savengersspell)) (Official Visualizer)",
       "venue": "Goose Official · 2026-06-12",
       "date": "2026-06-12",
       "b": "g",
