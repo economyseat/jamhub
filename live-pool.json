@@ -1,11 +1,21 @@
 {
-  "generated_at": "2026-06-20T08:47:53+00:00",
+  "generated_at": "2026-06-21T09:42:49+00:00",
   "goose": [
+    {
+      "id": "mFW9rPofGJ8",
+      "title": "Goose 6/20/26  Madison Square Garden, New York, NY Set I Opener",
+      "venue": "Goose Official · 2026-06-21",
+      "date": "2026-06-21",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "qiwS73Aqdec",
       "title": "Goose 6/19/26  Madison Square Garden, New York, NY Set I Opener",
-      "venue": "Goose Official · 2026-06-19",
-      "date": "2026-06-19",
+      "venue": "Goose Official · 2026-06-20",
+      "date": "2026-06-20",
       "b": "g",
       "snip": false,
       "mix": false,
@@ -134,16 +144,6 @@
     {
       "id": "DAHwumDj3TY",
       "title": "POP (Official Visualizer)",
-      "venue": "Goose Official · 2026-06-12",
-      "date": "2026-06-12",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "ssmCEp3NO-4",
-      "title": "(you are here) (Official Visualizer)",
       "venue": "Goose Official · 2026-06-12",
       "date": "2026-06-12",
       "b": "g",
