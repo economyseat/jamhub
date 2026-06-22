@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-06-21T09:42:49+00:00",
+  "generated_at": "2026-06-22T11:44:26+00:00",
   "goose": [
+    {
+      "id": "JfVBgc5htpI",
+      "title": "Goose 6/21/26 SummerStage at Central Park, New York, NY Set I Opener",
+      "venue": "Goose Official · 2026-06-22",
+      "date": "2026-06-22",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "mFW9rPofGJ8",
       "title": "Goose 6/20/26  Madison Square Garden, New York, NY Set I Opener",
@@ -134,16 +144,6 @@
     {
       "id": "MimiXYvnKsI",
       "title": "(again) (Official Visualizer)",
-      "venue": "Goose Official · 2026-06-12",
-      "date": "2026-06-12",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "DAHwumDj3TY",
-      "title": "POP (Official Visualizer)",
       "venue": "Goose Official · 2026-06-12",
       "date": "2026-06-12",
       "b": "g",
