@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-06-23T09:30:24+00:00",
+  "generated_at": "2026-06-24T08:58:50+00:00",
   "goose": [
+    {
+      "id": "dQihubtJBGY",
+      "title": "Goose 6/23/26 Firefly Distillery, Charleston, SC Set I Opener",
+      "venue": "Goose Official · 2026-06-23",
+      "date": "2026-06-23",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "JfVBgc5htpI",
       "title": "Goose 6/21/26 SummerStage at Central Park, New York, NY Set I Opener",
@@ -134,16 +144,6 @@
     {
       "id": "cUU5YfKjc4k",
       "title": "Big Modern! (Official Lyric Video)",
-      "venue": "Goose Official · 2026-06-12",
-      "date": "2026-06-12",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "MimiXYvnKsI",
-      "title": "(again) (Official Visualizer)",
       "venue": "Goose Official · 2026-06-12",
       "date": "2026-06-12",
       "b": "g",
