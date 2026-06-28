@@ -1,11 +1,41 @@
 {
-  "generated_at": "2026-06-27T08:30:39+00:00",
+  "generated_at": "2026-06-28T08:45:34+00:00",
   "goose": [
+    {
+      "id": "QjwqK-PgG_I",
+      "title": "Rosewood Heart - 6/27/26 Raleigh, NC",
+      "venue": "Goose Official · 2026-06-28",
+      "date": "2026-06-28",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "Lo5Ct3Fw3Ss",
+      "title": "Thatch → Good2B - 6/24/26 Charleston, SC",
+      "venue": "Goose Official · 2026-06-28",
+      "date": "2026-06-28",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "YN9Apw9WTjY",
+      "title": "Goose 6/27/26 Red Hat Amphitheater, Raleigh, NC Set I Opener",
+      "venue": "Goose Official · 2026-06-27",
+      "date": "2026-06-27",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "Jo9nAYe57H0",
       "title": "Goose 6/26/26 Red Hat Amphitheater, Raleigh, NC Set I Opener",
-      "venue": "Goose Official · 2026-06-26",
-      "date": "2026-06-26",
+      "venue": "Goose Official · 2026-06-27",
+      "date": "2026-06-27",
       "b": "g",
       "snip": false,
       "mix": false,
@@ -116,36 +146,6 @@
       "title": "JUST HOPING THAT IT'S NOT TO LATE  TO STOP P R E T E N D I N G  AND         START B E G I N N I N G",
       "venue": "Goose Official · 2026-06-13",
       "date": "2026-06-13",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "2f8vmINwOVM",
-      "title": "Goose 6/5/26 Northside Festival, Viby, DK",
-      "venue": "Goose Official · 2026-06-13",
-      "date": "2026-06-13",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "ZL2cQKYHTbs",
-      "title": "\"Good Times // End Times\" Official Video",
-      "venue": "Goose Official · 2026-06-12",
-      "date": "2026-06-12",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "iptqN9Z0BS8",
-      "title": "Good Times // End Times (Official Music Video)",
-      "venue": "Goose Official · 2026-06-12",
-      "date": "2026-06-12",
       "b": "g",
       "snip": false,
       "mix": false,
