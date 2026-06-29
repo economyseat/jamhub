@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-06-28T08:45:34+00:00",
+  "generated_at": "2026-06-29T10:47:27+00:00",
   "goose": [
+    {
+      "id": "EPaRllCLZK8",
+      "title": "Goose 6/28/26 Merriweather Post Pavilion, Columbia, MD Set I Opener",
+      "venue": "Goose Official · 2026-06-28",
+      "date": "2026-06-28",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "YN9Apw9WTjY",
+      "title": "Goose 6/27/26 Red Hat Amphitheater, Raleigh, NC Set I Opener",
+      "venue": "Goose Official · 2026-06-28",
+      "date": "2026-06-28",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "QjwqK-PgG_I",
       "title": "Rosewood Heart - 6/27/26 Raleigh, NC",
@@ -16,16 +36,6 @@
       "title": "Thatch → Good2B - 6/24/26 Charleston, SC",
       "venue": "Goose Official · 2026-06-28",
       "date": "2026-06-28",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "YN9Apw9WTjY",
-      "title": "Goose 6/27/26 Red Hat Amphitheater, Raleigh, NC Set I Opener",
-      "venue": "Goose Official · 2026-06-27",
-      "date": "2026-06-27",
       "b": "g",
       "snip": false,
       "mix": false,
@@ -136,16 +146,6 @@
       "title": "Goose 6/13/26  RBC Amphitheatre, Toronto, ON Set I Opener",
       "venue": "Goose Official · 2026-06-14",
       "date": "2026-06-14",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "_zR289O3tyk",
-      "title": "JUST HOPING THAT IT'S NOT TO LATE  TO STOP P R E T E N D I N G  AND         START B E G I N N I N G",
-      "venue": "Goose Official · 2026-06-13",
-      "date": "2026-06-13",
       "b": "g",
       "snip": false,
       "mix": false,
