@@ -1,11 +1,21 @@
 {
-  "generated_at": "2026-06-29T10:47:27+00:00",
+  "generated_at": "2026-06-30T09:25:22+00:00",
   "goose": [
+    {
+      "id": "25JVAl6UdIo",
+      "title": "Arcadia - 6/28/26 Columbia, MD",
+      "venue": "Goose Official · 2026-06-29",
+      "date": "2026-06-29",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "EPaRllCLZK8",
       "title": "Goose 6/28/26 Merriweather Post Pavilion, Columbia, MD Set I Opener",
-      "venue": "Goose Official · 2026-06-28",
-      "date": "2026-06-28",
+      "venue": "Goose Official · 2026-06-29",
+      "date": "2026-06-29",
       "b": "g",
       "snip": false,
       "mix": false,
@@ -136,16 +146,6 @@
       "title": "Travelers → This Old Sea (feat. Julian Lage) - 6/13/26 Toronto, ON, CA",
       "venue": "Goose Official · 2026-06-15",
       "date": "2026-06-15",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "FERprxLbWbY",
-      "title": "Goose 6/13/26  RBC Amphitheatre, Toronto, ON Set I Opener",
-      "venue": "Goose Official · 2026-06-14",
-      "date": "2026-06-14",
       "b": "g",
       "snip": false,
       "mix": false,
