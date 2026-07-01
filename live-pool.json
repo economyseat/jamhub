@@ -1,6 +1,66 @@
 {
-  "generated_at": "2026-06-30T09:25:22+00:00",
+  "generated_at": "2026-07-01T09:37:20+00:00",
   "goose": [
+    {
+      "id": "qaDlXKmTr6U",
+      "title": "Goose 6/30/26 Leader Bank Pavilion, Boston, MA Set I Opener",
+      "venue": "Goose Official · 2026-06-30",
+      "date": "2026-06-30",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "B5oyp1hYh-Y",
+      "title": "Good Times // End Times → (((postplace))) → Big Modern! - New York, NY MSG 2026",
+      "venue": "Goose Official · 2026-06-30",
+      "date": "2026-06-30",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "ULWdIa3IOpI",
+      "title": "\"Savenger\"\" - 6/27/26 -  Red Hat Amphitheater (Raleigh, NC)\"",
+      "venue": "Goose Official · 2026-06-30",
+      "date": "2026-06-30",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "oEgJWu9I5nA",
+      "title": "\"POP\" - 6/27/26 -  Red Hat Amphitheater (Raleigh, NC)",
+      "venue": "Goose Official · 2026-06-30",
+      "date": "2026-06-30",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "oF3S-8yzV3c",
+      "title": "\"Arcadia\"\" - 6/28/26 -  Merriweather Post Pavilion (Columbia, MD)\"",
+      "venue": "Goose Official · 2026-06-30",
+      "date": "2026-06-30",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "aRk3zOTy-_c",
+      "title": "“Good Times // End Times” - 6/28/26 - Merriweather Post Pavilion (Columbia, MD)",
+      "venue": "Goose Official · 2026-06-30",
+      "date": "2026-06-30",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "25JVAl6UdIo",
       "title": "Arcadia - 6/28/26 Columbia, MD",
@@ -86,66 +146,6 @@
       "title": "Goose 6/21/26 SummerStage at Central Park, New York, NY Set I Opener",
       "venue": "Goose Official · 2026-06-22",
       "date": "2026-06-22",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "mFW9rPofGJ8",
-      "title": "Goose 6/20/26  Madison Square Garden, New York, NY Set I Opener",
-      "venue": "Goose Official · 2026-06-21",
-      "date": "2026-06-21",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "qiwS73Aqdec",
-      "title": "Goose 6/19/26  Madison Square Garden, New York, NY Set I Opener",
-      "venue": "Goose Official · 2026-06-20",
-      "date": "2026-06-20",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "yUK7oQd985c",
-      "title": "Red Bird - 6/16/26 Virginia Beach, VA",
-      "venue": "Goose Official · 2026-06-19",
-      "date": "2026-06-19",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "9R1sRYgvV44",
-      "title": "Goose 6/16/26  The Dome, Virginia Beach, VA Set I Opener",
-      "venue": "Goose Official · 2026-06-17",
-      "date": "2026-06-17",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "sRcvonqRipU",
-      "title": "Goose 6/15/26  The Dome, Virginia Beach, VA Set I Opener",
-      "venue": "Goose Official · 2026-06-16",
-      "date": "2026-06-16",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "OirasNUc10c",
-      "title": "Travelers → This Old Sea (feat. Julian Lage) - 6/13/26 Toronto, ON, CA",
-      "venue": "Goose Official · 2026-06-15",
-      "date": "2026-06-15",
       "b": "g",
       "snip": false,
       "mix": false,
