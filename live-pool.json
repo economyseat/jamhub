@@ -1,11 +1,31 @@
 {
-  "generated_at": "2026-07-01T09:37:20+00:00",
+  "generated_at": "2026-07-02T08:48:42+00:00",
   "goose": [
+    {
+      "id": "wnoNMwLPRhc",
+      "title": "Goose 7/1/26 Leader Bank Pavilion, Boston, MA Set I Opener",
+      "venue": "Goose Official · 2026-07-01",
+      "date": "2026-07-01",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "I7nLbRLKa5Y",
+      "title": "“Into the Myst\" - 6/30/26 - Leader Bank Pavilion (Boston, MA)",
+      "venue": "Goose Official · 2026-07-01",
+      "date": "2026-07-01",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "qaDlXKmTr6U",
       "title": "Goose 6/30/26 Leader Bank Pavilion, Boston, MA Set I Opener",
-      "venue": "Goose Official · 2026-06-30",
-      "date": "2026-06-30",
+      "venue": "Goose Official · 2026-07-01",
+      "date": "2026-07-01",
       "b": "g",
       "snip": false,
       "mix": false,
@@ -126,26 +146,6 @@
       "title": "Goose 6/24/26 Firefly Distillery, Charleston, SC Set I Opener",
       "venue": "Goose Official · 2026-06-25",
       "date": "2026-06-25",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "dQihubtJBGY",
-      "title": "Goose 6/23/26 Firefly Distillery, Charleston, SC Set I Opener",
-      "venue": "Goose Official · 2026-06-24",
-      "date": "2026-06-24",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "JfVBgc5htpI",
-      "title": "Goose 6/21/26 SummerStage at Central Park, New York, NY Set I Opener",
-      "venue": "Goose Official · 2026-06-22",
-      "date": "2026-06-22",
       "b": "g",
       "snip": false,
       "mix": false,
