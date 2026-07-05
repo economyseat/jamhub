@@ -1,11 +1,21 @@
 {
-  "generated_at": "2026-07-04T08:30:12+00:00",
+  "generated_at": "2026-07-05T08:46:30+00:00",
   "goose": [
+    {
+      "id": "qYtZFirbQuI",
+      "title": "Goose 7/4/26 Saratoga Performing Arts Center, Saratoga Springs, NY Set I Opener",
+      "venue": "Goose Official · 2026-07-04",
+      "date": "2026-07-04",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "JH0UyiSJOdk",
       "title": "Goose 7/3/26 Saratoga Performing Arts Center, Saratoga Springs, NY Set I Opener",
-      "venue": "Goose Official · 2026-07-03",
-      "date": "2026-07-03",
+      "venue": "Goose Official · 2026-07-04",
+      "date": "2026-07-04",
       "b": "g",
       "snip": false,
       "mix": false,
@@ -134,16 +144,6 @@
     {
       "id": "QjwqK-PgG_I",
       "title": "Rosewood Heart - 6/27/26 Raleigh, NC",
-      "venue": "Goose Official · 2026-06-28",
-      "date": "2026-06-28",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "Lo5Ct3Fw3Ss",
-      "title": "Thatch → Good2B - 6/24/26 Charleston, SC",
       "venue": "Goose Official · 2026-06-28",
       "date": "2026-06-28",
       "b": "g",
