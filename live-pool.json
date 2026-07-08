@@ -1,6 +1,56 @@
 {
-  "generated_at": "2026-07-07T09:32:44+00:00",
+  "generated_at": "2026-07-08T08:18:49+00:00",
   "goose": [
+    {
+      "id": "CA8ToQoIkeU",
+      "title": "\"Earthling or Alien\" - 6/30/26 -  Leader Bank Pavilion (Boston, MA)",
+      "venue": "Goose Official · 2026-07-07",
+      "date": "2026-07-07",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "9Ibz61OrD3k",
+      "title": "\"Creatures\" - 7/1/26 -  Leader Bank Pavilion (Boston, MA)",
+      "venue": "Goose Official · 2026-07-07",
+      "date": "2026-07-07",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "y1rnh54XX-M",
+      "title": "\"AUATC\" (Bon Iver) - 6/24/26 -  Firefly Distillery (Charleston, SC)",
+      "venue": "Goose Official · 2026-07-07",
+      "date": "2026-07-07",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "6v1fQ7yBZbA",
+      "title": "\"Animal\"\" - 7/2/26 -  Saratoga Performing Arts Center (Saratoga Springs, NY)\"",
+      "venue": "Goose Official · 2026-07-07",
+      "date": "2026-07-07",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "emiRGj9Gb1w",
+      "title": "\"US Blues\" (Grateful Dead) - 7/2/26 -  Saratoga Performing Arts Center (Saratoga Springs, NY)",
+      "venue": "Goose Official · 2026-07-07",
+      "date": "2026-07-07",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "qYtZFirbQuI",
       "title": "Goose 7/4/26 Saratoga Performing Arts Center, Saratoga Springs, NY Set I Opener",
@@ -96,56 +146,6 @@
       "title": "\"Arcadia\"\" - 6/28/26 -  Merriweather Post Pavilion (Columbia, MD)\"",
       "venue": "Goose Official · 2026-06-30",
       "date": "2026-06-30",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "aRk3zOTy-_c",
-      "title": "“Good Times // End Times” - 6/28/26 - Merriweather Post Pavilion (Columbia, MD)",
-      "venue": "Goose Official · 2026-06-30",
-      "date": "2026-06-30",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "25JVAl6UdIo",
-      "title": "Arcadia - 6/28/26 Columbia, MD",
-      "venue": "Goose Official · 2026-06-29",
-      "date": "2026-06-29",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "EPaRllCLZK8",
-      "title": "Goose 6/28/26 Merriweather Post Pavilion, Columbia, MD Set I Opener",
-      "venue": "Goose Official · 2026-06-29",
-      "date": "2026-06-29",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "YN9Apw9WTjY",
-      "title": "Goose 6/27/26 Red Hat Amphitheater, Raleigh, NC Set I Opener",
-      "venue": "Goose Official · 2026-06-28",
-      "date": "2026-06-28",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "QjwqK-PgG_I",
-      "title": "Rosewood Heart - 6/27/26 Raleigh, NC",
-      "venue": "Goose Official · 2026-06-28",
-      "date": "2026-06-28",
       "b": "g",
       "snip": false,
       "mix": false,
@@ -263,6 +263,26 @@
     }
   ],
   "phish": [
+    {
+      "id": "moejxYJfl_I",
+      "title": "Live from Madison, WI 7/7/2026 Set II Opener",
+      "venue": "Phish Official · 2026-07-08",
+      "date": "2026-07-08",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "aPDGwxbB5Rk",
+      "title": "Live from Madison, WI 7/7/2026 Set I Opener",
+      "venue": "Phish Official · 2026-07-08",
+      "date": "2026-07-08",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "JCK-s08RCCA",
       "title": "Phish Live At Sphere - 4/25/2026 - Chalk Dust Torture",
@@ -428,26 +448,6 @@
       "title": "PHISH • 92 93 94 95 96 • 5 nights at The Garden",
       "venue": "Phish Official · 2026-02-18",
       "date": "2026-02-18",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "5w7fcKyuQ4w",
-      "title": "\"Harry Hood\" - New Year's Eve 1993 // Live At Worcester Centrum",
-      "venue": "Phish Official · 2026-02-04",
-      "date": "2026-02-04",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "QY4mh10I9zA",
-      "title": "1/31/2026 - My Friend, My Friend (4K HDR) Riviera Maya, MX",
-      "venue": "Phish Official · 2026-02-04",
-      "date": "2026-02-04",
       "b": "p",
       "snip": false,
       "mix": false,
