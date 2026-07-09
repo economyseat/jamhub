@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-07-08T08:18:49+00:00",
+  "generated_at": "2026-07-09T09:34:33+00:00",
   "goose": [
+    {
+      "id": "MWAtyev8OoM",
+      "title": "\"Green River\" (Creedence Clearwater Revival) - 6/16/26 - The Dome (Virginia Beach, VA)",
+      "venue": "Goose Official · 2026-07-08",
+      "date": "2026-07-08",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "CA8ToQoIkeU",
       "title": "\"Earthling or Alien\" - 6/30/26 -  Leader Bank Pavilion (Boston, MA)",
@@ -142,16 +152,6 @@
       "live": true
     },
     {
-      "id": "oF3S-8yzV3c",
-      "title": "\"Arcadia\"\" - 6/28/26 -  Merriweather Post Pavilion (Columbia, MD)\"",
-      "venue": "Goose Official · 2026-06-30",
-      "date": "2026-06-30",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
       "id": "c8b5YnF80D4",
       "title": "Goose jam snips - 4/23/26 \"Jive Lee\"",
       "venue": "@jamsnips · 2026-04-29",
@@ -263,6 +263,36 @@
     }
   ],
   "phish": [
+    {
+      "id": "ogLEXtiTgrg",
+      "title": "Live from Madison, WI 7/8/2026 Set II Opener",
+      "venue": "Phish Official · 2026-07-09",
+      "date": "2026-07-09",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "YILuvgGiMiA",
+      "title": "Live from Madison, WI 7/8/2026 Set I Opener",
+      "venue": "Phish Official · 2026-07-09",
+      "date": "2026-07-09",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "N6HJcFPlBxU",
+      "title": "7/7/2026 - Fuego → Life Saving Gun → Sand",
+      "venue": "Phish Official · 2026-07-08",
+      "date": "2026-07-08",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "moejxYJfl_I",
       "title": "Live from Madison, WI 7/7/2026 Set II Opener",
@@ -420,36 +450,6 @@
       "date": "2026-04-23",
       "b": "p",
       "snip": true,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "j9Dz8HA_0F0",
-      "title": "Phish Live At Sphere - 4/17/2026 - Light",
-      "venue": "Phish Official · 2026-04-19",
-      "date": "2026-04-19",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "E0quf3j6_cc",
-      "title": "Phish Live At Sphere - 4/16/2026 - Split Open and Melt",
-      "venue": "Phish Official · 2026-04-18",
-      "date": "2026-04-18",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "pv8FJUWafFQ",
-      "title": "PHISH • 92 93 94 95 96 • 5 nights at The Garden",
-      "venue": "Phish Official · 2026-02-18",
-      "date": "2026-02-18",
-      "b": "p",
-      "snip": false,
       "mix": false,
       "live": true
     },
