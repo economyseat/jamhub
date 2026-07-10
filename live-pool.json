@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-07-09T09:34:33+00:00",
+  "generated_at": "2026-07-10T09:25:48+00:00",
   "goose": [
+    {
+      "id": "PktZWEH6PWI",
+      "title": "\"Electric Avenue\" (Eddy Grant) - 7/1/26 -  Leader Bank Pavilion (Boston, MA)",
+      "venue": "Goose Official · 2026-07-09",
+      "date": "2026-07-09",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "MWAtyev8OoM",
       "title": "\"Green River\" (Creedence Clearwater Revival) - 6/16/26 - The Dome (Virginia Beach, VA)",
@@ -24,16 +34,6 @@
     {
       "id": "9Ibz61OrD3k",
       "title": "\"Creatures\" - 7/1/26 -  Leader Bank Pavilion (Boston, MA)",
-      "venue": "Goose Official · 2026-07-07",
-      "date": "2026-07-07",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "y1rnh54XX-M",
-      "title": "\"AUATC\" (Bon Iver) - 6/24/26 -  Firefly Distillery (Charleston, SC)",
       "venue": "Goose Official · 2026-07-07",
       "date": "2026-07-07",
       "b": "g",
