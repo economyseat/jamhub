@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T09:25:48+00:00",
+  "generated_at": "2026-07-11T07:47:04+00:00",
   "goose": [
     {
       "id": "PktZWEH6PWI",
@@ -264,6 +264,26 @@
   ],
   "phish": [
     {
+      "id": "YKP1-oiFHz0",
+      "title": "Live from Noblesville, IN  7/10/2026 Set II Opener",
+      "venue": "Phish Official · 2026-07-11",
+      "date": "2026-07-11",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "vXC5GRwuDPU",
+      "title": "Live from Noblesville, IN  7/10/2026 Set I Opener",
+      "venue": "Phish Official · 2026-07-11",
+      "date": "2026-07-11",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
       "id": "ogLEXtiTgrg",
       "title": "Live from Madison, WI 7/8/2026 Set II Opener",
       "venue": "Phish Official · 2026-07-09",
@@ -408,26 +428,6 @@
       "title": "Live from Las Vegas, NV 4/30/2026 Set I Opener",
       "venue": "Phish Official · 2026-05-01",
       "date": "2026-05-01",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "zaa2ApYlnOY",
-      "title": "Live from Las Vegas, NV 4/25/2026 Set II Opener",
-      "venue": "Phish Official · 2026-04-26",
-      "date": "2026-04-26",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "WjPqD83U-Xc",
-      "title": "Live from Las Vegas, NV 4/25/2026 Set I Opener",
-      "venue": "Phish Official · 2026-04-26",
-      "date": "2026-04-26",
       "b": "p",
       "snip": false,
       "mix": false,
