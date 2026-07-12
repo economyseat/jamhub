@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T07:47:04+00:00",
+  "generated_at": "2026-07-12T08:08:38+00:00",
   "goose": [
     {
       "id": "PktZWEH6PWI",
@@ -264,6 +264,36 @@
   ],
   "phish": [
     {
+      "id": "ooJo9Y7ZMPA",
+      "title": "Live from Noblesville, IN  7/11/2026 Set II Opener",
+      "venue": "Phish Official · 2026-07-12",
+      "date": "2026-07-12",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "EwCljX28qz4",
+      "title": "Live from Noblesville, IN  7/11/2026 Set I Opener",
+      "venue": "Phish Official · 2026-07-12",
+      "date": "2026-07-12",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "xkckP5TZVV4",
+      "title": "7/10/2026 - Bouncing Around The Room",
+      "venue": "Phish Official · 2026-07-11",
+      "date": "2026-07-11",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
       "id": "YKP1-oiFHz0",
       "title": "Live from Noblesville, IN  7/10/2026 Set II Opener",
       "venue": "Phish Official · 2026-07-11",
@@ -398,36 +428,6 @@
       "title": "Live from Las Vegas, NV 5/1/2026 Set II Opener",
       "venue": "Phish Official · 2026-05-02",
       "date": "2026-05-02",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "M_j6chXTYgw",
-      "title": "Live from Las Vegas, NV 5/1/2026 Set I Opener",
-      "venue": "Phish Official · 2026-05-02",
-      "date": "2026-05-02",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "joeW6TE1rGw",
-      "title": "Live from Las Vegas, NV 4/30/2026 Set II Opener",
-      "venue": "Phish Official · 2026-05-01",
-      "date": "2026-05-01",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "9kRUe57Z2wE",
-      "title": "Live from Las Vegas, NV 4/30/2026 Set I Opener",
-      "venue": "Phish Official · 2026-05-01",
-      "date": "2026-05-01",
       "b": "p",
       "snip": false,
       "mix": false,
