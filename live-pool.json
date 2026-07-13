@@ -1,6 +1,56 @@
 {
-  "generated_at": "2026-07-12T08:08:38+00:00",
+  "generated_at": "2026-07-13T08:58:50+00:00",
   "goose": [
+    {
+      "id": "hiA1ZkWCDVs",
+      "title": "\"Thatch\" - 7/2/26 -  Saratoga Performing Arts Center (Saratoga Springs, NY)",
+      "venue": "Goose Official · 2026-07-12",
+      "date": "2026-07-12",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "mt0-lVp2q3o",
+      "title": "Dripfield - 7/4/26 SPAC, Saratoga Springs, NY",
+      "venue": "Goose Official · 2026-07-12",
+      "date": "2026-07-12",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "Ocdsca3cOZY",
+      "title": "Savenger - 7/4/26 SPAC, Saratoga Springs, NY",
+      "venue": "Goose Official · 2026-07-12",
+      "date": "2026-07-12",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "uXQrbFj88rQ",
+      "title": "POP - 7/3/26 SPAC, Saratoga Springs, NY",
+      "venue": "Goose Official · 2026-07-12",
+      "date": "2026-07-12",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "AL9nsMNfS0w",
+      "title": "Thatch - 7/3/26 SPAC, Saratoga Springs, NY",
+      "venue": "Goose Official · 2026-07-12",
+      "date": "2026-07-12",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "PktZWEH6PWI",
       "title": "\"Electric Avenue\" (Eddy Grant) - 7/1/26 -  Leader Bank Pavilion (Boston, MA)",
@@ -96,56 +146,6 @@
       "title": "Goose 7/1/26 Leader Bank Pavilion, Boston, MA Set I Opener",
       "venue": "Goose Official · 2026-07-02",
       "date": "2026-07-02",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "I7nLbRLKa5Y",
-      "title": "“Into the Myst\" - 6/30/26 - Leader Bank Pavilion (Boston, MA)",
-      "venue": "Goose Official · 2026-07-01",
-      "date": "2026-07-01",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "qaDlXKmTr6U",
-      "title": "Goose 6/30/26 Leader Bank Pavilion, Boston, MA Set I Opener",
-      "venue": "Goose Official · 2026-07-01",
-      "date": "2026-07-01",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "B5oyp1hYh-Y",
-      "title": "Good Times // End Times → (((postplace))) → Big Modern! - New York, NY MSG 2026",
-      "venue": "Goose Official · 2026-06-30",
-      "date": "2026-06-30",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "ULWdIa3IOpI",
-      "title": "\"Savenger\"\" - 6/27/26 -  Red Hat Amphitheater (Raleigh, NC)\"",
-      "venue": "Goose Official · 2026-06-30",
-      "date": "2026-06-30",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "oEgJWu9I5nA",
-      "title": "\"POP\" - 6/27/26 -  Red Hat Amphitheater (Raleigh, NC)",
-      "venue": "Goose Official · 2026-06-30",
-      "date": "2026-06-30",
       "b": "g",
       "snip": false,
       "mix": false,
@@ -264,6 +264,46 @@
   ],
   "phish": [
     {
+      "id": "97bJle3JfME",
+      "title": "Live from Noblesville, IN 7/12/2026 Set II Opener",
+      "venue": "Phish Official · 2026-07-13",
+      "date": "2026-07-13",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "hYQ-pi3mHG4",
+      "title": "Live from Noblesville, IN 7/12/2026 Set I Opener",
+      "venue": "Phish Official · 2026-07-12",
+      "date": "2026-07-12",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "EvzVoSUTtjg",
+      "title": "7/11/2026 - Everything's Right → Tweezer",
+      "venue": "Phish Official · 2026-07-12",
+      "date": "2026-07-12",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "0eWDwnPiLX8",
+      "title": "7/10/2026 - Down With Disease → You Enjoy Myself",
+      "venue": "Phish Official · 2026-07-12",
+      "date": "2026-07-12",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
       "id": "ooJo9Y7ZMPA",
       "title": "Live from Noblesville, IN  7/11/2026 Set II Opener",
       "venue": "Phish Official · 2026-07-12",
@@ -374,16 +414,6 @@
       "live": true
     },
     {
-      "id": "o28hu3sa0SA",
-      "title": "Phish Live At Sphere - 4/18/2026 - Sigma Oasis",
-      "venue": "Phish Official · 2026-05-13",
-      "date": "2026-05-13",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
       "id": "0J3gGYLX5nk",
       "title": "Phish Jam Snips - 5/2/26 \"Kill Devil Falls\"",
       "venue": "@jamsnips · 2026-05-05",
@@ -400,36 +430,6 @@
       "date": "2026-05-05",
       "b": "p",
       "snip": true,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "-cdNF5Hkh7k",
-      "title": "Live from Las Vegas, NV 5/2/2026 Set II Opener",
-      "venue": "Phish Official · 2026-05-03",
-      "date": "2026-05-03",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "CHKdUlpyqjc",
-      "title": "Live from Las Vegas, NV 5/2/2026 Set I Opener",
-      "venue": "Phish Official · 2026-05-03",
-      "date": "2026-05-03",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "LfrVzBYN3go",
-      "title": "Live from Las Vegas, NV 5/1/2026 Set II Opener",
-      "venue": "Phish Official · 2026-05-02",
-      "date": "2026-05-02",
-      "b": "p",
-      "snip": false,
       "mix": false,
       "live": true
     },
