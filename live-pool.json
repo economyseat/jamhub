@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-07-13T08:58:50+00:00",
+  "generated_at": "2026-07-14T07:53:52+00:00",
   "goose": [
+    {
+      "id": "yDqQvJTLWOg",
+      "title": "\"You Spin Me Round Like a Record\" (Dead or Alive) - 7/2/26 -  PNC Bank Arts Center (Holmdel, NJ)",
+      "venue": "Goose Official · 2026-07-13",
+      "date": "2026-07-13",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "PnuG-IDqCWY",
+      "title": "\"Can't Get You Out of My Head\" (Kylie Minogue) - 6/28/26-  Merriweather Post Pavilion (Columbia, MD)",
+      "venue": "Goose Official · 2026-07-13",
+      "date": "2026-07-13",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "hiA1ZkWCDVs",
       "title": "\"Thatch\" - 7/2/26 -  Saratoga Performing Arts Center (Saratoga Springs, NY)",
@@ -132,26 +152,6 @@
       "live": true
     },
     {
-      "id": "K-k01wNT5G0",
-      "title": "Into The Myst - 6/30/2026 Boston, MA",
-      "venue": "Goose Official · 2026-07-02",
-      "date": "2026-07-02",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "wnoNMwLPRhc",
-      "title": "Goose 7/1/26 Leader Bank Pavilion, Boston, MA Set I Opener",
-      "venue": "Goose Official · 2026-07-02",
-      "date": "2026-07-02",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
       "id": "c8b5YnF80D4",
       "title": "Goose jam snips - 4/23/26 \"Jive Lee\"",
       "venue": "@jamsnips · 2026-04-29",
@@ -264,26 +264,6 @@
   ],
   "phish": [
     {
-      "id": "97bJle3JfME",
-      "title": "Live from Noblesville, IN 7/12/2026 Set II Opener",
-      "venue": "Phish Official · 2026-07-13",
-      "date": "2026-07-13",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "hYQ-pi3mHG4",
-      "title": "Live from Noblesville, IN 7/12/2026 Set I Opener",
-      "venue": "Phish Official · 2026-07-12",
-      "date": "2026-07-12",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
       "id": "EvzVoSUTtjg",
       "title": "7/11/2026 - Everything's Right → Tweezer",
       "venue": "Phish Official · 2026-07-12",
@@ -304,70 +284,10 @@
       "live": true
     },
     {
-      "id": "ooJo9Y7ZMPA",
-      "title": "Live from Noblesville, IN  7/11/2026 Set II Opener",
-      "venue": "Phish Official · 2026-07-12",
-      "date": "2026-07-12",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "EwCljX28qz4",
-      "title": "Live from Noblesville, IN  7/11/2026 Set I Opener",
-      "venue": "Phish Official · 2026-07-12",
-      "date": "2026-07-12",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
       "id": "xkckP5TZVV4",
       "title": "7/10/2026 - Bouncing Around The Room",
       "venue": "Phish Official · 2026-07-11",
       "date": "2026-07-11",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "YKP1-oiFHz0",
-      "title": "Live from Noblesville, IN  7/10/2026 Set II Opener",
-      "venue": "Phish Official · 2026-07-11",
-      "date": "2026-07-11",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "vXC5GRwuDPU",
-      "title": "Live from Noblesville, IN  7/10/2026 Set I Opener",
-      "venue": "Phish Official · 2026-07-11",
-      "date": "2026-07-11",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "ogLEXtiTgrg",
-      "title": "Live from Madison, WI 7/8/2026 Set II Opener",
-      "venue": "Phish Official · 2026-07-09",
-      "date": "2026-07-09",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "YILuvgGiMiA",
-      "title": "Live from Madison, WI 7/8/2026 Set I Opener",
-      "venue": "Phish Official · 2026-07-09",
-      "date": "2026-07-09",
       "b": "p",
       "snip": false,
       "mix": false,
@@ -384,30 +304,20 @@
       "live": true
     },
     {
-      "id": "moejxYJfl_I",
-      "title": "Live from Madison, WI 7/7/2026 Set II Opener",
-      "venue": "Phish Official · 2026-07-08",
-      "date": "2026-07-08",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "aPDGwxbB5Rk",
-      "title": "Live from Madison, WI 7/7/2026 Set I Opener",
-      "venue": "Phish Official · 2026-07-08",
-      "date": "2026-07-08",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
       "id": "JCK-s08RCCA",
       "title": "Phish Live At Sphere - 4/25/2026 - Chalk Dust Torture",
       "venue": "Phish Official · 2026-05-22",
       "date": "2026-05-22",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "o28hu3sa0SA",
+      "title": "Phish Live At Sphere - 4/18/2026 - Sigma Oasis",
+      "venue": "Phish Official · 2026-05-13",
+      "date": "2026-05-13",
       "b": "p",
       "snip": false,
       "mix": false,
@@ -450,6 +360,96 @@
       "date": "2026-04-23",
       "b": "p",
       "snip": true,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "j9Dz8HA_0F0",
+      "title": "Phish Live At Sphere - 4/17/2026 - Light",
+      "venue": "Phish Official · 2026-04-19",
+      "date": "2026-04-19",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "E0quf3j6_cc",
+      "title": "Phish Live At Sphere - 4/16/2026 - Split Open and Melt",
+      "venue": "Phish Official · 2026-04-18",
+      "date": "2026-04-18",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "pv8FJUWafFQ",
+      "title": "PHISH • 92 93 94 95 96 • 5 nights at The Garden",
+      "venue": "Phish Official · 2026-02-18",
+      "date": "2026-02-18",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "5w7fcKyuQ4w",
+      "title": "\"Harry Hood\" - New Year's Eve 1993 // Live At Worcester Centrum",
+      "venue": "Phish Official · 2026-02-04",
+      "date": "2026-02-04",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "QY4mh10I9zA",
+      "title": "1/31/2026 - My Friend, My Friend (4K HDR) Riviera Maya, MX",
+      "venue": "Phish Official · 2026-02-04",
+      "date": "2026-02-04",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "bvfetVnETyQ",
+      "title": "1/31/2026 - A Song I Heard The Ocean Sing → Beneath a Sea of Stars (4K HDR) Riviera Maya, MX",
+      "venue": "Phish Official · 2026-02-02",
+      "date": "2026-02-02",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "fPxmP2ZCsKo",
+      "title": "1/30/2026 - Life Saving Gun (4K HDR) Riviera Maya, MX",
+      "venue": "Phish Official · 2026-02-01",
+      "date": "2026-02-01",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "tX9IZqBj4SQ",
+      "title": "1/29/2026 - A Wave of Hope → Ruby Waves → Lonely Trip → WGTYM (4K HDR) Riviera Maya, MX",
+      "venue": "Phish Official · 2026-01-31",
+      "date": "2026-01-31",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "VATCAD0lUlw",
+      "title": "\"Stash\" - New Year's Eve 1993 // Live At Worcester Centrum",
+      "venue": "Phish Official · 2026-01-20",
+      "date": "2026-01-20",
+      "b": "p",
+      "snip": false,
       "mix": false,
       "live": true
     },
