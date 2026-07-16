@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T07:58:45+00:00",
+  "generated_at": "2026-07-16T08:03:51+00:00",
   "goose": [
     {
       "id": "yDqQvJTLWOg",
@@ -264,6 +264,26 @@
   ],
   "phish": [
     {
+      "id": "iNMsGyM_YSE",
+      "title": "Live from Savannah, GA 7/15/2026 Set II Opener",
+      "venue": "Phish Official · 2026-07-16",
+      "date": "2026-07-16",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "Dk4e6vctWck",
+      "title": "Live from Savannah, GA 7/15/2026 Set I Opener",
+      "venue": "Phish Official · 2026-07-16",
+      "date": "2026-07-16",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
       "id": "kp_4yj4WZGg",
       "title": "7/12/2026 - Simple",
       "venue": "Phish Official · 2026-07-15",
@@ -428,26 +448,6 @@
       "title": "\"Harry Hood\" - New Year's Eve 1993 // Live At Worcester Centrum",
       "venue": "Phish Official · 2026-02-04",
       "date": "2026-02-04",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "QY4mh10I9zA",
-      "title": "1/31/2026 - My Friend, My Friend (4K HDR) Riviera Maya, MX",
-      "venue": "Phish Official · 2026-02-04",
-      "date": "2026-02-04",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "bvfetVnETyQ",
-      "title": "1/31/2026 - A Song I Heard The Ocean Sing → Beneath a Sea of Stars (4K HDR) Riviera Maya, MX",
-      "venue": "Phish Official · 2026-02-02",
-      "date": "2026-02-02",
       "b": "p",
       "snip": false,
       "mix": false,
