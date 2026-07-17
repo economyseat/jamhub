@@ -1,6 +1,36 @@
 {
-  "generated_at": "2026-07-16T08:03:51+00:00",
+  "generated_at": "2026-07-17T08:01:02+00:00",
   "goose": [
+    {
+      "id": "tRBHE35L76c",
+      "title": "June exceeded recommended operating limits.",
+      "venue": "Goose Official · 2026-07-16",
+      "date": "2026-07-16",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "-HEQ89aF3wc",
+      "title": "\"Madhuvan\" - 6/30/26 -  Leader Bank Pavilion (Boston, Ma)",
+      "venue": "Goose Official · 2026-07-16",
+      "date": "2026-07-16",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "SeGFXk-LenI",
+      "title": "\"It Burns Within\" - 7/1/26 -  Leader Bank Pavilion (Boston, MA)",
+      "venue": "Goose Official · 2026-07-16",
+      "date": "2026-07-16",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "yDqQvJTLWOg",
       "title": "\"You Spin Me Round Like a Record\" (Dead or Alive) - 7/2/26 -  PNC Bank Arts Center (Holmdel, NJ)",
@@ -122,36 +152,6 @@
       "live": true
     },
     {
-      "id": "emiRGj9Gb1w",
-      "title": "\"US Blues\" (Grateful Dead) - 7/2/26 -  Saratoga Performing Arts Center (Saratoga Springs, NY)",
-      "venue": "Goose Official · 2026-07-07",
-      "date": "2026-07-07",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "qYtZFirbQuI",
-      "title": "Goose 7/4/26 Saratoga Performing Arts Center, Saratoga Springs, NY Set I Opener",
-      "venue": "Goose Official · 2026-07-05",
-      "date": "2026-07-05",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "JH0UyiSJOdk",
-      "title": "Goose 7/3/26 Saratoga Performing Arts Center, Saratoga Springs, NY Set I Opener",
-      "venue": "Goose Official · 2026-07-04",
-      "date": "2026-07-04",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
       "id": "c8b5YnF80D4",
       "title": "Goose jam snips - 4/23/26 \"Jive Lee\"",
       "venue": "@jamsnips · 2026-04-29",
@@ -263,6 +263,16 @@
     }
   ],
   "phish": [
+    {
+      "id": "eChPRtjLK1g",
+      "title": "7/14/2026 - The Curtain With → Horn",
+      "venue": "Phish Official · 2026-07-16",
+      "date": "2026-07-16",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "iNMsGyM_YSE",
       "title": "Live from Savannah, GA 7/15/2026 Set II Opener",
@@ -438,16 +448,6 @@
       "title": "PHISH • 92 93 94 95 96 • 5 nights at The Garden",
       "venue": "Phish Official · 2026-02-18",
       "date": "2026-02-18",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "5w7fcKyuQ4w",
-      "title": "\"Harry Hood\" - New Year's Eve 1993 // Live At Worcester Centrum",
-      "venue": "Phish Official · 2026-02-04",
-      "date": "2026-02-04",
       "b": "p",
       "snip": false,
       "mix": false,
