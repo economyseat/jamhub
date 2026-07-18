@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T08:01:02+00:00",
+  "generated_at": "2026-07-18T07:41:07+00:00",
   "goose": [
     {
       "id": "tRBHE35L76c",
@@ -264,6 +264,36 @@
   ],
   "phish": [
     {
+      "id": "Yyan0mlunBo",
+      "title": "Live from Raleigh, NC 7/17/2026 Set II Opener",
+      "venue": "Phish Official · 2026-07-18",
+      "date": "2026-07-18",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "vFuS-WmQE7s",
+      "title": "Live from Raleigh, NC 7/17/2026 Set I Opener",
+      "venue": "Phish Official · 2026-07-17",
+      "date": "2026-07-17",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "uRIBCre1W8Q",
+      "title": "7/15/2026 - The Wedge",
+      "venue": "Phish Official · 2026-07-17",
+      "date": "2026-07-17",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
       "id": "eChPRtjLK1g",
       "title": "7/14/2026 - The Curtain With → Horn",
       "venue": "Phish Official · 2026-07-16",
@@ -420,36 +450,6 @@
       "date": "2026-04-23",
       "b": "p",
       "snip": true,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "j9Dz8HA_0F0",
-      "title": "Phish Live At Sphere - 4/17/2026 - Light",
-      "venue": "Phish Official · 2026-04-19",
-      "date": "2026-04-19",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "E0quf3j6_cc",
-      "title": "Phish Live At Sphere - 4/16/2026 - Split Open and Melt",
-      "venue": "Phish Official · 2026-04-18",
-      "date": "2026-04-18",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "pv8FJUWafFQ",
-      "title": "PHISH • 92 93 94 95 96 • 5 nights at The Garden",
-      "venue": "Phish Official · 2026-02-18",
-      "date": "2026-02-18",
-      "b": "p",
-      "snip": false,
       "mix": false,
       "live": true
     },
