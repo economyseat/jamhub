@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T07:41:07+00:00",
+  "generated_at": "2026-07-19T08:08:03+00:00",
   "goose": [
     {
       "id": "tRBHE35L76c",
@@ -264,6 +264,36 @@
   ],
   "phish": [
     {
+      "id": "4Qu-GqC22EA",
+      "title": "Live from Columbia, MD 7/18/2026 Set II Opener",
+      "venue": "Phish Official · 2026-07-19",
+      "date": "2026-07-19",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "d-3RF8AqiiI",
+      "title": "Live from Columbia, MD 7/18/2026 Set I Opener",
+      "venue": "Phish Official · 2026-07-18",
+      "date": "2026-07-18",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "MOJ2GENQyvM",
+      "title": "7/17/2026 - Harry Hood → Fuego → Lizards → A Wave of Hope",
+      "venue": "Phish Official · 2026-07-18",
+      "date": "2026-07-18",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
       "id": "Yyan0mlunBo",
       "title": "Live from Raleigh, NC 7/17/2026 Set II Opener",
       "venue": "Phish Official · 2026-07-18",
@@ -378,36 +408,6 @@
       "title": "7/10/2026 - Bouncing Around The Room",
       "venue": "Phish Official · 2026-07-11",
       "date": "2026-07-11",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "N6HJcFPlBxU",
-      "title": "7/7/2026 - Fuego → Life Saving Gun → Sand",
-      "venue": "Phish Official · 2026-07-08",
-      "date": "2026-07-08",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "JCK-s08RCCA",
-      "title": "Phish Live At Sphere - 4/25/2026 - Chalk Dust Torture",
-      "venue": "Phish Official · 2026-05-22",
-      "date": "2026-05-22",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "o28hu3sa0SA",
-      "title": "Phish Live At Sphere - 4/18/2026 - Sigma Oasis",
-      "venue": "Phish Official · 2026-05-13",
-      "date": "2026-05-13",
       "b": "p",
       "snip": false,
       "mix": false,
