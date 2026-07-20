@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T08:08:03+00:00",
+  "generated_at": "2026-07-20T08:49:02+00:00",
   "goose": [
     {
       "id": "tRBHE35L76c",
@@ -264,20 +264,20 @@
   ],
   "phish": [
     {
-      "id": "4Qu-GqC22EA",
-      "title": "Live from Columbia, MD 7/18/2026 Set II Opener",
-      "venue": "Phish Official · 2026-07-19",
-      "date": "2026-07-19",
+      "id": "lcbFQBe2A1c",
+      "title": "Live from Columbia, MD 7/19/2026 Set II Opener",
+      "venue": "Phish Official · 2026-07-20",
+      "date": "2026-07-20",
       "b": "p",
       "snip": false,
       "mix": false,
       "live": true
     },
     {
-      "id": "d-3RF8AqiiI",
-      "title": "Live from Columbia, MD 7/18/2026 Set I Opener",
-      "venue": "Phish Official · 2026-07-18",
-      "date": "2026-07-18",
+      "id": "EqSlYt_zb9c",
+      "title": "Live from Columbia, MD 7/19/2026 Set I Opener",
+      "venue": "Phish Official · 2026-07-19",
+      "date": "2026-07-19",
       "b": "p",
       "snip": false,
       "mix": false,
@@ -288,26 +288,6 @@
       "title": "7/17/2026 - Harry Hood → Fuego → Lizards → A Wave of Hope",
       "venue": "Phish Official · 2026-07-18",
       "date": "2026-07-18",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "Yyan0mlunBo",
-      "title": "Live from Raleigh, NC 7/17/2026 Set II Opener",
-      "venue": "Phish Official · 2026-07-18",
-      "date": "2026-07-18",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "vFuS-WmQE7s",
-      "title": "Live from Raleigh, NC 7/17/2026 Set I Opener",
-      "venue": "Phish Official · 2026-07-17",
-      "date": "2026-07-17",
       "b": "p",
       "snip": false,
       "mix": false,
@@ -334,48 +314,8 @@
       "live": true
     },
     {
-      "id": "iNMsGyM_YSE",
-      "title": "Live from Savannah, GA 7/15/2026 Set II Opener",
-      "venue": "Phish Official · 2026-07-16",
-      "date": "2026-07-16",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "Dk4e6vctWck",
-      "title": "Live from Savannah, GA 7/15/2026 Set I Opener",
-      "venue": "Phish Official · 2026-07-16",
-      "date": "2026-07-16",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
       "id": "kp_4yj4WZGg",
       "title": "7/12/2026 - Simple",
-      "venue": "Phish Official · 2026-07-15",
-      "date": "2026-07-15",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "rO_rLRH6sjk",
-      "title": "Live from Savannah, GA 7/14/2026 Set II Opener",
-      "venue": "Phish Official · 2026-07-15",
-      "date": "2026-07-15",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "1_bcOeIEFTw",
-      "title": "Live from Savannah, GA 7/14/2026 Set I Opener",
       "venue": "Phish Official · 2026-07-15",
       "date": "2026-07-15",
       "b": "p",
@@ -408,6 +348,36 @@
       "title": "7/10/2026 - Bouncing Around The Room",
       "venue": "Phish Official · 2026-07-11",
       "date": "2026-07-11",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "N6HJcFPlBxU",
+      "title": "7/7/2026 - Fuego → Life Saving Gun → Sand",
+      "venue": "Phish Official · 2026-07-08",
+      "date": "2026-07-08",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "JCK-s08RCCA",
+      "title": "Phish Live At Sphere - 4/25/2026 - Chalk Dust Torture",
+      "venue": "Phish Official · 2026-05-22",
+      "date": "2026-05-22",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "o28hu3sa0SA",
+      "title": "Phish Live At Sphere - 4/18/2026 - Sigma Oasis",
+      "venue": "Phish Official · 2026-05-13",
+      "date": "2026-05-13",
       "b": "p",
       "snip": false,
       "mix": false,
@@ -450,6 +420,36 @@
       "date": "2026-04-23",
       "b": "p",
       "snip": true,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "j9Dz8HA_0F0",
+      "title": "Phish Live At Sphere - 4/17/2026 - Light",
+      "venue": "Phish Official · 2026-04-19",
+      "date": "2026-04-19",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "E0quf3j6_cc",
+      "title": "Phish Live At Sphere - 4/16/2026 - Split Open and Melt",
+      "venue": "Phish Official · 2026-04-18",
+      "date": "2026-04-18",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "pv8FJUWafFQ",
+      "title": "PHISH • 92 93 94 95 96 • 5 nights at The Garden",
+      "venue": "Phish Official · 2026-02-18",
+      "date": "2026-02-18",
+      "b": "p",
+      "snip": false,
       "mix": false,
       "live": true
     },
