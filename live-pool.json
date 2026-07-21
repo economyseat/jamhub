@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-07-20T08:49:02+00:00",
+  "generated_at": "2026-07-21T08:18:03+00:00",
   "goose": [
+    {
+      "id": "uCs9Qh6RTLE",
+      "title": "\"Don't Do It\" (The Band) - 6/26/26 -  Red Hat Amphitheater (Raleigh, NC)",
+      "venue": "Goose Official · 2026-07-20",
+      "date": "2026-07-20",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "tRBHE35L76c",
       "title": "June exceeded recommended operating limits.",
@@ -142,16 +152,6 @@
       "live": true
     },
     {
-      "id": "6v1fQ7yBZbA",
-      "title": "\"Animal\"\" - 7/2/26 -  Saratoga Performing Arts Center (Saratoga Springs, NY)\"",
-      "venue": "Goose Official · 2026-07-07",
-      "date": "2026-07-07",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
       "id": "c8b5YnF80D4",
       "title": "Goose jam snips - 4/23/26 \"Jive Lee\"",
       "venue": "@jamsnips · 2026-04-29",
@@ -263,26 +263,6 @@
     }
   ],
   "phish": [
-    {
-      "id": "lcbFQBe2A1c",
-      "title": "Live from Columbia, MD 7/19/2026 Set II Opener",
-      "venue": "Phish Official · 2026-07-20",
-      "date": "2026-07-20",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "EqSlYt_zb9c",
-      "title": "Live from Columbia, MD 7/19/2026 Set I Opener",
-      "venue": "Phish Official · 2026-07-19",
-      "date": "2026-07-19",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
     {
       "id": "MOJ2GENQyvM",
       "title": "7/17/2026 - Harry Hood → Fuego → Lizards → A Wave of Hope",
@@ -448,6 +428,26 @@
       "title": "PHISH • 92 93 94 95 96 • 5 nights at The Garden",
       "venue": "Phish Official · 2026-02-18",
       "date": "2026-02-18",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "5w7fcKyuQ4w",
+      "title": "\"Harry Hood\" - New Year's Eve 1993 // Live At Worcester Centrum",
+      "venue": "Phish Official · 2026-02-04",
+      "date": "2026-02-04",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "QY4mh10I9zA",
+      "title": "1/31/2026 - My Friend, My Friend (4K HDR) Riviera Maya, MX",
+      "venue": "Phish Official · 2026-02-04",
+      "date": "2026-02-04",
       "b": "p",
       "snip": false,
       "mix": false,
