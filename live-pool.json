@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T08:18:03+00:00",
+  "generated_at": "2026-07-22T08:19:18+00:00",
   "goose": [
     {
       "id": "uCs9Qh6RTLE",
@@ -264,6 +264,36 @@
   ],
   "phish": [
     {
+      "id": "cc3djNKDwtA",
+      "title": "Live from Syracuse, NY 7/22/2026 Set II Opener",
+      "venue": "Phish Official · 2026-07-22",
+      "date": "2026-07-22",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "J76XTJKSg84",
+      "title": "Live from Syracuse, NY 7/21/2026 Set I Opener",
+      "venue": "Phish Official · 2026-07-21",
+      "date": "2026-07-21",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "_QveYfcw57Y",
+      "title": "7/19/2026 - Carini",
+      "venue": "Phish Official · 2026-07-21",
+      "date": "2026-07-21",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
       "id": "MOJ2GENQyvM",
       "title": "7/17/2026 - Harry Hood → Fuego → Lizards → A Wave of Hope",
       "venue": "Phish Official · 2026-07-18",
@@ -418,36 +448,6 @@
       "title": "Phish Live At Sphere - 4/16/2026 - Split Open and Melt",
       "venue": "Phish Official · 2026-04-18",
       "date": "2026-04-18",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "pv8FJUWafFQ",
-      "title": "PHISH • 92 93 94 95 96 • 5 nights at The Garden",
-      "venue": "Phish Official · 2026-02-18",
-      "date": "2026-02-18",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "5w7fcKyuQ4w",
-      "title": "\"Harry Hood\" - New Year's Eve 1993 // Live At Worcester Centrum",
-      "venue": "Phish Official · 2026-02-04",
-      "date": "2026-02-04",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "QY4mh10I9zA",
-      "title": "1/31/2026 - My Friend, My Friend (4K HDR) Riviera Maya, MX",
-      "venue": "Phish Official · 2026-02-04",
-      "date": "2026-02-04",
       "b": "p",
       "snip": false,
       "mix": false,
