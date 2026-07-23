@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T08:19:18+00:00",
+  "generated_at": "2026-07-23T08:21:59+00:00",
   "goose": [
     {
       "id": "uCs9Qh6RTLE",
@@ -264,6 +264,26 @@
   ],
   "phish": [
     {
+      "id": "EQZWsLtXb9c",
+      "title": "Live from New York, NY 7/22/2026 Set II Opener",
+      "venue": "Phish Official · 2026-07-23",
+      "date": "2026-07-23",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "rvvOg8a_j04",
+      "title": "Live from New York, NY 7/22/2026 Set I Opener",
+      "venue": "Phish Official · 2026-07-23",
+      "date": "2026-07-23",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
       "id": "cc3djNKDwtA",
       "title": "Live from Syracuse, NY 7/22/2026 Set II Opener",
       "venue": "Phish Official · 2026-07-22",
@@ -430,26 +450,6 @@
       "date": "2026-04-23",
       "b": "p",
       "snip": true,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "j9Dz8HA_0F0",
-      "title": "Phish Live At Sphere - 4/17/2026 - Light",
-      "venue": "Phish Official · 2026-04-19",
-      "date": "2026-04-19",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "E0quf3j6_cc",
-      "title": "Phish Live At Sphere - 4/16/2026 - Split Open and Melt",
-      "venue": "Phish Official · 2026-04-18",
-      "date": "2026-04-18",
-      "b": "p",
-      "snip": false,
       "mix": false,
       "live": true
     },
