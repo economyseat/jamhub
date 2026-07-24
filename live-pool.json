@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T08:21:59+00:00",
+  "generated_at": "2026-07-24T08:17:26+00:00",
   "goose": [
     {
       "id": "uCs9Qh6RTLE",
@@ -264,6 +264,16 @@
   ],
   "phish": [
     {
+      "id": "oXMmx2MlnZI",
+      "title": "7/21/2026 - Bug",
+      "venue": "Phish Official · 2026-07-24",
+      "date": "2026-07-24",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
       "id": "EQZWsLtXb9c",
       "title": "Live from New York, NY 7/22/2026 Set II Opener",
       "venue": "Phish Official · 2026-07-23",
@@ -398,16 +408,6 @@
       "title": "Phish Live At Sphere - 4/25/2026 - Chalk Dust Torture",
       "venue": "Phish Official · 2026-05-22",
       "date": "2026-05-22",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "o28hu3sa0SA",
-      "title": "Phish Live At Sphere - 4/18/2026 - Sigma Oasis",
-      "venue": "Phish Official · 2026-05-13",
-      "date": "2026-05-13",
       "b": "p",
       "snip": false,
       "mix": false,
