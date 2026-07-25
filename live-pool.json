@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-07-24T08:17:26+00:00",
+  "generated_at": "2026-07-25T07:59:06+00:00",
   "goose": [
+    {
+      "id": "t1gFAyhCUmI",
+      "title": "\"MEDIA\" - 7/3/26 -  Saratoga Performing Arts Center (Saratoga Springs, NY)",
+      "venue": "Goose Official · 2026-07-24",
+      "date": "2026-07-24",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "XQDHoJxssoc",
+      "title": "\"Running Up That Hill\" (Kate Bush) - 6/30/26 -  Leader Bank Pavilion (Boston, Ma)",
+      "venue": "Goose Official · 2026-07-24",
+      "date": "2026-07-24",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "uCs9Qh6RTLE",
       "title": "\"Don't Do It\" (The Band) - 6/26/26 -  Red Hat Amphitheater (Raleigh, NC)",
@@ -132,26 +152,6 @@
       "live": true
     },
     {
-      "id": "CA8ToQoIkeU",
-      "title": "\"Earthling or Alien\" - 6/30/26 -  Leader Bank Pavilion (Boston, MA)",
-      "venue": "Goose Official · 2026-07-07",
-      "date": "2026-07-07",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "9Ibz61OrD3k",
-      "title": "\"Creatures\" - 7/1/26 -  Leader Bank Pavilion (Boston, MA)",
-      "venue": "Goose Official · 2026-07-07",
-      "date": "2026-07-07",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
       "id": "c8b5YnF80D4",
       "title": "Goose jam snips - 4/23/26 \"Jive Lee\"",
       "venue": "@jamsnips · 2026-04-29",
@@ -263,6 +263,36 @@
     }
   ],
   "phish": [
+    {
+      "id": "kWOXZ3lCPwA",
+      "title": "7/22/2026 - Bouncing Around The Room → My Friend, My Friend",
+      "venue": "Phish Official · 2026-07-25",
+      "date": "2026-07-25",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "yF9aHlJZJMw",
+      "title": "Live from New York, NY 7/24/2026 Set II Opener",
+      "venue": "Phish Official · 2026-07-25",
+      "date": "2026-07-25",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "TZYWgMCn1lc",
+      "title": "Live from New York, NY 7/24/2026 Set I Opener",
+      "venue": "Phish Official · 2026-07-25",
+      "date": "2026-07-25",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "oXMmx2MlnZI",
       "title": "7/21/2026 - Bug",
@@ -378,36 +408,6 @@
       "title": "7/10/2026 - Down With Disease → You Enjoy Myself",
       "venue": "Phish Official · 2026-07-12",
       "date": "2026-07-12",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "xkckP5TZVV4",
-      "title": "7/10/2026 - Bouncing Around The Room",
-      "venue": "Phish Official · 2026-07-11",
-      "date": "2026-07-11",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "N6HJcFPlBxU",
-      "title": "7/7/2026 - Fuego → Life Saving Gun → Sand",
-      "venue": "Phish Official · 2026-07-08",
-      "date": "2026-07-08",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "JCK-s08RCCA",
-      "title": "Phish Live At Sphere - 4/25/2026 - Chalk Dust Torture",
-      "venue": "Phish Official · 2026-05-22",
-      "date": "2026-05-22",
       "b": "p",
       "snip": false,
       "mix": false,
