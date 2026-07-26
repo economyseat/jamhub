@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T07:59:06+00:00",
+  "generated_at": "2026-07-26T08:17:59+00:00",
   "goose": [
     {
       "id": "t1gFAyhCUmI",
@@ -264,6 +264,36 @@
   ],
   "phish": [
     {
+      "id": "45c-auoUIfI",
+      "title": "Live from New York, NY 7/25/2026 Set II Opener",
+      "venue": "Phish Official · 2026-07-26",
+      "date": "2026-07-26",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "5IjFj28iF7Q",
+      "title": "Live from New York, NY 7/25/2026 Set I Opener",
+      "venue": "Phish Official · 2026-07-26",
+      "date": "2026-07-26",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "hHGEysWBz-0",
+      "title": "7/24/2026 - The Wedge → Makisupa Policeman → Kung",
+      "venue": "Phish Official · 2026-07-25",
+      "date": "2026-07-25",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
       "id": "kWOXZ3lCPwA",
       "title": "7/22/2026 - Bouncing Around The Room → My Friend, My Friend",
       "venue": "Phish Official · 2026-07-25",
@@ -378,36 +408,6 @@
       "title": "7/14/2026 - The Curtain With → Horn",
       "venue": "Phish Official · 2026-07-16",
       "date": "2026-07-16",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "kp_4yj4WZGg",
-      "title": "7/12/2026 - Simple",
-      "venue": "Phish Official · 2026-07-15",
-      "date": "2026-07-15",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "EvzVoSUTtjg",
-      "title": "7/11/2026 - Everything's Right → Tweezer",
-      "venue": "Phish Official · 2026-07-12",
-      "date": "2026-07-12",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "0eWDwnPiLX8",
-      "title": "7/10/2026 - Down With Disease → You Enjoy Myself",
-      "venue": "Phish Official · 2026-07-12",
-      "date": "2026-07-12",
       "b": "p",
       "snip": false,
       "mix": false,
