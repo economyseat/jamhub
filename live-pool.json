@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-07-27T09:40:16+00:00",
+  "generated_at": "2026-07-28T08:24:59+00:00",
   "goose": [
+    {
+      "id": "5AOa4ESiYaI",
+      "title": "\"Elmeg the Wise\"  - 6/19/26 - Madison Square Garden (New York, NY)",
+      "venue": "Goose Official · 2026-07-27",
+      "date": "2026-07-27",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "ZhPaZoVPqm8",
+      "title": "\"(((postplace)))\" - 6/28/26 -  Merriweather Post Pavilion (Columbia, MD)",
+      "venue": "Goose Official · 2026-07-27",
+      "date": "2026-07-27",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "t1gFAyhCUmI",
       "title": "\"MEDIA\" - 7/3/26 -  Saratoga Performing Arts Center (Saratoga Springs, NY)",
@@ -132,26 +152,6 @@
       "live": true
     },
     {
-      "id": "PktZWEH6PWI",
-      "title": "\"Electric Avenue\" (Eddy Grant) - 7/1/26 -  Leader Bank Pavilion (Boston, MA)",
-      "venue": "Goose Official · 2026-07-09",
-      "date": "2026-07-09",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "MWAtyev8OoM",
-      "title": "\"Green River\" (Creedence Clearwater Revival) - 6/16/26 - The Dome (Virginia Beach, VA)",
-      "venue": "Goose Official · 2026-07-08",
-      "date": "2026-07-08",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
       "id": "c8b5YnF80D4",
       "title": "Goose jam snips - 4/23/26 \"Jive Lee\"",
       "venue": "@jamsnips · 2026-04-29",
@@ -264,20 +264,30 @@
   ],
   "phish": [
     {
-      "id": "45c-auoUIfI",
-      "title": "Live from New York, NY 7/25/2026 Set II Opener",
-      "venue": "Phish Official · 2026-07-26",
-      "date": "2026-07-26",
+      "id": "22b06o0BfOM",
+      "title": "Live from New York, NY 7/27/2026 Set II Opener",
+      "venue": "Phish Official · 2026-07-28",
+      "date": "2026-07-28",
       "b": "p",
       "snip": false,
       "mix": false,
       "live": true
     },
     {
-      "id": "5IjFj28iF7Q",
-      "title": "Live from New York, NY 7/25/2026 Set I Opener",
-      "venue": "Phish Official · 2026-07-26",
-      "date": "2026-07-26",
+      "id": "xaUMEy1fG1Y",
+      "title": "Live from New York, NY 7/27/2026 Set I Opener",
+      "venue": "Phish Official · 2026-07-28",
+      "date": "2026-07-28",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "ddbGyjN087M",
+      "title": "7/25/2026 - Cavern → Tweezer → The Squirming Coil",
+      "venue": "Phish Official · 2026-07-27",
+      "date": "2026-07-27",
       "b": "p",
       "snip": false,
       "mix": false,
@@ -304,70 +314,10 @@
       "live": true
     },
     {
-      "id": "yF9aHlJZJMw",
-      "title": "Live from New York, NY 7/24/2026 Set II Opener",
-      "venue": "Phish Official · 2026-07-25",
-      "date": "2026-07-25",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "TZYWgMCn1lc",
-      "title": "Live from New York, NY 7/24/2026 Set I Opener",
-      "venue": "Phish Official · 2026-07-25",
-      "date": "2026-07-25",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
       "id": "oXMmx2MlnZI",
       "title": "7/21/2026 - Bug",
       "venue": "Phish Official · 2026-07-24",
       "date": "2026-07-24",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "EQZWsLtXb9c",
-      "title": "Live from New York, NY 7/22/2026 Set II Opener",
-      "venue": "Phish Official · 2026-07-23",
-      "date": "2026-07-23",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "rvvOg8a_j04",
-      "title": "Live from New York, NY 7/22/2026 Set I Opener",
-      "venue": "Phish Official · 2026-07-23",
-      "date": "2026-07-23",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "cc3djNKDwtA",
-      "title": "Live from Syracuse, NY 7/22/2026 Set II Opener",
-      "venue": "Phish Official · 2026-07-22",
-      "date": "2026-07-22",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "J76XTJKSg84",
-      "title": "Live from Syracuse, NY 7/21/2026 Set I Opener",
-      "venue": "Phish Official · 2026-07-21",
-      "date": "2026-07-21",
       "b": "p",
       "snip": false,
       "mix": false,
@@ -408,6 +358,56 @@
       "title": "7/14/2026 - The Curtain With → Horn",
       "venue": "Phish Official · 2026-07-16",
       "date": "2026-07-16",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "kp_4yj4WZGg",
+      "title": "7/12/2026 - Simple",
+      "venue": "Phish Official · 2026-07-15",
+      "date": "2026-07-15",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "EvzVoSUTtjg",
+      "title": "7/11/2026 - Everything's Right → Tweezer",
+      "venue": "Phish Official · 2026-07-12",
+      "date": "2026-07-12",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "0eWDwnPiLX8",
+      "title": "7/10/2026 - Down With Disease → You Enjoy Myself",
+      "venue": "Phish Official · 2026-07-12",
+      "date": "2026-07-12",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "xkckP5TZVV4",
+      "title": "7/10/2026 - Bouncing Around The Room",
+      "venue": "Phish Official · 2026-07-11",
+      "date": "2026-07-11",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "N6HJcFPlBxU",
+      "title": "7/7/2026 - Fuego → Life Saving Gun → Sand",
+      "venue": "Phish Official · 2026-07-08",
+      "date": "2026-07-08",
       "b": "p",
       "snip": false,
       "mix": false,
