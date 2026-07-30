@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T08:31:11+00:00",
+  "generated_at": "2026-07-30T08:15:57+00:00",
   "goose": [
     {
       "id": "6aRGQtFzps0",
@@ -264,6 +264,26 @@
   ],
   "phish": [
     {
+      "id": "HSFkMN3mGT4",
+      "title": "Live from New York, NY 7/29/2026 Set II Opener",
+      "venue": "Phish Official · 2026-07-30",
+      "date": "2026-07-30",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "-qlx-QTgRoA",
+      "title": "Live from New York, NY 7/29/2026 Set I Opener",
+      "venue": "Phish Official · 2026-07-30",
+      "date": "2026-07-30",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
       "id": "22b06o0BfOM",
       "title": "Live from New York, NY 7/27/2026 Set II Opener",
       "venue": "Phish Official · 2026-07-28",
@@ -388,26 +408,6 @@
       "title": "7/10/2026 - Down With Disease → You Enjoy Myself",
       "venue": "Phish Official · 2026-07-12",
       "date": "2026-07-12",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "xkckP5TZVV4",
-      "title": "7/10/2026 - Bouncing Around The Room",
-      "venue": "Phish Official · 2026-07-11",
-      "date": "2026-07-11",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "N6HJcFPlBxU",
-      "title": "7/7/2026 - Fuego → Life Saving Gun → Sand",
-      "venue": "Phish Official · 2026-07-08",
-      "date": "2026-07-08",
       "b": "p",
       "snip": false,
       "mix": false,
