@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-07-30T08:15:57+00:00",
+  "generated_at": "2026-07-31T08:41:31+00:00",
   "goose": [
+    {
+      "id": "tI9gG6WU1CA",
+      "title": "\"Creatures\" - 6/13/26 - RBC Amphitheatre (Toronto, ON)",
+      "venue": "Goose Official · 2026-07-30",
+      "date": "2026-07-30",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "1Pb5x8KCsPc",
+      "title": "\"Jed Stone\" - 6/21/26 - Central Park Summer Stage (New York, NY)",
+      "venue": "Goose Official · 2026-07-30",
+      "date": "2026-07-30",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "6aRGQtFzps0",
       "title": "\"Wake Up\" (Arcade Fire) - 7/2/26 -  PNC Bank Arts Center (Holmdel, NJ)",
@@ -132,26 +152,6 @@
       "live": true
     },
     {
-      "id": "Ocdsca3cOZY",
-      "title": "Savenger - 7/4/26 SPAC, Saratoga Springs, NY",
-      "venue": "Goose Official · 2026-07-12",
-      "date": "2026-07-12",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "uXQrbFj88rQ",
-      "title": "POP - 7/3/26 SPAC, Saratoga Springs, NY",
-      "venue": "Goose Official · 2026-07-12",
-      "date": "2026-07-12",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
       "id": "c8b5YnF80D4",
       "title": "Goose jam snips - 4/23/26 \"Jive Lee\"",
       "venue": "@jamsnips · 2026-04-29",
@@ -264,40 +264,10 @@
   ],
   "phish": [
     {
-      "id": "HSFkMN3mGT4",
-      "title": "Live from New York, NY 7/29/2026 Set II Opener",
+      "id": "8sG1hVcNf7Q",
+      "title": "7/27/2026 - Prince Caspian",
       "venue": "Phish Official · 2026-07-30",
       "date": "2026-07-30",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "-qlx-QTgRoA",
-      "title": "Live from New York, NY 7/29/2026 Set I Opener",
-      "venue": "Phish Official · 2026-07-30",
-      "date": "2026-07-30",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "22b06o0BfOM",
-      "title": "Live from New York, NY 7/27/2026 Set II Opener",
-      "venue": "Phish Official · 2026-07-28",
-      "date": "2026-07-28",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "xaUMEy1fG1Y",
-      "title": "Live from New York, NY 7/27/2026 Set I Opener",
-      "venue": "Phish Official · 2026-07-28",
-      "date": "2026-07-28",
       "b": "p",
       "snip": false,
       "mix": false,
@@ -408,6 +378,36 @@
       "title": "7/10/2026 - Down With Disease → You Enjoy Myself",
       "venue": "Phish Official · 2026-07-12",
       "date": "2026-07-12",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "xkckP5TZVV4",
+      "title": "7/10/2026 - Bouncing Around The Room",
+      "venue": "Phish Official · 2026-07-11",
+      "date": "2026-07-11",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "N6HJcFPlBxU",
+      "title": "7/7/2026 - Fuego → Life Saving Gun → Sand",
+      "venue": "Phish Official · 2026-07-08",
+      "date": "2026-07-08",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "JCK-s08RCCA",
+      "title": "Phish Live At Sphere - 4/25/2026 - Chalk Dust Torture",
+      "venue": "Phish Official · 2026-05-22",
+      "date": "2026-05-22",
       "b": "p",
       "snip": false,
       "mix": false,
