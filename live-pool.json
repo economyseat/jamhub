@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T08:41:31+00:00",
+  "generated_at": "2026-08-01T08:11:43+00:00",
   "goose": [
     {
       "id": "tI9gG6WU1CA",
@@ -264,6 +264,36 @@
   ],
   "phish": [
     {
+      "id": "rW11N9H5iIM",
+      "title": "Live from Boston, MA 7/31/2026 Set II Opener",
+      "venue": "Phish Official · 2026-08-01",
+      "date": "2026-08-01",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "5uu5W4KGmQI",
+      "title": "Live from Boston, MA 7/31/2026 Set I Opener",
+      "venue": "Phish Official · 2026-07-31",
+      "date": "2026-07-31",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "D6ojfhvcQ4U",
+      "title": "7/29/2026 - You Enjoy Myself → Waste",
+      "venue": "Phish Official · 2026-07-31",
+      "date": "2026-07-31",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
       "id": "8sG1hVcNf7Q",
       "title": "7/27/2026 - Prince Caspian",
       "venue": "Phish Official · 2026-07-30",
@@ -378,36 +408,6 @@
       "title": "7/10/2026 - Down With Disease → You Enjoy Myself",
       "venue": "Phish Official · 2026-07-12",
       "date": "2026-07-12",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "xkckP5TZVV4",
-      "title": "7/10/2026 - Bouncing Around The Room",
-      "venue": "Phish Official · 2026-07-11",
-      "date": "2026-07-11",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "N6HJcFPlBxU",
-      "title": "7/7/2026 - Fuego → Life Saving Gun → Sand",
-      "venue": "Phish Official · 2026-07-08",
-      "date": "2026-07-08",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "JCK-s08RCCA",
-      "title": "Phish Live At Sphere - 4/25/2026 - Chalk Dust Torture",
-      "venue": "Phish Official · 2026-05-22",
-      "date": "2026-05-22",
       "b": "p",
       "snip": false,
       "mix": false,
