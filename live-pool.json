@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-08-01T08:11:43+00:00",
+  "generated_at": "2026-08-02T08:13:25+00:00",
   "goose": [
+    {
+      "id": "bnFf9d4m3oE",
+      "title": "Goose Jam Snips - 2026 Bliss Jams (vol. 1)",
+      "venue": "@jamsnips · 2026-08-01",
+      "date": "2026-08-01",
+      "b": "g",
+      "snip": true,
+      "mix": true,
+      "live": true
+    },
     {
       "id": "tI9gG6WU1CA",
       "title": "\"Creatures\" - 6/13/26 - RBC Amphitheatre (Toronto, ON)",
@@ -250,19 +260,39 @@
       "snip": true,
       "mix": false,
       "live": true
-    },
-    {
-      "id": "EmjqfWFfqb4",
-      "title": "Goose jam snips - 4/10/26 \"Dustin Hoffman\"",
-      "venue": "@jamsnips · 2026-04-17",
-      "date": "2026-04-17",
-      "b": "g",
-      "snip": true,
-      "mix": false,
-      "live": true
     }
   ],
   "phish": [
+    {
+      "id": "6b_-LUOlMT4",
+      "title": "Live from Boston, MA 8/1/2026 Set II Opener",
+      "venue": "Phish Official · 2026-08-02",
+      "date": "2026-08-02",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "7XgAXgeEtsg",
+      "title": "Live from Boston, MA 8/1/2026 Set I Opener",
+      "venue": "Phish Official · 2026-08-01",
+      "date": "2026-08-01",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "wxu9bvFolLg",
+      "title": "7/31/2026 - What's Going Through Your Mind → Fuego",
+      "venue": "Phish Official · 2026-08-01",
+      "date": "2026-08-01",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "rW11N9H5iIM",
       "title": "Live from Boston, MA 7/31/2026 Set II Opener",
@@ -378,36 +408,6 @@
       "title": "7/14/2026 - The Curtain With → Horn",
       "venue": "Phish Official · 2026-07-16",
       "date": "2026-07-16",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "kp_4yj4WZGg",
-      "title": "7/12/2026 - Simple",
-      "venue": "Phish Official · 2026-07-15",
-      "date": "2026-07-15",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "EvzVoSUTtjg",
-      "title": "7/11/2026 - Everything's Right → Tweezer",
-      "venue": "Phish Official · 2026-07-12",
-      "date": "2026-07-12",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "0eWDwnPiLX8",
-      "title": "7/10/2026 - Down With Disease → You Enjoy Myself",
-      "venue": "Phish Official · 2026-07-12",
-      "date": "2026-07-12",
       "b": "p",
       "snip": false,
       "mix": false,
