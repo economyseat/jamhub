@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-08-03T09:33:34+00:00",
+  "generated_at": "2026-08-04T08:28:35+00:00",
   "goose": [
+    {
+      "id": "e7G82K5RwCc",
+      "title": "\"Don't Leave me This Way\" (Harold Melvin & the Blue Notes) - 7/2/26 -  SPAC (Saratoga Springs, NY)",
+      "venue": "Goose Official · 2026-08-03",
+      "date": "2026-08-03",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "CuNoVcgafE0",
+      "title": "\"Sinnerman\" (Nina Simmone) - 6/21/26 - Central Park Summer Stage (New York, NY)",
+      "venue": "Goose Official · 2026-08-03",
+      "date": "2026-08-03",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "bnFf9d4m3oE",
       "title": "Goose Jam Snips - 2026 Bliss Jams (vol. 1)",
@@ -142,26 +162,6 @@
       "live": true
     },
     {
-      "id": "hiA1ZkWCDVs",
-      "title": "\"Thatch\" - 7/2/26 -  Saratoga Performing Arts Center (Saratoga Springs, NY)",
-      "venue": "Goose Official · 2026-07-12",
-      "date": "2026-07-12",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "mt0-lVp2q3o",
-      "title": "Dripfield - 7/4/26 SPAC, Saratoga Springs, NY",
-      "venue": "Goose Official · 2026-07-12",
-      "date": "2026-07-12",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
       "id": "c8b5YnF80D4",
       "title": "Goose jam snips - 4/23/26 \"Jive Lee\"",
       "venue": "@jamsnips · 2026-04-29",
@@ -263,6 +263,16 @@
     }
   ],
   "phish": [
+    {
+      "id": "eAx_AIkUuoA",
+      "title": "8/1/2026 - Chalk Dust Torture → Stash → Sand",
+      "venue": "Phish Official · 2026-08-03",
+      "date": "2026-08-03",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "6b_-LUOlMT4",
       "title": "Live from Boston, MA 8/1/2026 Set II Opener",
@@ -398,16 +408,6 @@
       "title": "7/15/2026 - The Wedge",
       "venue": "Phish Official · 2026-07-17",
       "date": "2026-07-17",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "eChPRtjLK1g",
-      "title": "7/14/2026 - The Curtain With → Horn",
-      "venue": "Phish Official · 2026-07-16",
-      "date": "2026-07-16",
       "b": "p",
       "snip": false,
       "mix": false,
