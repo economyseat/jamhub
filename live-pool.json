@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T08:28:35+00:00",
+  "generated_at": "2026-08-05T08:27:25+00:00",
   "goose": [
     {
       "id": "e7G82K5RwCc",
@@ -250,19 +250,19 @@
       "snip": true,
       "mix": false,
       "live": true
-    },
-    {
-      "id": "EyJgZyKn3vg",
-      "title": "Goose jam snips - 4/12/26 \"Creatures\"",
-      "venue": "@jamsnips · 2026-04-17",
-      "date": "2026-04-17",
-      "b": "g",
-      "snip": true,
-      "mix": false,
-      "live": true
     }
   ],
   "phish": [
+    {
+      "id": "we88RxQtt3w",
+      "title": "Phish 2026 Summer Tour Jams: MSG + Fenway | 3+ Hour Instrumental Mix | Jam Snips",
+      "venue": "@jamsnips · 2026-08-05",
+      "date": "2026-08-05",
+      "b": "p",
+      "snip": true,
+      "mix": true,
+      "live": true
+    },
     {
       "id": "eAx_AIkUuoA",
       "title": "8/1/2026 - Chalk Dust Torture → Stash → Sand",
