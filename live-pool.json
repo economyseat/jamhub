@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-08-06T08:25:57+00:00",
+  "generated_at": "2026-08-07T07:06:25+00:00",
   "goose": [
+    {
+      "id": "XKm-i22QQZk",
+      "title": "\"Bloodbuzz Ohio\" (The National) - 6/27/26 -  Red Hat Amphitheater (Raleigh, NC)",
+      "venue": "Goose Official · 2026-08-06",
+      "date": "2026-08-06",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "e7G82K5RwCc",
       "title": "\"Don't Leave me This Way\" (Harold Melvin & the Blue Notes) - 7/2/26 -  SPAC (Saratoga Springs, NY)",
@@ -152,16 +162,6 @@
       "live": true
     },
     {
-      "id": "PnuG-IDqCWY",
-      "title": "\"Can't Get You Out of My Head\" (Kylie Minogue) - 6/28/26-  Merriweather Post Pavilion (Columbia, MD)",
-      "venue": "Goose Official · 2026-07-13",
-      "date": "2026-07-13",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
       "id": "c8b5YnF80D4",
       "title": "Goose jam snips - 4/23/26 \"Jive Lee\"",
       "venue": "@jamsnips · 2026-04-29",
@@ -274,50 +274,10 @@
       "live": true
     },
     {
-      "id": "6b_-LUOlMT4",
-      "title": "Live from Boston, MA 8/1/2026 Set II Opener",
-      "venue": "Phish Official · 2026-08-02",
-      "date": "2026-08-02",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "7XgAXgeEtsg",
-      "title": "Live from Boston, MA 8/1/2026 Set I Opener",
-      "venue": "Phish Official · 2026-08-01",
-      "date": "2026-08-01",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
       "id": "wxu9bvFolLg",
       "title": "7/31/2026 - What's Going Through Your Mind → Fuego",
       "venue": "Phish Official · 2026-08-01",
       "date": "2026-08-01",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "rW11N9H5iIM",
-      "title": "Live from Boston, MA 7/31/2026 Set II Opener",
-      "venue": "Phish Official · 2026-08-01",
-      "date": "2026-08-01",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "5uu5W4KGmQI",
-      "title": "Live from Boston, MA 7/31/2026 Set I Opener",
-      "venue": "Phish Official · 2026-07-31",
-      "date": "2026-07-31",
       "b": "p",
       "snip": false,
       "mix": false,
@@ -408,6 +368,46 @@
       "title": "7/15/2026 - The Wedge",
       "venue": "Phish Official · 2026-07-17",
       "date": "2026-07-17",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "eChPRtjLK1g",
+      "title": "7/14/2026 - The Curtain With → Horn",
+      "venue": "Phish Official · 2026-07-16",
+      "date": "2026-07-16",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "kp_4yj4WZGg",
+      "title": "7/12/2026 - Simple",
+      "venue": "Phish Official · 2026-07-15",
+      "date": "2026-07-15",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "EvzVoSUTtjg",
+      "title": "7/11/2026 - Everything's Right → Tweezer",
+      "venue": "Phish Official · 2026-07-12",
+      "date": "2026-07-12",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "0eWDwnPiLX8",
+      "title": "7/10/2026 - Down With Disease → You Enjoy Myself",
+      "venue": "Phish Official · 2026-07-12",
+      "date": "2026-07-12",
       "b": "p",
       "snip": false,
       "mix": false,
