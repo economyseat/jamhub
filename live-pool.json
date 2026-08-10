@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-08-07T07:06:25+00:00",
+  "generated_at": "2026-08-10T07:21:19+00:00",
   "goose": [
+    {
+      "id": "cxEQp2WaW-M",
+      "title": "\"Bear\" (The Shouting Matches) - 6/28/26 -  Merriweather Post Pavilion (Columbia, MD)",
+      "venue": "Goose Official · 2026-08-07",
+      "date": "2026-08-07",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "XKm-i22QQZk",
       "title": "\"Bloodbuzz Ohio\" (The National) - 6/27/26 -  Red Hat Amphitheater (Raleigh, NC)",
@@ -146,16 +156,6 @@
       "title": "\"It Burns Within\" - 7/1/26 -  Leader Bank Pavilion (Boston, MA)",
       "venue": "Goose Official · 2026-07-16",
       "date": "2026-07-16",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "yDqQvJTLWOg",
-      "title": "\"You Spin Me Round Like a Record\" (Dead or Alive) - 7/2/26 -  PNC Bank Arts Center (Holmdel, NJ)",
-      "venue": "Goose Official · 2026-07-13",
-      "date": "2026-07-13",
       "b": "g",
       "snip": false,
       "mix": false,
