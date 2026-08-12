@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-08-10T07:21:19+00:00",
+  "generated_at": "2026-08-12T07:16:20+00:00",
   "goose": [
+    {
+      "id": "prehqat3BEM",
+      "title": "Goose Jam Snips - Just the JOTYs 2026: Vol. 1 - Spring Tour",
+      "venue": "@jamsnips · 2026-08-12",
+      "date": "2026-08-12",
+      "b": "g",
+      "snip": true,
+      "mix": true,
+      "live": true
+    },
     {
       "id": "cxEQp2WaW-M",
       "title": "\"Bear\" (The Shouting Matches) - 6/28/26 -  Merriweather Post Pavilion (Columbia, MD)",
@@ -230,29 +240,19 @@
       "snip": true,
       "mix": false,
       "live": true
-    },
-    {
-      "id": "F1wd9dlfopU",
-      "title": "Goose jam snips - 4/18/26 \"Good2B\"",
-      "venue": "@jamsnips · 2026-04-20",
-      "date": "2026-04-20",
-      "b": "g",
-      "snip": true,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "J2RrAbCg7rY",
-      "title": "Goose jam snips - 4/12/26 \"Kung Fu Fighting\"",
-      "venue": "@jamsnips · 2026-04-17",
-      "date": "2026-04-17",
-      "b": "g",
-      "snip": true,
-      "mix": false,
-      "live": true
     }
   ],
   "phish": [
+    {
+      "id": "_Hde4pTB4oc",
+      "title": "Phish 2026 Summer Tour Jams: Vol. 1 | Deer Creek Tweezer, Merriweather + More | Jam Snips",
+      "venue": "@jamsnips · 2026-08-10",
+      "date": "2026-08-10",
+      "b": "p",
+      "snip": true,
+      "mix": true,
+      "live": true
+    },
     {
       "id": "we88RxQtt3w",
       "title": "Phish 2026 Summer Tour Jams: MSG + Fenway | 3+ Hour Instrumental Mix | Jam Snips",
