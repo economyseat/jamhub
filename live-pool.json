@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-08-13T07:18:13+00:00",
+  "generated_at": "2026-08-14T07:16:32+00:00",
   "goose": [
+    {
+      "id": "OYeab3h_3xU",
+      "title": "Goose 8/13/26 Cal Coast Credit Union Open Air Theatre, San Diego, CA Set I Opener",
+      "venue": "Goose Official · 2026-08-14",
+      "date": "2026-08-14",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "Ziu4q_jIUa0",
+      "title": "Goose Jam Snips -  2026 Jams: Mexico + Europe",
+      "venue": "@jamsnips · 2026-08-13",
+      "date": "2026-08-13",
+      "b": "g",
+      "snip": true,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "prehqat3BEM",
       "title": "Goose Jam Snips - Just the JOTYs 2026: Vol. 1 - Spring Tour",
@@ -162,16 +182,6 @@
       "live": true
     },
     {
-      "id": "SeGFXk-LenI",
-      "title": "\"It Burns Within\" - 7/1/26 -  Leader Bank Pavilion (Boston, MA)",
-      "venue": "Goose Official · 2026-07-16",
-      "date": "2026-07-16",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
       "id": "c8b5YnF80D4",
       "title": "Goose jam snips - 4/23/26 \"Jive Lee\"",
       "venue": "@jamsnips · 2026-04-29",
@@ -224,16 +234,6 @@
     {
       "id": "aV-d10vFx1M",
       "title": "Goose jam snips - 4/15/26 \"Tumble\"",
-      "venue": "@jamsnips · 2026-04-20",
-      "date": "2026-04-20",
-      "b": "g",
-      "snip": true,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "fruT-FkXomE",
-      "title": "Goose jam snips - 4/18/26 \"Pancakes\"",
       "venue": "@jamsnips · 2026-04-20",
       "date": "2026-04-20",
       "b": "g",
