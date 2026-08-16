@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-08-14T07:16:32+00:00",
+  "generated_at": "2026-08-16T06:30:31+00:00",
   "goose": [
+    {
+      "id": "CMn7OLp38dE",
+      "title": "Thatch - 8/13/26 San Diego, CA",
+      "venue": "Goose Official · 2026-08-16",
+      "date": "2026-08-16",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "frbBSWoHyVM",
+      "title": "Mississippi Half-Step Uptown Toodeloo - San Diego, CA 8/13/26",
+      "venue": "Goose Official · 2026-08-16",
+      "date": "2026-08-16",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "OYeab3h_3xU",
       "title": "Goose 8/13/26 Cal Coast Credit Union Open Air Theatre, San Diego, CA Set I Opener",
@@ -156,26 +176,6 @@
       "title": "\"Don't Do It\" (The Band) - 6/26/26 -  Red Hat Amphitheater (Raleigh, NC)",
       "venue": "Goose Official · 2026-07-20",
       "date": "2026-07-20",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "tRBHE35L76c",
-      "title": "June exceeded recommended operating limits.",
-      "venue": "Goose Official · 2026-07-16",
-      "date": "2026-07-16",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "-HEQ89aF3wc",
-      "title": "\"Madhuvan\" - 6/30/26 -  Leader Bank Pavilion (Boston, Ma)",
-      "venue": "Goose Official · 2026-07-16",
-      "date": "2026-07-16",
       "b": "g",
       "snip": false,
       "mix": false,
