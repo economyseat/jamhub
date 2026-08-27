@@ -1,7 +1,268 @@
 {
-  "generated_at": "2026-08-26T06:38:30+00:00",
-  "goose": [],
+  "generated_at": "2026-08-27T17:14:07+00:00",
+  "goose": [
+    {
+      "id": "eFjJIGtMNAg",
+      "title": "Goose 8/18/26 Commodore Ballroom, Vancouver, BC Set I Opener",
+      "venue": "Goose Official · 2026-08-26",
+      "date": "2026-08-26",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "F65onljP48k",
+      "title": "Goose 8/24/26 Kettlehouse Amphitheater, Missoula, MT Set I Opener",
+      "venue": "Goose Official · 2026-08-25",
+      "date": "2026-08-25",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "myOAz06gYF8",
+      "title": "Goose Jam Snips - 2026 Summer Jams, vol. 1",
+      "venue": "@jamsnips · 2026-08-24",
+      "date": "2026-08-24",
+      "b": "g",
+      "snip": true,
+      "mix": true,
+      "live": true
+    },
+    {
+      "id": "JWG73Ad1agw",
+      "title": "Dripfield → Good2B - 8/21/26 Bend, OR",
+      "venue": "Goose Official · 2026-08-24",
+      "date": "2026-08-24",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "76wzMRdqkEs",
+      "title": "\"Strange Overtones\" (David Byrne Cover) - 8/15/26 - Frost Amphitheater (Stanford, CA)",
+      "venue": "Goose Official · 2026-08-24",
+      "date": "2026-08-24",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "A3z_jd6tWAs",
+      "title": "“My Oh My\" (Punch Brothers Cover)- August 21, 2026 - Hayden Homes Amphitheater (Bend, OR)",
+      "venue": "Goose Official · 2026-08-24",
+      "date": "2026-08-24",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "u1m0MKLM6jI",
+      "title": "Goose 8/22/26 Hayden Homes Amphitheater, Bend, OR Set I Opener",
+      "venue": "Goose Official · 2026-08-23",
+      "date": "2026-08-23",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "TDW7WDPov2M",
+      "title": "Goose 8/21/26 Hayden Homes Amphitheater, Bend, OR Set I Opener",
+      "venue": "Goose Official · 2026-08-22",
+      "date": "2026-08-22",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "igMDzzfjtB0",
+      "title": "Goose 8/19/26 WaMu Theater, Seattle, WA Set I Opener",
+      "venue": "Goose Official · 2026-08-20",
+      "date": "2026-08-20",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "4j6vF-9plFY",
+      "title": "\"((postplace)))\"  - 8/16/26 - Grand Sierra Resort (Reno, NV)",
+      "venue": "Goose Official · 2026-08-19",
+      "date": "2026-08-19",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "9AlTqb2iVNU",
+      "title": "Goose Jam Snips - Summer 2026 jams: the Road to MSG",
+      "venue": "@jamsnips · 2026-08-18",
+      "date": "2026-08-18",
+      "b": "g",
+      "snip": true,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "Lc8LhDCCjaQ",
+      "title": "“Mississippi Half-Step” (Grateful Dead) 8/13/26 Cal Coast Credit Union Amphitheater (San Diego, CA)",
+      "venue": "Goose Official · 2026-08-17",
+      "date": "2026-08-17",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "CMn7OLp38dE",
+      "title": "Thatch - 8/13/26 San Diego, CA",
+      "venue": "Goose Official · 2026-08-16",
+      "date": "2026-08-16",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "frbBSWoHyVM",
+      "title": "Mississippi Half-Step Uptown Toodeloo - 8/13/26 San Diego, CA",
+      "venue": "Goose Official · 2026-08-16",
+      "date": "2026-08-16",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "OYeab3h_3xU",
+      "title": "Goose 8/13/26 Cal Coast Credit Union Open Air Theatre, San Diego, CA Set I Opener",
+      "venue": "Goose Official · 2026-08-14",
+      "date": "2026-08-14",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "Ziu4q_jIUa0",
+      "title": "Goose Jam Snips -  2026 Jams: Mexico + Europe",
+      "venue": "@jamsnips · 2026-08-13",
+      "date": "2026-08-13",
+      "b": "g",
+      "snip": true,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "prehqat3BEM",
+      "title": "Goose Jam Snips - Just the JOTYs 2026: Vol. 1 - Spring Tour",
+      "venue": "@jamsnips · 2026-08-12",
+      "date": "2026-08-12",
+      "b": "g",
+      "snip": true,
+      "mix": true,
+      "live": true
+    },
+    {
+      "id": "cxEQp2WaW-M",
+      "title": "\"Bear\" (The Shouting Matches) - 6/28/26 -  Merriweather Post Pavilion (Columbia, MD)",
+      "venue": "Goose Official · 2026-08-07",
+      "date": "2026-08-07",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "XKm-i22QQZk",
+      "title": "\"Bloodbuzz Ohio\" (The National) - 6/27/26 -  Red Hat Amphitheater (Raleigh, NC)",
+      "venue": "Goose Official · 2026-08-06",
+      "date": "2026-08-06",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "bnFf9d4m3oE",
+      "title": "Goose Jam Snips - 2026 Bliss Jams (vol. 1)",
+      "venue": "@jamsnips · 2026-08-01",
+      "date": "2026-08-01",
+      "b": "g",
+      "snip": true,
+      "mix": true,
+      "live": true
+    },
+    {
+      "id": "c8b5YnF80D4",
+      "title": "Goose jam snips - 4/23/26 \"Jive Lee\"",
+      "venue": "@jamsnips · 2026-04-29",
+      "date": "2026-04-29",
+      "b": "g",
+      "snip": true,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "3ni2n6h56LY",
+      "title": "Goose jam snips - 4/23/26 \"Red Bird\"",
+      "venue": "@jamsnips · 2026-04-27",
+      "date": "2026-04-27",
+      "b": "g",
+      "snip": true,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "BJ7ruyLbxeo",
+      "title": "Goose jam snips - 4/23/26 \"Tomorrow Never Knows\"",
+      "venue": "@jamsnips · 2026-04-27",
+      "date": "2026-04-27",
+      "b": "g",
+      "snip": true,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "lbxkoZDnKf0",
+      "title": "Goose jam snips - 4/19/26 \"Animal\"",
+      "venue": "@jamsnips · 2026-04-21",
+      "date": "2026-04-21",
+      "b": "g",
+      "snip": true,
+      "mix": false,
+      "live": true
+    }
+  ],
   "phish": [
+    {
+      "id": "_Hde4pTB4oc",
+      "title": "Phish 2026 Summer Tour Jams: Vol. 1 | Deer Creek Tweezer, Merriweather + More | Jam Snips",
+      "venue": "@jamsnips · 2026-08-10",
+      "date": "2026-08-10",
+      "b": "p",
+      "snip": true,
+      "mix": true,
+      "live": true
+    },
+    {
+      "id": "we88RxQtt3w",
+      "title": "Phish 2026 Summer Tour Jams: MSG + Fenway | 3+ Hour Instrumental Mix | Jam Snips",
+      "venue": "@jamsnips · 2026-08-05",
+      "date": "2026-08-05",
+      "b": "p",
+      "snip": true,
+      "mix": true,
+      "live": true
+    },
     {
       "id": "eAx_AIkUuoA",
       "title": "8/1/2026 - Chalk Dust Torture → Stash → Sand",
@@ -149,6 +410,46 @@
       "date": "2026-07-12",
       "b": "p",
       "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "0J3gGYLX5nk",
+      "title": "Phish Jam Snips - 5/2/26 \"Kill Devil Falls\"",
+      "venue": "@jamsnips · 2026-05-05",
+      "date": "2026-05-05",
+      "b": "p",
+      "snip": true,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "HCTdwxHXwig",
+      "title": "Phish Jam Snips - 4/25/26 \"Chalk Dust Torture\"",
+      "venue": "@jamsnips · 2026-05-05",
+      "date": "2026-05-05",
+      "b": "p",
+      "snip": true,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "TYsoyHOaX_U",
+      "title": "Phish Jam Snips - 4/18/26 \"Tweezer\"",
+      "venue": "@jamsnips · 2026-04-23",
+      "date": "2026-04-23",
+      "b": "p",
+      "snip": true,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "GLwNZdbVQE4",
+      "title": "Phish Jam Snips - 4/18/26 \"Simple\"",
+      "venue": "@jamsnips · 2026-04-23",
+      "date": "2026-04-23",
+      "b": "p",
+      "snip": true,
       "mix": false,
       "live": true
     },
