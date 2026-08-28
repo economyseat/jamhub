@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-08-27T17:14:07+00:00",
+  "generated_at": "2026-08-28T18:06:46+00:00",
   "goose": [
+    {
+      "id": "1IgJdFkR0ak",
+      "title": "Goose 8/27/26 Red Rocks Amphitheatre Morrison 4K, CO Set I Opener",
+      "venue": "Goose Official · 2026-08-28",
+      "date": "2026-08-28",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "eFjJIGtMNAg",
       "title": "Goose 8/18/26 Commodore Ballroom, Vancouver, BC Set I Opener",
@@ -176,16 +186,6 @@
       "title": "\"Bear\" (The Shouting Matches) - 6/28/26 -  Merriweather Post Pavilion (Columbia, MD)",
       "venue": "Goose Official · 2026-08-07",
       "date": "2026-08-07",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "XKm-i22QQZk",
-      "title": "\"Bloodbuzz Ohio\" (The National) - 6/27/26 -  Red Hat Amphitheater (Raleigh, NC)",
-      "venue": "Goose Official · 2026-08-06",
-      "date": "2026-08-06",
       "b": "g",
       "snip": false,
       "mix": false,
