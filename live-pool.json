@@ -1,11 +1,51 @@
 {
-  "generated_at": "2026-08-28T18:06:46+00:00",
+  "generated_at": "2026-08-29T12:09:11+00:00",
   "goose": [
     {
-      "id": "1IgJdFkR0ak",
-      "title": "Goose 8/27/26 Red Rocks Amphitheatre Morrison 4K, CO Set I Opener",
-      "venue": "Goose Official · 2026-08-28",
-      "date": "2026-08-28",
+      "id": "9KGWiPfIin0",
+      "title": "Silver Rising - 8/27/26 Red Rocks",
+      "venue": "Goose Official · 2026-08-29",
+      "date": "2026-08-29",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "cPRhBbxpgW8",
+      "title": "Madhuvan - 8/27/26 Red Rocks",
+      "venue": "Goose Official · 2026-08-29",
+      "date": "2026-08-29",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "Xn8X_SvFwiE",
+      "title": "Red Bird - 8/27/26 Red Rocks",
+      "venue": "Goose Official · 2026-08-29",
+      "date": "2026-08-29",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "_ivU4NtJ-P4",
+      "title": "Wysteria Lane - 8/27/26 Red Rocks",
+      "venue": "Goose Official · 2026-08-29",
+      "date": "2026-08-29",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "OWJ2XVQfdvY",
+      "title": "Goose 8/28/26 Red Rocks Amphitheatre Morrison 4K, CO Set I Opener",
+      "venue": "Goose Official · 2026-08-29",
+      "date": "2026-08-29",
       "b": "g",
       "snip": false,
       "mix": false,
@@ -132,36 +172,6 @@
       "live": true
     },
     {
-      "id": "CMn7OLp38dE",
-      "title": "Thatch - 8/13/26 San Diego, CA",
-      "venue": "Goose Official · 2026-08-16",
-      "date": "2026-08-16",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "frbBSWoHyVM",
-      "title": "Mississippi Half-Step Uptown Toodeloo - 8/13/26 San Diego, CA",
-      "venue": "Goose Official · 2026-08-16",
-      "date": "2026-08-16",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "OYeab3h_3xU",
-      "title": "Goose 8/13/26 Cal Coast Credit Union Open Air Theatre, San Diego, CA Set I Opener",
-      "venue": "Goose Official · 2026-08-14",
-      "date": "2026-08-14",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
       "id": "Ziu4q_jIUa0",
       "title": "Goose Jam Snips -  2026 Jams: Mexico + Europe",
       "venue": "@jamsnips · 2026-08-13",
@@ -179,16 +189,6 @@
       "b": "g",
       "snip": true,
       "mix": true,
-      "live": true
-    },
-    {
-      "id": "cxEQp2WaW-M",
-      "title": "\"Bear\" (The Shouting Matches) - 6/28/26 -  Merriweather Post Pavilion (Columbia, MD)",
-      "venue": "Goose Official · 2026-08-07",
-      "date": "2026-08-07",
-      "b": "g",
-      "snip": false,
-      "mix": false,
       "live": true
     },
     {
