@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-08-29T12:09:11+00:00",
+  "generated_at": "2026-08-30T11:05:45+00:00",
   "goose": [
+    {
+      "id": "0ARi6NA9Msg",
+      "title": "Hot Tea - 8/28/26 Red Rocks",
+      "venue": "Goose Official · 2026-08-29",
+      "date": "2026-08-29",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "bz7ZQ50flyw",
+      "title": "Dripfield - 8/28/26 Red Rocks",
+      "venue": "Goose Official · 2026-08-29",
+      "date": "2026-08-29",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "9KGWiPfIin0",
       "title": "Silver Rising - 8/27/26 Red Rocks",
@@ -142,32 +162,12 @@
       "live": true
     },
     {
-      "id": "4j6vF-9plFY",
-      "title": "\"((postplace)))\"  - 8/16/26 - Grand Sierra Resort (Reno, NV)",
-      "venue": "Goose Official · 2026-08-19",
-      "date": "2026-08-19",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
       "id": "9AlTqb2iVNU",
       "title": "Goose Jam Snips - Summer 2026 jams: the Road to MSG",
       "venue": "@jamsnips · 2026-08-18",
       "date": "2026-08-18",
       "b": "g",
       "snip": true,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "Lc8LhDCCjaQ",
-      "title": "“Mississippi Half-Step” (Grateful Dead) 8/13/26 Cal Coast Credit Union Amphitheater (San Diego, CA)",
-      "venue": "Goose Official · 2026-08-17",
-      "date": "2026-08-17",
-      "b": "g",
-      "snip": false,
       "mix": false,
       "live": true
     },
