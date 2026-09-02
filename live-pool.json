@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-09-01T10:58:14+00:00",
+  "generated_at": "2026-09-02T10:27:27+00:00",
   "goose": [
+    {
+      "id": "Swp8cr7bLO4",
+      "title": "Goose 9/1/26 Red Rocks Amphitheatre Morrison 4K, CO Set I Opener",
+      "venue": "Goose Official · 2026-09-01",
+      "date": "2026-09-01",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "EbVHQ9L4qKk",
       "title": "\"Good2B\"  - 8/21/26 - Hayden Homes Ampitheatre (Bend, OR)",
@@ -144,16 +154,6 @@
     {
       "id": "JWG73Ad1agw",
       "title": "Dripfield → Good2B - 8/21/26 Bend, OR",
-      "venue": "Goose Official · 2026-08-24",
-      "date": "2026-08-24",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "76wzMRdqkEs",
-      "title": "\"Strange Overtones\" (David Byrne Cover) - 8/15/26 - Frost Amphitheater (Stanford, CA)",
       "venue": "Goose Official · 2026-08-24",
       "date": "2026-08-24",
       "b": "g",
