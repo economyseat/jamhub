@@ -1,11 +1,21 @@
 {
-  "generated_at": "2026-09-02T10:27:27+00:00",
+  "generated_at": "2026-09-03T10:33:59+00:00",
   "goose": [
+    {
+      "id": "ctP9HqDxm_s",
+      "title": "Goose 9/2/26 Dillon Amphitheater, Dillon, CO, Set I Opener",
+      "venue": "Goose Official · 2026-09-02",
+      "date": "2026-09-02",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "Swp8cr7bLO4",
       "title": "Goose 9/1/26 Red Rocks Amphitheatre Morrison 4K, CO Set I Opener",
-      "venue": "Goose Official · 2026-09-01",
-      "date": "2026-09-01",
+      "venue": "Goose Official · 2026-09-02",
+      "date": "2026-09-02",
       "b": "g",
       "snip": false,
       "mix": false,
@@ -149,16 +159,6 @@
       "b": "g",
       "snip": true,
       "mix": true,
-      "live": true
-    },
-    {
-      "id": "JWG73Ad1agw",
-      "title": "Dripfield → Good2B - 8/21/26 Bend, OR",
-      "venue": "Goose Official · 2026-08-24",
-      "date": "2026-08-24",
-      "b": "g",
-      "snip": false,
-      "mix": false,
       "live": true
     },
     {
