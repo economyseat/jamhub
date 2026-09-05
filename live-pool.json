@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-09-04T10:25:04+00:00",
+  "generated_at": "2026-09-05T09:51:44+00:00",
   "goose": [
+    {
+      "id": "WMLW9QW0Cfo",
+      "title": "Into The Myst → Running Up That Hill -  8/24/26 Bonner, MT",
+      "venue": "Goose Official · 2026-09-04",
+      "date": "2026-09-04",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "HQE7H-v7vqs",
+      "title": "Big Modern! - 9/1/26 Red Rocks",
+      "venue": "Goose Official · 2026-09-04",
+      "date": "2026-09-04",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "ctP9HqDxm_s",
       "title": "Goose 9/2/26 Dillon Amphitheater, Dillon, CO, Set I Opener",
@@ -132,26 +152,6 @@
       "live": true
     },
     {
-      "id": "eFjJIGtMNAg",
-      "title": "Goose 8/18/26 Commodore Ballroom, Vancouver, BC Set I Opener",
-      "venue": "Goose Official · 2026-08-26",
-      "date": "2026-08-26",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "F65onljP48k",
-      "title": "Goose 8/24/26 Kettlehouse Amphitheater, Missoula, MT Set I Opener",
-      "venue": "Goose Official · 2026-08-25",
-      "date": "2026-08-25",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
       "id": "myOAz06gYF8",
       "title": "Goose Jam Snips - 2026 Summer Jams, vol. 1",
       "venue": "@jamsnips · 2026-08-24",
@@ -243,6 +243,26 @@
     }
   ],
   "phish": [
+    {
+      "id": "mRpt1vxbWRk",
+      "title": "Live from Commerce City, CO 9/4/2026 Set II Opener",
+      "venue": "Phish Official · 2026-09-05",
+      "date": "2026-09-05",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "aVFsbDI2JCc",
+      "title": "Live from Commerce City, CO 9/4/2026 Set I Opener",
+      "venue": "Phish Official · 2026-09-05",
+      "date": "2026-09-05",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "_Hde4pTB4oc",
       "title": "Phish 2026 Summer Tour Jams: Vol. 1 | Deer Creek Tweezer, Merriweather + More | Jam Snips",
@@ -388,26 +408,6 @@
       "title": "7/12/2026 - Simple",
       "venue": "Phish Official · 2026-07-15",
       "date": "2026-07-15",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "EvzVoSUTtjg",
-      "title": "7/11/2026 - Everything's Right → Tweezer",
-      "venue": "Phish Official · 2026-07-12",
-      "date": "2026-07-12",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "0eWDwnPiLX8",
-      "title": "7/10/2026 - Down With Disease → You Enjoy Myself",
-      "venue": "Phish Official · 2026-07-12",
-      "date": "2026-07-12",
       "b": "p",
       "snip": false,
       "mix": false,
