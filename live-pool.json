@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T09:51:44+00:00",
+  "generated_at": "2026-09-06T10:08:25+00:00",
   "goose": [
     {
       "id": "WMLW9QW0Cfo",
@@ -244,18 +244,28 @@
   ],
   "phish": [
     {
-      "id": "mRpt1vxbWRk",
-      "title": "Live from Commerce City, CO 9/4/2026 Set II Opener",
-      "venue": "Phish Official · 2026-09-05",
-      "date": "2026-09-05",
+      "id": "lBgVeZZmufI",
+      "title": "Live from Commerce City, CO 9/5/2026 Set II Opener",
+      "venue": "Phish Official · 2026-09-06",
+      "date": "2026-09-06",
       "b": "p",
       "snip": false,
       "mix": false,
       "live": true
     },
     {
-      "id": "aVFsbDI2JCc",
-      "title": "Live from Commerce City, CO 9/4/2026 Set I Opener",
+      "id": "qfKCJ65k_q8",
+      "title": "Live from Commerce City, CO 9/5/2026 Set I Opener",
+      "venue": "Phish Official · 2026-09-06",
+      "date": "2026-09-06",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "ggUooD6w314",
+      "title": "9/4/2026 - Down With Disease",
       "venue": "Phish Official · 2026-09-05",
       "date": "2026-09-05",
       "b": "p",
@@ -398,16 +408,6 @@
       "title": "7/14/2026 - The Curtain With → Horn",
       "venue": "Phish Official · 2026-07-16",
       "date": "2026-07-16",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "kp_4yj4WZGg",
-      "title": "7/12/2026 - Simple",
-      "venue": "Phish Official · 2026-07-15",
-      "date": "2026-07-15",
       "b": "p",
       "snip": false,
       "mix": false,
