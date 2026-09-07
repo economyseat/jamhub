@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T10:08:25+00:00",
+  "generated_at": "2026-09-07T11:24:08+00:00",
   "goose": [
     {
       "id": "WMLW9QW0Cfo",
@@ -244,8 +244,28 @@
   ],
   "phish": [
     {
-      "id": "lBgVeZZmufI",
-      "title": "Live from Commerce City, CO 9/5/2026 Set II Opener",
+      "id": "0iAhJJBsO8c",
+      "title": "Live from Commerce City, CO 9/6/2026 Set II Opener",
+      "venue": "Phish Official · 2026-09-07",
+      "date": "2026-09-07",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "PsIkJV5RyJ8",
+      "title": "Live from Commerce City, CO 9/6/2026 Set I Opener",
+      "venue": "Phish Official · 2026-09-07",
+      "date": "2026-09-07",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "WXMrWwb5kOI",
+      "title": "9/5/2026 - Free",
       "venue": "Phish Official · 2026-09-06",
       "date": "2026-09-06",
       "b": "p",
@@ -254,8 +274,8 @@
       "live": true
     },
     {
-      "id": "qfKCJ65k_q8",
-      "title": "Live from Commerce City, CO 9/5/2026 Set I Opener",
+      "id": "sWPsbj0iUW4",
+      "title": "9/5/2026 - Tweezer",
       "venue": "Phish Official · 2026-09-06",
       "date": "2026-09-06",
       "b": "p",
@@ -388,26 +408,6 @@
       "title": "7/17/2026 - Harry Hood → Fuego → Lizards → A Wave of Hope",
       "venue": "Phish Official · 2026-07-18",
       "date": "2026-07-18",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "uRIBCre1W8Q",
-      "title": "7/15/2026 - The Wedge",
-      "venue": "Phish Official · 2026-07-17",
-      "date": "2026-07-17",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "eChPRtjLK1g",
-      "title": "7/14/2026 - The Curtain With → Horn",
-      "venue": "Phish Official · 2026-07-16",
-      "date": "2026-07-16",
       "b": "p",
       "snip": false,
       "mix": false,
