@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-09-09T10:38:27+00:00",
+  "generated_at": "2026-09-10T10:26:23+00:00",
   "goose": [
+    {
+      "id": "rAF7BPFiI4s",
+      "title": "\"Don't Do It\" (The Band)  - 8/18/26 - Commodore Ballroom (Vancouver, BC)",
+      "venue": "Goose Official · 2026-09-09",
+      "date": "2026-09-09",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "WMLW9QW0Cfo",
       "title": "Into The Myst → Running Up That Hill -  8/24/26 Bonner, MT",
@@ -142,16 +152,6 @@
       "live": true
     },
     {
-      "id": "OWJ2XVQfdvY",
-      "title": "Goose 8/28/26 Red Rocks Amphitheatre Morrison 4K, CO Set I Opener",
-      "venue": "Goose Official · 2026-08-29",
-      "date": "2026-08-29",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
       "id": "myOAz06gYF8",
       "title": "Goose Jam Snips - 2026 Summer Jams, vol. 1",
       "venue": "@jamsnips · 2026-08-24",
@@ -244,20 +244,10 @@
   ],
   "phish": [
     {
-      "id": "0iAhJJBsO8c",
-      "title": "Live from Commerce City, CO 9/6/2026 Set II Opener",
-      "venue": "Phish Official · 2026-09-07",
-      "date": "2026-09-07",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "PsIkJV5RyJ8",
-      "title": "Live from Commerce City, CO 9/6/2026 Set I Opener",
-      "venue": "Phish Official · 2026-09-07",
-      "date": "2026-09-07",
+      "id": "_Y7MPHln624",
+      "title": "9/6/2026 - Light → Everything's Right",
+      "venue": "Phish Official · 2026-09-09",
+      "date": "2026-09-09",
       "b": "p",
       "snip": false,
       "mix": false,
@@ -408,6 +398,16 @@
       "title": "7/17/2026 - Harry Hood → Fuego → Lizards → A Wave of Hope",
       "venue": "Phish Official · 2026-07-18",
       "date": "2026-07-18",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "uRIBCre1W8Q",
+      "title": "7/15/2026 - The Wedge",
+      "venue": "Phish Official · 2026-07-17",
+      "date": "2026-07-17",
       "b": "p",
       "snip": false,
       "mix": false,
