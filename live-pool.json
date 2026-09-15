@@ -1,6 +1,36 @@
 {
-  "generated_at": "2026-09-14T11:33:37+00:00",
+  "generated_at": "2026-09-15T10:53:39+00:00",
   "goose": [
+    {
+      "id": "MFH8pjicWKM",
+      "title": "\"POP\"  - 8/19/26 - WaMu Theatre (Seattle, WA)",
+      "venue": "Goose Official · 2026-09-14",
+      "date": "2026-09-14",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "LXrSr9iGxw0",
+      "title": "\"Good2B\"  - 8/28/26 - Red Rocks Amphitheatre (Morrison, CO)",
+      "venue": "Goose Official · 2026-09-14",
+      "date": "2026-09-14",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "uUlk3XDmQqc",
+      "title": "\"Savenger\"  - 8/24/26 - Kettlehouse Ampitheatre (Bonner, MT)",
+      "venue": "Goose Official · 2026-09-14",
+      "date": "2026-09-14",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "AtzFxyKXNWc",
       "title": "Goose 8/29/26 Twilight Concert Series, Salt Lake City, UT, Set I Opener",
@@ -114,36 +144,6 @@
     {
       "id": "bz7ZQ50flyw",
       "title": "Dripfield - 8/28/26 Red Rocks",
-      "venue": "Goose Official · 2026-08-29",
-      "date": "2026-08-29",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "9KGWiPfIin0",
-      "title": "Silver Rising - 8/27/26 Red Rocks",
-      "venue": "Goose Official · 2026-08-29",
-      "date": "2026-08-29",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "cPRhBbxpgW8",
-      "title": "Madhuvan - 8/27/26 Red Rocks",
-      "venue": "Goose Official · 2026-08-29",
-      "date": "2026-08-29",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "Xn8X_SvFwiE",
-      "title": "Red Bird - 8/27/26 Red Rocks",
       "venue": "Goose Official · 2026-08-29",
       "date": "2026-08-29",
       "b": "g",
