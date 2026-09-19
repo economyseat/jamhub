@@ -1,6 +1,36 @@
 {
-  "generated_at": "2026-09-18T10:25:56+00:00",
+  "generated_at": "2026-09-19T10:11:15+00:00",
   "goose": [
+    {
+      "id": "lw9iQ8ez8yk",
+      "title": "Goose 8/31/26 The Mishawaka, Bellvue, CO, Set I Opener",
+      "venue": "Goose Official · 2026-09-18",
+      "date": "2026-09-18",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "gDEhZAFySh8",
+      "title": "\"Flodown\"  - 8/21/26 - Hayden Homes Ampitheatre (Bend, OR)",
+      "venue": "Goose Official · 2026-09-18",
+      "date": "2026-09-18",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "swG1abwSJUk",
+      "title": "\"SALT\"  - 8/19/26 - WaMu Theatre (Seattle, WA)",
+      "venue": "Goose Official · 2026-09-18",
+      "date": "2026-09-18",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "MFH8pjicWKM",
       "title": "\"POP\"  - 8/19/26 - WaMu Theatre (Seattle, WA)",
@@ -116,36 +146,6 @@
       "title": "\"Eminence Front\" (The Who)  - 8/27/26 - Red Rocks Amphitheatre (Morrison, CO)",
       "venue": "Goose Official · 2026-08-31",
       "date": "2026-08-31",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "35BV-th8K2E",
-      "title": "\"Dragonfly\"\"  - 8/27/26 - Red Rocks Amphitheatre (Morrison, CO)\"",
-      "venue": "Goose Official · 2026-08-31",
-      "date": "2026-08-31",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "0ARi6NA9Msg",
-      "title": "Hot Tea - 8/28/26 Red Rocks",
-      "venue": "Goose Official · 2026-08-29",
-      "date": "2026-08-29",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "bz7ZQ50flyw",
-      "title": "Dripfield - 8/28/26 Red Rocks",
-      "venue": "Goose Official · 2026-08-29",
-      "date": "2026-08-29",
       "b": "g",
       "snip": false,
       "mix": false,
