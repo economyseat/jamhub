@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T10:58:55+00:00",
+  "generated_at": "2026-09-25T10:59:24+00:00",
   "goose": [
     {
       "id": "ByH4nLEfXYg",
@@ -230,19 +230,19 @@
       "snip": true,
       "mix": false,
       "live": true
-    },
-    {
-      "id": "lbxkoZDnKf0",
-      "title": "Goose jam snips - 4/19/26 \"Animal\"",
-      "venue": "@jamsnips · 2026-04-21",
-      "date": "2026-04-21",
-      "b": "g",
-      "snip": true,
-      "mix": false,
-      "live": true
     }
   ],
   "phish": [
+    {
+      "id": "fKGnTGiAzb0",
+      "title": "Phish Summer 2026 Jams, Vol. 3: Dick's Sept Run | 30-min DWD, Tweezer, Fuego",
+      "venue": "@jamsnips · 2026-09-24",
+      "date": "2026-09-24",
+      "b": "p",
+      "snip": true,
+      "mix": true,
+      "live": true
+    },
     {
       "id": "_Y7MPHln624",
       "title": "9/6/2026 - Light → Everything's Right",
