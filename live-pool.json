@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T11:45:36+00:00",
+  "generated_at": "2026-10-03T10:58:57+00:00",
   "goose": [
     {
       "id": "ByH4nLEfXYg",
@@ -234,6 +234,26 @@
   ],
   "phish": [
     {
+      "id": "s-Rb3OcfnO4",
+      "title": "Live from Atlantic City, NJ 10/2/2026 Set II Opener",
+      "venue": "Phish Official · 2026-10-03",
+      "date": "2026-10-03",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "AVtY1wFJp2M",
+      "title": "Live from Atlantic City, NJ 10/2/2026 Set I Opener",
+      "venue": "Phish Official · 2026-10-02",
+      "date": "2026-10-02",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
       "id": "fKGnTGiAzb0",
       "title": "Phish Summer 2026 Jams, Vol. 3: Dick's Sept Run | 30-min DWD, Tweezer, Fuego",
       "venue": "@jamsnips · 2026-09-24",
@@ -388,26 +408,6 @@
       "title": "7/19/2026 - Carini",
       "venue": "Phish Official · 2026-07-21",
       "date": "2026-07-21",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "MOJ2GENQyvM",
-      "title": "7/17/2026 - Harry Hood → Fuego → Lizards → A Wave of Hope",
-      "venue": "Phish Official · 2026-07-18",
-      "date": "2026-07-18",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "uRIBCre1W8Q",
-      "title": "7/15/2026 - The Wedge",
-      "venue": "Phish Official · 2026-07-17",
-      "date": "2026-07-17",
       "b": "p",
       "snip": false,
       "mix": false,
