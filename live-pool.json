@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T13:23:31+00:00",
+  "generated_at": "2026-10-06T12:37:45+00:00",
   "goose": [
     {
       "id": "ByH4nLEfXYg",
@@ -234,20 +234,10 @@
   ],
   "phish": [
     {
-      "id": "FBZdgx94a4Q",
-      "title": "Live from Atlantic City, NJ 10/4/2026 Set II Opener",
+      "id": "irp-50_8tDc",
+      "title": "10/4/2026 - The Squirming Coil",
       "venue": "Phish Official · 2026-10-05",
       "date": "2026-10-05",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "7PX8A7BsTfE",
-      "title": "Live from Atlantic City, NJ 10/4/2026 Set I Opener",
-      "venue": "Phish Official · 2026-10-04",
-      "date": "2026-10-04",
       "b": "p",
       "snip": false,
       "mix": false,
@@ -268,26 +258,6 @@
       "title": "10/2/2026 - Down With Disease → Tweezer",
       "venue": "Phish Official · 2026-10-04",
       "date": "2026-10-04",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "SlaYt-3363I",
-      "title": "Live from Atlantic City, NJ 10/3/2026 Set II Opener",
-      "venue": "Phish Official · 2026-10-04",
-      "date": "2026-10-04",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "lG_Nh3DKf0U",
-      "title": "Live from Atlantic City, NJ 10/3/2026 Set I Opener",
-      "venue": "Phish Official · 2026-10-03",
-      "date": "2026-10-03",
       "b": "p",
       "snip": false,
       "mix": false,
@@ -408,6 +378,36 @@
       "title": "7/25/2026 - Cavern → Tweezer → The Squirming Coil",
       "venue": "Phish Official · 2026-07-27",
       "date": "2026-07-27",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "hHGEysWBz-0",
+      "title": "7/24/2026 - The Wedge → Makisupa Policeman → Kung",
+      "venue": "Phish Official · 2026-07-25",
+      "date": "2026-07-25",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "kWOXZ3lCPwA",
+      "title": "7/22/2026 - Bouncing Around The Room → My Friend, My Friend",
+      "venue": "Phish Official · 2026-07-25",
+      "date": "2026-07-25",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "oXMmx2MlnZI",
+      "title": "7/21/2026 - Bug",
+      "venue": "Phish Official · 2026-07-24",
+      "date": "2026-07-24",
       "b": "p",
       "snip": false,
       "mix": false,
