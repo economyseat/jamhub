@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T12:30:57+00:00",
+  "generated_at": "2026-10-08T12:40:32+00:00",
   "goose": [
     {
       "id": "ByH4nLEfXYg",
@@ -234,8 +234,18 @@
   ],
   "phish": [
     {
-      "id": "PyrpHZhSrzg",
-      "title": "Live from Richmond, VA 10/6/2026 Set II Opener",
+      "id": "Mjp5Z-MEy3w",
+      "title": "Live from Richmond, VA 10/7/2026 Set II Opener",
+      "venue": "Phish Official · 2026-10-08",
+      "date": "2026-10-08",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "oEqL5OM2iDc",
+      "title": "Live from Richmond, VA 10/7/2026 Set I Opener",
       "venue": "Phish Official · 2026-10-07",
       "date": "2026-10-07",
       "b": "p",
@@ -244,10 +254,10 @@
       "live": true
     },
     {
-      "id": "-viFRNRxI3s",
-      "title": "Live from Richmond, VA 10/6/2026 Set I Opener",
-      "venue": "Phish Official · 2026-10-06",
-      "date": "2026-10-06",
+      "id": "1rlCtV8MFj0",
+      "title": "Phish • 100 At The Garden • '26-'27",
+      "venue": "Phish Official · 2026-10-07",
+      "date": "2026-10-07",
       "b": "p",
       "snip": false,
       "mix": false,
@@ -398,16 +408,6 @@
       "title": "7/25/2026 - Cavern → Tweezer → The Squirming Coil",
       "venue": "Phish Official · 2026-07-27",
       "date": "2026-07-27",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "hHGEysWBz-0",
-      "title": "7/24/2026 - The Wedge → Makisupa Policeman → Kung",
-      "venue": "Phish Official · 2026-07-25",
-      "date": "2026-07-25",
       "b": "p",
       "snip": false,
       "mix": false,
