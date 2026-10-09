@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T12:40:32+00:00",
+  "generated_at": "2026-10-09T12:27:36+00:00",
   "goose": [
     {
       "id": "ByH4nLEfXYg",
@@ -234,20 +234,10 @@
   ],
   "phish": [
     {
-      "id": "Mjp5Z-MEy3w",
-      "title": "Live from Richmond, VA 10/7/2026 Set II Opener",
+      "id": "GB7UIcCQvNA",
+      "title": "10/4/2026 - Simple",
       "venue": "Phish Official · 2026-10-08",
       "date": "2026-10-08",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "oEqL5OM2iDc",
-      "title": "Live from Richmond, VA 10/7/2026 Set I Opener",
-      "venue": "Phish Official · 2026-10-07",
-      "date": "2026-10-07",
       "b": "p",
       "snip": false,
       "mix": false,
@@ -408,6 +398,16 @@
       "title": "7/25/2026 - Cavern → Tweezer → The Squirming Coil",
       "venue": "Phish Official · 2026-07-27",
       "date": "2026-07-27",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "hHGEysWBz-0",
+      "title": "7/24/2026 - The Wedge → Makisupa Policeman → Kung",
+      "venue": "Phish Official · 2026-07-25",
+      "date": "2026-07-25",
       "b": "p",
       "snip": false,
       "mix": false,
