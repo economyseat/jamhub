@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T11:58:48+00:00",
+  "generated_at": "2026-10-12T14:13:08+00:00",
   "goose": [
     {
       "id": "ByH4nLEfXYg",
@@ -234,6 +234,36 @@
   ],
   "phish": [
     {
+      "id": "fW1eOyB8p48",
+      "title": "Live from Huntsville, AL 10/11/2026 Set II Opener",
+      "venue": "Phish Official · 2026-10-12",
+      "date": "2026-10-12",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "lXmd-VwJybc",
+      "title": "10/9/2026 - Waves→Tweezer→Harry Hood",
+      "venue": "Phish Official · 2026-10-12",
+      "date": "2026-10-12",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "X6it0Y-dKFc",
+      "title": "Live from Huntsville, AL 10/11/2026 Set I Opener",
+      "venue": "Phish Official · 2026-10-12",
+      "date": "2026-10-12",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
       "id": "moImQ98KviU",
       "title": "Live from Jacksonville, FL 10/9/2026 Set II Opener",
       "venue": "Phish Official · 2026-10-10",
@@ -381,36 +411,6 @@
       "b": "p",
       "snip": true,
       "mix": true,
-      "live": true
-    },
-    {
-      "id": "eAx_AIkUuoA",
-      "title": "8/1/2026 - Chalk Dust Torture → Stash → Sand",
-      "venue": "Phish Official · 2026-08-03",
-      "date": "2026-08-03",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "wxu9bvFolLg",
-      "title": "7/31/2026 - What's Going Through Your Mind → Fuego",
-      "venue": "Phish Official · 2026-08-01",
-      "date": "2026-08-01",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "D6ojfhvcQ4U",
-      "title": "7/29/2026 - You Enjoy Myself → Waste",
-      "venue": "Phish Official · 2026-07-31",
-      "date": "2026-07-31",
-      "b": "p",
-      "snip": false,
-      "mix": false,
       "live": true
     },
     {
