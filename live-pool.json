@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T14:13:08+00:00",
+  "generated_at": "2026-10-13T13:23:30+00:00",
   "goose": [
     {
       "id": "ByH4nLEfXYg",
@@ -234,6 +234,26 @@
   ],
   "phish": [
     {
+      "id": "kkwFBbwATBE",
+      "title": "Live from Huntsville, AL 10/12/2026 Set II Opener",
+      "venue": "Phish Official · 2026-10-13",
+      "date": "2026-10-13",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "FHyLqIffyYk",
+      "title": "Live from Huntsville, AL 10/12/2026 Set I Opener",
+      "venue": "Phish Official · 2026-10-13",
+      "date": "2026-10-13",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
       "id": "fW1eOyB8p48",
       "title": "Live from Huntsville, AL 10/11/2026 Set II Opener",
       "venue": "Phish Official · 2026-10-12",
@@ -368,26 +388,6 @@
       "title": "9/5/2026 - Free",
       "venue": "Phish Official · 2026-09-06",
       "date": "2026-09-06",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "sWPsbj0iUW4",
-      "title": "9/5/2026 - Tweezer",
-      "venue": "Phish Official · 2026-09-06",
-      "date": "2026-09-06",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "ggUooD6w314",
-      "title": "9/4/2026 - Down With Disease",
-      "venue": "Phish Official · 2026-09-05",
-      "date": "2026-09-05",
       "b": "p",
       "snip": false,
       "mix": false,
