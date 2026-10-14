@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T13:23:30+00:00",
+  "generated_at": "2026-10-14T11:01:30+00:00",
   "goose": [
     {
       "id": "ByH4nLEfXYg",
@@ -234,6 +234,16 @@
   ],
   "phish": [
     {
+      "id": "B8nyHBusizk",
+      "title": "10/11/2026 - Theme From the Bottom",
+      "venue": "Phish Official · 2026-10-13",
+      "date": "2026-10-13",
+      "b": "p",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
       "id": "kkwFBbwATBE",
       "title": "Live from Huntsville, AL 10/12/2026 Set II Opener",
       "venue": "Phish Official · 2026-10-13",
@@ -378,16 +388,6 @@
       "title": "9/6/2026 - Light → Everything's Right",
       "venue": "Phish Official · 2026-09-09",
       "date": "2026-09-09",
-      "b": "p",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "WXMrWwb5kOI",
-      "title": "9/5/2026 - Free",
-      "venue": "Phish Official · 2026-09-06",
-      "date": "2026-09-06",
       "b": "p",
       "snip": false,
       "mix": false,
