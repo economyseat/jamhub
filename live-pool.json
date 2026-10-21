@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T10:49:37+00:00",
+  "generated_at": "2026-10-21T11:01:40+00:00",
   "goose": [
     {
       "id": "wlSoAa6Sks0",
@@ -244,6 +244,16 @@
   ],
   "phish": [
     {
+      "id": "xWThBIvHXs4",
+      "title": "Phish Fall Tour 2026 Jams | 5+ Hours: 35-min Life Saving Gun, Simple, Tweezer | Jam Snips",
+      "venue": "@jamsnips · 2026-10-21",
+      "date": "2026-10-21",
+      "b": "p",
+      "snip": true,
+      "mix": false,
+      "live": true
+    },
+    {
       "id": "B8nyHBusizk",
       "title": "10/11/2026 - Theme From the Bottom",
       "venue": "Phish Official · 2026-10-13",
@@ -438,16 +448,6 @@
       "title": "Phish Jam Snips - 4/25/26 \"Chalk Dust Torture\"",
       "venue": "@jamsnips · 2026-05-05",
       "date": "2026-05-05",
-      "b": "p",
-      "snip": true,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "TYsoyHOaX_U",
-      "title": "Phish Jam Snips - 4/18/26 \"Tweezer\"",
-      "venue": "@jamsnips · 2026-04-23",
-      "date": "2026-04-23",
       "b": "p",
       "snip": true,
       "mix": false,
