@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-10-23T10:54:00+00:00",
+  "generated_at": "2026-10-24T10:08:28+00:00",
   "goose": [
+    {
+      "id": "O5SQ2e1m63Y",
+      "title": "Goose 8/21/26 - Hayden Homes Amphitheatre - Bend, OR",
+      "venue": "Goose Official · 2026-10-24",
+      "date": "2026-10-24",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "09eRy7BKs6c",
+      "title": "Goose 9/1/2026 Red Rocks Amphitheatre, Morrison, CO",
+      "venue": "Goose Official · 2026-10-23",
+      "date": "2026-10-23",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "wlSoAa6Sks0",
       "title": "Goose 2026 Summer Tour Vol. 2: Red Rocks, Bend, Missoula | 3.5 Hrs of Jams",
@@ -136,26 +156,6 @@
       "title": "Goose 9/2/26 Dillon Amphitheater, Dillon, CO, Set I Opener",
       "venue": "Goose Official · 2026-09-03",
       "date": "2026-09-03",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "Swp8cr7bLO4",
-      "title": "Goose 9/1/26 Red Rocks Amphitheatre Morrison 4K, CO Set I Opener",
-      "venue": "Goose Official · 2026-09-02",
-      "date": "2026-09-02",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "EbVHQ9L4qKk",
-      "title": "\"Good2B\"  - 8/21/26 - Hayden Homes Ampitheatre (Bend, OR)",
-      "venue": "Goose Official · 2026-08-31",
-      "date": "2026-08-31",
       "b": "g",
       "snip": false,
       "mix": false,
