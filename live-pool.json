@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-11-03T13:29:13+00:00",
+  "generated_at": "2026-11-04T13:40:23+00:00",
   "goose": [
+    {
+      "id": "hvL_BOuhrkc",
+      "title": "Goose 11/3/2026 Set I Preview The Midland Theatre Kansas City, MO",
+      "venue": "Goose Official · 2026-11-04",
+      "date": "2026-11-04",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "09eRy7BKs6c",
       "title": "Goose 9/1/2026 Red Rocks Amphitheatre, Morrison, CO",
@@ -144,16 +154,6 @@
     {
       "id": "WMLW9QW0Cfo",
       "title": "Into The Myst → Running Up That Hill -  8/24/26 Bonner, MT",
-      "venue": "Goose Official · 2026-09-04",
-      "date": "2026-09-04",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "HQE7H-v7vqs",
-      "title": "Big Modern! - 9/1/26 Red Rocks",
       "venue": "Goose Official · 2026-09-04",
       "date": "2026-09-04",
       "b": "g",
@@ -584,8 +584,8 @@
       "live": true
     },
     {
-      "id": "H9J95PlPJJo",
-      "title": "Wolfman's Brother",
+      "id": "iDVfs4nM1UE",
+      "title": "Cities",
       "venue": "LivePhish · 2019-05-02",
       "date": "2019-05-02",
       "b": "p",
@@ -594,8 +594,8 @@
       "live": true
     },
     {
-      "id": "iDVfs4nM1UE",
-      "title": "Cities",
+      "id": "tDN6i64RcZI",
+      "title": "Jesus Just Left Chicago",
       "venue": "LivePhish · 2019-05-02",
       "date": "2019-05-02",
       "b": "p",
