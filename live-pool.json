@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-11-04T13:40:23+00:00",
+  "generated_at": "2026-11-05T13:52:45+00:00",
   "goose": [
+    {
+      "id": "ro4mpcDAlU4",
+      "title": "Goose 11/4/2026 Set I Preview The Midland Theatre Kansas City, MO",
+      "venue": "Goose Official · 2026-11-05",
+      "date": "2026-11-05",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "hvL_BOuhrkc",
       "title": "Goose 11/3/2026 Set I Preview The Midland Theatre Kansas City, MO",
@@ -146,16 +156,6 @@
       "title": "\"Don't Do It\" (The Band)  - 8/18/26 - Commodore Ballroom (Vancouver, BC)",
       "venue": "Goose Official · 2026-09-09",
       "date": "2026-09-09",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "WMLW9QW0Cfo",
-      "title": "Into The Myst → Running Up That Hill -  8/24/26 Bonner, MT",
-      "venue": "Goose Official · 2026-09-04",
-      "date": "2026-09-04",
       "b": "g",
       "snip": false,
       "mix": false,
