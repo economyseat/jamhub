@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-11-05T13:52:45+00:00",
+  "generated_at": "2026-11-06T13:38:18+00:00",
   "goose": [
+    {
+      "id": "X6O0VEFCOW0",
+      "title": "Hot Love & The Lazy Poet → Creatures - 11/3/2026 Kansas City, MO",
+      "venue": "Goose Official · 2026-11-05",
+      "date": "2026-11-05",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "ro4mpcDAlU4",
       "title": "Goose 11/4/2026 Set I Preview The Midland Theatre Kansas City, MO",
@@ -146,16 +156,6 @@
       "title": "Goose 8/29/26 Twilight Concert Series, Salt Lake City, UT, Set I Opener",
       "venue": "Goose Official · 2026-09-12",
       "date": "2026-09-12",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "rAF7BPFiI4s",
-      "title": "\"Don't Do It\" (The Band)  - 8/18/26 - Commodore Ballroom (Vancouver, BC)",
-      "venue": "Goose Official · 2026-09-09",
-      "date": "2026-09-09",
       "b": "g",
       "snip": false,
       "mix": false,
