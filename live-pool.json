@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-11-06T13:38:18+00:00",
+  "generated_at": "2026-11-07T12:18:18+00:00",
   "goose": [
+    {
+      "id": "8fMQ47hbHac",
+      "title": "Goose 11/6/2026 Set I Preview Miller High Life Theatre, Milwaukee, WI",
+      "venue": "Goose Official · 2026-11-06",
+      "date": "2026-11-06",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "X6O0VEFCOW0",
       "title": "Hot Love & The Lazy Poet → Creatures - 11/3/2026 Kansas City, MO",
@@ -146,16 +156,6 @@
       "title": "\"Savenger\"  - 8/24/26 - Kettlehouse Ampitheatre (Bonner, MT)",
       "venue": "Goose Official · 2026-09-14",
       "date": "2026-09-14",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "AtzFxyKXNWc",
-      "title": "Goose 8/29/26 Twilight Concert Series, Salt Lake City, UT, Set I Opener",
-      "venue": "Goose Official · 2026-09-12",
-      "date": "2026-09-12",
       "b": "g",
       "snip": false,
       "mix": false,
