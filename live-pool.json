@@ -1,11 +1,21 @@
 {
-  "generated_at": "2026-11-07T12:18:18+00:00",
+  "generated_at": "2026-11-08T12:38:27+00:00",
   "goose": [
+    {
+      "id": "xVSq8slCWyA",
+      "title": "Goose 11/7/2026 Set I Preview Miller High Life Theatre, Milwaukee, WI",
+      "venue": "Goose Official · 2026-11-08",
+      "date": "2026-11-08",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "8fMQ47hbHac",
       "title": "Goose 11/6/2026 Set I Preview Miller High Life Theatre, Milwaukee, WI",
-      "venue": "Goose Official · 2026-11-06",
-      "date": "2026-11-06",
+      "venue": "Goose Official · 2026-11-07",
+      "date": "2026-11-07",
       "b": "g",
       "snip": false,
       "mix": false,
@@ -144,16 +154,6 @@
     {
       "id": "LXrSr9iGxw0",
       "title": "\"Good2B\"  - 8/28/26 - Red Rocks Amphitheatre (Morrison, CO)",
-      "venue": "Goose Official · 2026-09-14",
-      "date": "2026-09-14",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "uUlk3XDmQqc",
-      "title": "\"Savenger\"  - 8/24/26 - Kettlehouse Ampitheatre (Bonner, MT)",
       "venue": "Goose Official · 2026-09-14",
       "date": "2026-09-14",
       "b": "g",
