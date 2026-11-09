@@ -1,9 +1,39 @@
 {
-  "generated_at": "2026-11-08T12:38:27+00:00",
+  "generated_at": "2026-11-09T14:57:26+00:00",
   "goose": [
+    {
+      "id": "AzQ0iCvm2us",
+      "title": "Goose 11/8/2026 Set I Preview Miller High Life Theatre, Milwaukee, WI",
+      "venue": "Goose Official · 2026-11-09",
+      "date": "2026-11-09",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "1RhRaZyWdpE",
+      "title": "In Your Eyes → Yeti - 11/4/26 Kansas City, MO",
+      "venue": "Goose Official · 2026-11-08",
+      "date": "2026-11-08",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "xVSq8slCWyA",
       "title": "Goose 11/7/2026 Set I Preview Miller High Life Theatre, Milwaukee, WI",
+      "venue": "Goose Official · 2026-11-08",
+      "date": "2026-11-08",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "PYwbkbbw5bg",
+      "title": "11/6/26 Milwaukee, WI (Set Two + Encore)",
       "venue": "Goose Official · 2026-11-08",
       "date": "2026-11-08",
       "b": "g",
@@ -23,7 +53,7 @@
     },
     {
       "id": "X6O0VEFCOW0",
-      "title": "Hot Love & The Lazy Poet → Creatures - 11/3/2026 Kansas City, MO",
+      "title": "Hot Love & The Lazy Poet → Creatures - 11/3/26 Kansas City, MO",
       "venue": "Goose Official · 2026-11-05",
       "date": "2026-11-05",
       "b": "g",
@@ -126,36 +156,6 @@
       "title": "\"Flodown\"  - 8/21/26 - Hayden Homes Ampitheatre (Bend, OR)",
       "venue": "Goose Official · 2026-09-18",
       "date": "2026-09-18",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "swG1abwSJUk",
-      "title": "\"SALT\"  - 8/19/26 - WaMu Theatre (Seattle, WA)",
-      "venue": "Goose Official · 2026-09-18",
-      "date": "2026-09-18",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "MFH8pjicWKM",
-      "title": "\"POP\"  - 8/19/26 - WaMu Theatre (Seattle, WA)",
-      "venue": "Goose Official · 2026-09-14",
-      "date": "2026-09-14",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "LXrSr9iGxw0",
-      "title": "\"Good2B\"  - 8/28/26 - Red Rocks Amphitheatre (Morrison, CO)",
-      "venue": "Goose Official · 2026-09-14",
-      "date": "2026-09-14",
       "b": "g",
       "snip": false,
       "mix": false,
