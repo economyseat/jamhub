@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-11-09T14:57:26+00:00",
+  "generated_at": "2026-11-10T14:10:15+00:00",
   "goose": [
+    {
+      "id": "PYwbkbbw5bg",
+      "title": "11/6/26 Milwaukee, WI (Set Two + Encore)",
+      "venue": "Goose Official · 2026-11-09",
+      "date": "2026-11-09",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "AzQ0iCvm2us",
       "title": "Goose 11/8/2026 Set I Preview Miller High Life Theatre, Milwaukee, WI",
@@ -24,16 +34,6 @@
     {
       "id": "xVSq8slCWyA",
       "title": "Goose 11/7/2026 Set I Preview Miller High Life Theatre, Milwaukee, WI",
-      "venue": "Goose Official · 2026-11-08",
-      "date": "2026-11-08",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "PYwbkbbw5bg",
-      "title": "11/6/26 Milwaukee, WI (Set Two + Encore)",
       "venue": "Goose Official · 2026-11-08",
       "date": "2026-11-08",
       "b": "g",
