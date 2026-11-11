@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-11-10T14:10:15+00:00",
+  "generated_at": "2026-11-11T13:26:12+00:00",
   "goose": [
+    {
+      "id": "qi3Olbideqw",
+      "title": "Goose 11/10/2026 Set I The Truth, Nashville, TN",
+      "venue": "Goose Official · 2026-11-11",
+      "date": "2026-11-11",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "PYwbkbbw5bg",
       "title": "11/6/26 Milwaukee, WI (Set Two + Encore)",
@@ -146,16 +156,6 @@
       "title": "Goose 8/31/26 The Mishawaka, Bellvue, CO, Set I Opener",
       "venue": "Goose Official · 2026-09-19",
       "date": "2026-09-19",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "gDEhZAFySh8",
-      "title": "\"Flodown\"  - 8/21/26 - Hayden Homes Ampitheatre (Bend, OR)",
-      "venue": "Goose Official · 2026-09-18",
-      "date": "2026-09-18",
       "b": "g",
       "snip": false,
       "mix": false,
