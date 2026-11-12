@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-11-11T13:26:12+00:00",
+  "generated_at": "2026-11-12T14:30:13+00:00",
   "goose": [
+    {
+      "id": "TLCEiGKgKfo",
+      "title": "Goose 11/11/2026 Set I The Truth, Nashville, TN",
+      "venue": "Goose Official · 2026-11-12",
+      "date": "2026-11-12",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "qi3Olbideqw",
       "title": "Goose 11/10/2026 Set I The Truth, Nashville, TN",
@@ -146,16 +156,6 @@
       "title": "Goose June Tour 2026 Vlog",
       "venue": "Goose Official · 2026-09-21",
       "date": "2026-09-21",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "lw9iQ8ez8yk",
-      "title": "Goose 8/31/26 The Mishawaka, Bellvue, CO, Set I Opener",
-      "venue": "Goose Official · 2026-09-19",
-      "date": "2026-09-19",
       "b": "g",
       "snip": false,
       "mix": false,
