@@ -1,9 +1,19 @@
 {
-  "generated_at": "2026-11-12T14:30:13+00:00",
+  "generated_at": "2026-11-13T13:48:19+00:00",
   "goose": [
     {
       "id": "TLCEiGKgKfo",
       "title": "Goose 11/11/2026 Set I The Truth, Nashville, TN",
+      "venue": "Goose Official · 2026-11-12",
+      "date": "2026-11-12",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "mczPV9iBt5M",
+      "title": "All I Need - 11/8/26 Milwaukee, WI",
       "venue": "Goose Official · 2026-11-12",
       "date": "2026-11-12",
       "b": "g",
@@ -146,16 +156,6 @@
       "title": "Atlantic City - 8/21/26 Bend, OR",
       "venue": "Goose Official · 2026-09-23",
       "date": "2026-09-23",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "8NM_cYTLgvQ",
-      "title": "Goose June Tour 2026 Vlog",
-      "venue": "Goose Official · 2026-09-21",
-      "date": "2026-09-21",
       "b": "g",
       "snip": false,
       "mix": false,
