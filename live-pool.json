@@ -1,6 +1,36 @@
 {
-  "generated_at": "2026-11-13T13:48:19+00:00",
+  "generated_at": "2026-11-14T12:52:10+00:00",
   "goose": [
+    {
+      "id": "JeuhptLCObI",
+      "title": "Goose 11/13/2026 Set I Preview Mohegan Sun Arena, Uncasville, CT",
+      "venue": "Goose Official · 2026-11-14",
+      "date": "2026-11-14",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "WgZqjo_0o_o",
+      "title": "Summer-ish Vlog Pt 1.",
+      "venue": "Goose Official · 2026-11-13",
+      "date": "2026-11-13",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "Cljo_R5F8j4",
+      "title": "Thatch - 11/7/26 Milwaukee, WI",
+      "venue": "Goose Official · 2026-11-13",
+      "date": "2026-11-13",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "TLCEiGKgKfo",
       "title": "Goose 11/11/2026 Set I The Truth, Nashville, TN",
@@ -122,26 +152,6 @@
       "live": true
     },
     {
-      "id": "u_OIxzOROtw",
-      "title": "\"Not Alone\"  - 8/31/26 - Mishawka Amphitheatre (Bellvue, CO)",
-      "venue": "Goose Official · 2026-10-27",
-      "date": "2026-10-27",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "O5SQ2e1m63Y",
-      "title": "Goose 8/21/26 - Hayden Homes Amphitheatre - Bend, OR",
-      "venue": "Goose Official · 2026-10-24",
-      "date": "2026-10-24",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
       "id": "wlSoAa6Sks0",
       "title": "Goose 2026 Summer Tour Vol. 2: Red Rocks, Bend, Missoula | 3.5 Hrs of Jams",
       "venue": "@jamsnips · 2026-10-18",
@@ -149,16 +159,6 @@
       "b": "g",
       "snip": true,
       "mix": true,
-      "live": true
-    },
-    {
-      "id": "ByH4nLEfXYg",
-      "title": "Atlantic City - 8/21/26 Bend, OR",
-      "venue": "Goose Official · 2026-09-23",
-      "date": "2026-09-23",
-      "b": "g",
-      "snip": false,
-      "mix": false,
       "live": true
     },
     {
