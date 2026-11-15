@@ -1,11 +1,41 @@
 {
-  "generated_at": "2026-11-14T12:52:10+00:00",
+  "generated_at": "2026-11-15T13:19:30+00:00",
   "goose": [
+    {
+      "id": "ODodmMQdn6Y",
+      "title": "Goose 11/14/2026 Set I Preview Mohegan Sun Arena, Uncasville, CT",
+      "venue": "Goose Official · 2026-11-15",
+      "date": "2026-11-15",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "isrcbkadSVY",
+      "title": "Big Modern! → Drive → Running Up That Hill → Rosewood Heart - 11/11/26 Nashville, TN",
+      "venue": "Goose Official · 2026-11-14",
+      "date": "2026-11-14",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "JeuhptLCObI",
       "title": "Goose 11/13/2026 Set I Preview Mohegan Sun Arena, Uncasville, CT",
       "venue": "Goose Official · 2026-11-14",
       "date": "2026-11-14",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "OvIzrrj0JqM",
+      "title": "Your Direction - 11/11/26 Nashville, TN",
+      "venue": "Goose Official · 2026-11-13",
+      "date": "2026-11-13",
       "b": "g",
       "snip": false,
       "mix": false,
@@ -116,36 +146,6 @@
       "title": "Hot Love & The Lazy Poet → Creatures - 11/3/26 Kansas City, MO",
       "venue": "Goose Official · 2026-11-05",
       "date": "2026-11-05",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "ro4mpcDAlU4",
-      "title": "Goose 11/4/2026 Set I Preview The Midland Theatre Kansas City, MO",
-      "venue": "Goose Official · 2026-11-05",
-      "date": "2026-11-05",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "hvL_BOuhrkc",
-      "title": "Goose 11/3/2026 Set I Preview The Midland Theatre Kansas City, MO",
-      "venue": "Goose Official · 2026-11-04",
-      "date": "2026-11-04",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "09eRy7BKs6c",
-      "title": "Goose 9/1/2026 Red Rocks Amphitheatre, Morrison, CO",
-      "venue": "Goose Official · 2026-10-31",
-      "date": "2026-10-31",
       "b": "g",
       "snip": false,
       "mix": false,
