@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-11-16T14:34:01+00:00",
+  "generated_at": "2026-11-17T15:24:15+00:00",
   "goose": [
+    {
+      "id": "tUDE2l53rvs",
+      "title": "Red Bird → Echo of a Rose - 11/13/26 Uncasville, CT",
+      "venue": "Goose Official · 2026-11-16",
+      "date": "2026-11-16",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "TXCgic4kK4I",
       "title": "Goose 11/15/2026 Set I Preview Cross Insurance Arena, Portland, ME",
@@ -136,16 +146,6 @@
       "title": "Goose 11/7/2026 Set I Preview Miller High Life Theatre, Milwaukee, WI",
       "venue": "Goose Official · 2026-11-08",
       "date": "2026-11-08",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "8fMQ47hbHac",
-      "title": "Goose 11/6/2026 Set I Preview Miller High Life Theatre, Milwaukee, WI",
-      "venue": "Goose Official · 2026-11-07",
-      "date": "2026-11-07",
       "b": "g",
       "snip": false,
       "mix": false,
@@ -584,8 +584,8 @@
       "live": true
     },
     {
-      "id": "iDVfs4nM1UE",
-      "title": "Cities",
+      "id": "H9J95PlPJJo",
+      "title": "Wolfman's Brother",
       "venue": "LivePhish · 2019-05-02",
       "date": "2019-05-02",
       "b": "p",
@@ -594,8 +594,8 @@
       "live": true
     },
     {
-      "id": "tDN6i64RcZI",
-      "title": "Jesus Just Left Chicago",
+      "id": "iDVfs4nM1UE",
+      "title": "Cities",
       "venue": "LivePhish · 2019-05-02",
       "date": "2019-05-02",
       "b": "p",
