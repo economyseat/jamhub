@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-11-18T14:58:15+00:00",
+  "generated_at": "2026-11-19T15:05:46+00:00",
   "goose": [
+    {
+      "id": "W2YrGmfIJOo",
+      "title": "Goose 11/18/2026 Set I Preview John Paul Jones Arena, Charlottesville, VA",
+      "venue": "Goose Official · 2026-11-19",
+      "date": "2026-11-19",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "tUDE2l53rvs",
       "title": "Red Bird → Echo of a Rose - 11/13/26 Uncasville, CT",
@@ -134,16 +144,6 @@
     {
       "id": "1RhRaZyWdpE",
       "title": "In Your Eyes → Yeti - 11/4/26 Kansas City, MO",
-      "venue": "Goose Official · 2026-11-08",
-      "date": "2026-11-08",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "xVSq8slCWyA",
-      "title": "Goose 11/7/2026 Set I Preview Miller High Life Theatre, Milwaukee, WI",
       "venue": "Goose Official · 2026-11-08",
       "date": "2026-11-08",
       "b": "g",
