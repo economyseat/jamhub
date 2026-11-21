@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-11-20T14:46:41+00:00",
+  "generated_at": "2026-11-21T14:02:50+00:00",
   "goose": [
+    {
+      "id": "RggFpVhfxVI",
+      "title": "Goose 11/20/2026 Set I Preview Citizens Live at The Wylie, Pittsburgh, PA",
+      "venue": "Goose Official · 2026-11-21",
+      "date": "2026-11-21",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "fn0zqF-guIE",
+      "title": "Animal - 11/14/26 Uncasville, CT",
+      "venue": "Goose Official · 2026-11-20",
+      "date": "2026-11-20",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "XNN-fkwR6_A",
       "title": "Goose 11/19/2026 Set I Preview Citizens Live at The Wylie, Pittsburgh, PA",
@@ -16,6 +36,16 @@
       "title": "Goose 11/18/2026 Set I Preview John Paul Jones Arena, Charlottesville, VA",
       "venue": "Goose Official · 2026-11-19",
       "date": "2026-11-19",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "8a-1gSCkBO8",
+      "title": "Draconian Meter Maid - 11/15/26 Portland, ME",
+      "venue": "Goose Official · 2026-11-16",
+      "date": "2026-11-16",
       "b": "g",
       "snip": false,
       "mix": false,
@@ -116,36 +146,6 @@
       "title": "All I Need - 11/8/26 Milwaukee, WI",
       "venue": "Goose Official · 2026-11-12",
       "date": "2026-11-12",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "qi3Olbideqw",
-      "title": "Goose 11/10/2026 Set I The Truth, Nashville, TN",
-      "venue": "Goose Official · 2026-11-11",
-      "date": "2026-11-11",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "PYwbkbbw5bg",
-      "title": "11/6/26 Milwaukee, WI (Set Two + Encore)",
-      "venue": "Goose Official · 2026-11-09",
-      "date": "2026-11-09",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "AzQ0iCvm2us",
-      "title": "Goose 11/8/2026 Set I Preview Miller High Life Theatre, Milwaukee, WI",
-      "venue": "Goose Official · 2026-11-09",
-      "date": "2026-11-09",
       "b": "g",
       "snip": false,
       "mix": false,
