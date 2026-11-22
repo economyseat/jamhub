@@ -1,6 +1,36 @@
 {
-  "generated_at": "2026-11-21T14:02:50+00:00",
+  "generated_at": "2026-11-22T13:56:09+00:00",
   "goose": [
+    {
+      "id": "i84fIwsxCgk",
+      "title": "Goose 11/21/2026 Set I Preview Blue Cross Arena, Rochester, NY",
+      "venue": "Goose Official · 2026-11-22",
+      "date": "2026-11-22",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "hq8Trf_D0So",
+      "title": "Thatch → Dripfield - 11/20/26 Pittsburgh, PA",
+      "venue": "Goose Official · 2026-11-21",
+      "date": "2026-11-21",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "8a-1gSCkBO8",
+      "title": "Draconian Meter Maid - 11/15/26 Portland, ME",
+      "venue": "Goose Official · 2026-11-21",
+      "date": "2026-11-21",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "RggFpVhfxVI",
       "title": "Goose 11/20/2026 Set I Preview Citizens Live at The Wylie, Pittsburgh, PA",
@@ -36,16 +66,6 @@
       "title": "Goose 11/18/2026 Set I Preview John Paul Jones Arena, Charlottesville, VA",
       "venue": "Goose Official · 2026-11-19",
       "date": "2026-11-19",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "8a-1gSCkBO8",
-      "title": "Draconian Meter Maid - 11/15/26 Portland, ME",
-      "venue": "Goose Official · 2026-11-16",
-      "date": "2026-11-16",
       "b": "g",
       "snip": false,
       "mix": false,
@@ -126,26 +146,6 @@
       "title": "Thatch - 11/7/26 Milwaukee, WI",
       "venue": "Goose Official · 2026-11-13",
       "date": "2026-11-13",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "TLCEiGKgKfo",
-      "title": "Goose 11/11/2026 Set I The Truth, Nashville, TN",
-      "venue": "Goose Official · 2026-11-12",
-      "date": "2026-11-12",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "mczPV9iBt5M",
-      "title": "All I Need - 11/8/26 Milwaukee, WI",
-      "venue": "Goose Official · 2026-11-12",
-      "date": "2026-11-12",
       "b": "g",
       "snip": false,
       "mix": false,
