@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-22T13:56:09+00:00",
+  "generated_at": "2026-11-23T17:10:14+00:00",
   "goose": [
     {
-      "id": "i84fIwsxCgk",
-      "title": "Goose 11/21/2026 Set I Preview Blue Cross Arena, Rochester, NY",
+      "id": "hq8Trf_D0So",
+      "title": "Thatch → Dripfield - 11/20/26 Pittsburgh, PA",
       "venue": "Goose Official · 2026-11-22",
       "date": "2026-11-22",
       "b": "g",
@@ -12,10 +12,10 @@
       "live": true
     },
     {
-      "id": "hq8Trf_D0So",
-      "title": "Thatch → Dripfield - 11/20/26 Pittsburgh, PA",
-      "venue": "Goose Official · 2026-11-21",
-      "date": "2026-11-21",
+      "id": "i84fIwsxCgk",
+      "title": "Goose 11/21/2026 Set I Preview Blue Cross Arena, Rochester, NY",
+      "venue": "Goose Official · 2026-11-22",
+      "date": "2026-11-22",
       "b": "g",
       "snip": false,
       "mix": false,
