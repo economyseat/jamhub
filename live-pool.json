@@ -1,6 +1,46 @@
 {
-  "generated_at": "2026-11-23T17:10:14+00:00",
+  "generated_at": "2026-11-24T16:52:28+00:00",
   "goose": [
+    {
+      "id": "oxnVsJf-qNA",
+      "title": "\"Wysteria Lane\" - 11/6/26 - Miller High Life Theatre (Milwaukee, WI)",
+      "venue": "Goose Official · 2026-11-23",
+      "date": "2026-11-23",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "WPCAi4KtdRM",
+      "title": "\"The W.S. Walcott Medicine Show\" (The Band) - 11/8/26 - Miller High Life Theatre (Milwaukee, WI)",
+      "venue": "Goose Official · 2026-11-23",
+      "date": "2026-11-23",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "E6QJEs9_X-U",
+      "title": "\"Bloodbuzz Ohio\" (The National) - 11/13/26 - Mohegan Sun (Uncasville, CT)",
+      "venue": "Goose Official · 2026-11-23",
+      "date": "2026-11-23",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "PhHJKYv34CM",
+      "title": "\"The Old Man's Boat\" - 11/18/26 - John Paul Jones Arena (Charlottesville, VA)",
+      "venue": "Goose Official · 2026-11-23",
+      "date": "2026-11-23",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "hq8Trf_D0So",
       "title": "Thatch → Dripfield - 11/20/26 Pittsburgh, PA",
@@ -106,46 +146,6 @@
       "title": "Goose 11/14/2026 Set I Preview Mohegan Sun Arena, Uncasville, CT",
       "venue": "Goose Official · 2026-11-15",
       "date": "2026-11-15",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "isrcbkadSVY",
-      "title": "Big Modern! → Drive → Running Up That Hill → Rosewood Heart - 11/11/26 Nashville, TN",
-      "venue": "Goose Official · 2026-11-14",
-      "date": "2026-11-14",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "JeuhptLCObI",
-      "title": "Goose 11/13/2026 Set I Preview Mohegan Sun Arena, Uncasville, CT",
-      "venue": "Goose Official · 2026-11-14",
-      "date": "2026-11-14",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "WgZqjo_0o_o",
-      "title": "Summer-ish Vlog Pt 1.",
-      "venue": "Goose Official · 2026-11-13",
-      "date": "2026-11-13",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "Cljo_R5F8j4",
-      "title": "Thatch - 11/7/26 Milwaukee, WI",
-      "venue": "Goose Official · 2026-11-13",
-      "date": "2026-11-13",
       "b": "g",
       "snip": false,
       "mix": false,
