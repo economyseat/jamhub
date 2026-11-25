@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-11-24T16:52:28+00:00",
+  "generated_at": "2026-11-25T16:40:48+00:00",
   "goose": [
+    {
+      "id": "BzrhdAevkTg",
+      "title": "Dustin Hoffman - 11/11/26 Nashville, TN",
+      "venue": "Goose Official · 2026-11-24",
+      "date": "2026-11-24",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "oxnVsJf-qNA",
       "title": "\"Wysteria Lane\" - 11/6/26 - Miller High Life Theatre (Milwaukee, WI)",
@@ -134,16 +144,6 @@
     {
       "id": "OvIzrrj0JqM",
       "title": "Your Direction - 11/11/26 Nashville, TN",
-      "venue": "Goose Official · 2026-11-15",
-      "date": "2026-11-15",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "ODodmMQdn6Y",
-      "title": "Goose 11/14/2026 Set I Preview Mohegan Sun Arena, Uncasville, CT",
       "venue": "Goose Official · 2026-11-15",
       "date": "2026-11-15",
       "b": "g",
