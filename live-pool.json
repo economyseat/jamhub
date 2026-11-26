@@ -1,6 +1,36 @@
 {
-  "generated_at": "2026-11-25T16:40:48+00:00",
+  "generated_at": "2026-11-26T16:14:09+00:00",
   "goose": [
+    {
+      "id": "-jETIswWVCw",
+      "title": "Goose Live in Bellvue, CO 2026",
+      "venue": "Goose Official · 2026-11-25",
+      "date": "2026-11-25",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "n_1qx8Mv0ek",
+      "title": "Goose Live in Paris, France 2026",
+      "venue": "Goose Official · 2026-11-25",
+      "date": "2026-11-25",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
+      "id": "6fSRg2peV5E",
+      "title": "Goose Live in St. Augustine, FL 2026 (Night 1)",
+      "venue": "Goose Official · 2026-11-25",
+      "date": "2026-11-25",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "BzrhdAevkTg",
       "title": "Dustin Hoffman - 11/11/26 Nashville, TN",
@@ -72,6 +102,16 @@
       "live": true
     },
     {
+      "id": "b2HNB6PI96A",
+      "title": "Goose Live in Pittsburgh 2026 (Night 2)",
+      "venue": "Goose Official · 2026-11-21",
+      "date": "2026-11-21",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
+    {
       "id": "8a-1gSCkBO8",
       "title": "Draconian Meter Maid - 11/15/26 Portland, ME",
       "venue": "Goose Official · 2026-11-21",
@@ -106,46 +146,6 @@
       "title": "Goose 11/19/2026 Set I Preview Citizens Live at The Wylie, Pittsburgh, PA",
       "venue": "Goose Official · 2026-11-20",
       "date": "2026-11-20",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "W2YrGmfIJOo",
-      "title": "Goose 11/18/2026 Set I Preview John Paul Jones Arena, Charlottesville, VA",
-      "venue": "Goose Official · 2026-11-19",
-      "date": "2026-11-19",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "tUDE2l53rvs",
-      "title": "Red Bird → Echo of a Rose - 11/13/26 Uncasville, CT",
-      "venue": "Goose Official · 2026-11-16",
-      "date": "2026-11-16",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "TXCgic4kK4I",
-      "title": "Goose 11/15/2026 Set I Preview Cross Insurance Arena, Portland, ME",
-      "venue": "Goose Official · 2026-11-16",
-      "date": "2026-11-16",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "OvIzrrj0JqM",
-      "title": "Your Direction - 11/11/26 Nashville, TN",
-      "venue": "Goose Official · 2026-11-15",
-      "date": "2026-11-15",
       "b": "g",
       "snip": false,
       "mix": false,
