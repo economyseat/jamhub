@@ -1,11 +1,21 @@
 {
-  "generated_at": "2026-11-26T16:14:09+00:00",
+  "generated_at": "2026-11-27T15:59:23+00:00",
   "goose": [
+    {
+      "id": "b2HNB6PI96A",
+      "title": "Goose Live in Pittsburgh 2026 (Night 2)",
+      "venue": "Goose Official · 2026-11-27",
+      "date": "2026-11-27",
+      "b": "g",
+      "snip": false,
+      "mix": false,
+      "live": true
+    },
     {
       "id": "-jETIswWVCw",
       "title": "Goose Live in Bellvue, CO 2026",
-      "venue": "Goose Official · 2026-11-25",
-      "date": "2026-11-25",
+      "venue": "Goose Official · 2026-11-26",
+      "date": "2026-11-26",
       "b": "g",
       "snip": false,
       "mix": false,
@@ -14,8 +24,8 @@
     {
       "id": "n_1qx8Mv0ek",
       "title": "Goose Live in Paris, France 2026",
-      "venue": "Goose Official · 2026-11-25",
-      "date": "2026-11-25",
+      "venue": "Goose Official · 2026-11-26",
+      "date": "2026-11-26",
       "b": "g",
       "snip": false,
       "mix": false,
@@ -24,8 +34,8 @@
     {
       "id": "6fSRg2peV5E",
       "title": "Goose Live in St. Augustine, FL 2026 (Night 1)",
-      "venue": "Goose Official · 2026-11-25",
-      "date": "2026-11-25",
+      "venue": "Goose Official · 2026-11-26",
+      "date": "2026-11-26",
       "b": "g",
       "snip": false,
       "mix": false,
@@ -96,16 +106,6 @@
       "title": "Goose 11/21/2026 Set I Preview Blue Cross Arena, Rochester, NY",
       "venue": "Goose Official · 2026-11-22",
       "date": "2026-11-22",
-      "b": "g",
-      "snip": false,
-      "mix": false,
-      "live": true
-    },
-    {
-      "id": "b2HNB6PI96A",
-      "title": "Goose Live in Pittsburgh 2026 (Night 2)",
-      "venue": "Goose Official · 2026-11-21",
-      "date": "2026-11-21",
       "b": "g",
       "snip": false,
       "mix": false,
